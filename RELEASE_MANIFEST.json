@@ -1,7 +1,7 @@
 {
   "version": "HC615-v1.0.1",
   "prepared_date": "2026-10-05",
-  "scope": "Publication metadata release; excludes this manifest itself, local build/cache and Git metadata. Original v1.0.0 and scientific evidence preserved. Checksums are not an external signature.",
+  "scope": "Public release; excludes this manifest itself, local build/cache and Git metadata. Checksums are not an external signature.",
   "files": [
     {
       "path": ".github/ISSUE_TEMPLATE/reproduction.yml",
@@ -30,8 +30,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 976,
-      "sha256": "17940cf226c380037e06f45fc8bfb16531b813faadd10eb9e57f0d048482770d"
+      "bytes": 1004,
+      "sha256": "903a7b68b40c04797ef56bd2fff439f34c16000b908a998c52f94185bfe4c25a"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -90,8 +90,8 @@
     },
     {
       "path": "RELEASE_QA.json",
-      "bytes": 1990,
-      "sha256": "1261206ba3bd0cff18eda8521bae902d258bfe44dce903568b85ae600a462639"
+      "bytes": 2012,
+      "sha256": "c997bb5fc324ef4a4210cd1647ca2ae2097a2d78d672d4f2acfca62aef3cf9cf"
     },
     {
       "path": "assets/feature/figure-1.png",
@@ -430,8 +430,8 @@
     },
     {
       "path": "docs/PUBLICATION_STATUS.md",
-      "bytes": 3567,
-      "sha256": "0ef2171051dabe3221314e1546f6af8d46af8096418e484908b650cd3d190dea"
+      "bytes": 3518,
+      "sha256": "fbe245af6de9211f3ba26f6cd27cea7ff3485eb5a2071b73db50604a8c670317"
     },
     {
       "path": "docs/RESEARCH_NOTE.md",

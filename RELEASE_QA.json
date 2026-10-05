@@ -1,6 +1,6 @@
 {
   "version": "HC615_PUBLIC_RELEASE_QA_v1.0.1",
-  "status": "PASS_PUBLICATION_METADATA_PREPARED_UPLOAD_IN_PROGRESS",
+  "status": "PASS_PUBLIC_RELEASE_REMOTE_PUSH_CONFIRMED",
   "date": "2026-10-05",
   "complete_ascii_blocks_checked": 7,
   "relative_markdown_links_checked": 154,
@@ -12,9 +12,9 @@
   "word_embedded_original_figures": 5,
   "word_final_render_directory": "private QA directory, not shipped",
   "external_messages_sent": false,
-  "github_remote_published": false,
+  "github_remote_published": true,
   "external_expert_review": "PENDING",
-  "remote_ci": "CONFIGURED_NOT_YET_VERIFIED",
+  "remote_ci": "TRIGGERED_RESULT_PENDING",
   "source_acquisition_and_rebuild": "Official scan actually downloaded, hash matched; source-only reconstruction byte-identical",
   "language_cache_and_controls_rebuild": "Pinned owned local train/dev inputs; both rebuilds byte-identical to original research",
   "optimizer_rerun_for_publicity": false,
@@ -37,5 +37,6 @@
     "protected_files_and_word_unchanged": 100,
     "relative_links_checked": 154,
     "broken_relative_links": []
-  }
+  },
+  "initial_public_commit": "e249391"
 }

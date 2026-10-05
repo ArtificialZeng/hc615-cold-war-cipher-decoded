@@ -1,14 +1,14 @@
 # Publication and review status
 
-**Release prepared for publication: v1.0.1, 2026-10-05. Author: Zijian Zeng, PhD.**
+**Public release: v1.0.1, 2026-10-05. Author: Zijian Zeng, PhD.**
 
-Repository address: [ArtificialZeng/hc615-cold-war-cipher-decoded](https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded). The repository has been created; upload is in progress at preparation of this document. Availability of the full files and remote CI completion must be checked separately.
+Repository address: [ArtificialZeng/hc615-cold-war-cipher-decoded](https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded). The full evidence package has been pushed to the public repository. Remote CI is checked separately and does not constitute external academic review.
 
 | Item | Actual state |
 |---|---|
 | Observed 220-symbol reading | Complete; local exact forward and internal whole-language/source audits passed. |
 | Portable evidence and verifier | Prepared with saved results, inputs, model, source code and tampering/parser tests. |
-| GitHub repository | Created at the address above; release upload in progress when this document was prepared. |
+| GitHub repository | Complete package published at the address above on 2026-10-05. |
 | Multilingual homepages | English, Simplified Chinese, Czech and Japanese included. |
 | Press releases and social copy | Drafted locally in four languages; not distributed to media by this project. |
 | Coordinator outreach | Coordinator inquiry acknowledged; assessment pending. No confirmation or endorsement has been recorded. |
@@ -17,7 +17,7 @@ Repository address: [ArtificialZeng/hc615-cold-war-cipher-decoded](https://githu
 | HC Portal catalogue | Recorded as “Not solved” at the 2026-10-05 access; not updated by this project. |
 | Original course answer sheet / prior decipherment | Not located; coordinator/archival inquiry needed. |
 | Peer-reviewed paper / DOI / arXiv record | None. The research note is a prepared manuscript, not an accepted publication. |
-| GitHub Actions | Workflow included; remote execution not yet verified. |
+| GitHub Actions | Workflow triggered by the initial push; results pending at this update. |
 
 The contact directory lists potential reviewers and publicly published professional channels. Listing someone does not make them a participant or coauthor. No institutional affiliation, named expert endorsement, global-first claim or unique-solution theorem is added to this release.
 
