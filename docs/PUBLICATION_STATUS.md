@@ -17,7 +17,7 @@ Repository address: [ArtificialZeng/hc615-cold-war-cipher-decoded](https://githu
 | HC Portal catalogue | Recorded as “Not solved” at the 2026-10-05 access; not updated by this project. |
 | Original course answer sheet / prior decipherment | Not located; coordinator/archival inquiry needed. |
 | Peer-reviewed paper / DOI / arXiv record | None. The research note is a prepared manuscript, not an accepted publication. |
-| GitHub Actions | Initial Windows checkout changed LF to CRLF and failed frozen hashes; byte-preserving attributes added. Updated six-job results pending. |
+| GitHub Actions | All six jobs passed: Ubuntu, macOS and Windows with Python 3.9/3.12. [Verified run](https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded/actions/runs/37271511025) on commit `b5be500`. Byte-preserving checkout fix is included. |
 
 The contact directory lists potential reviewers and publicly published professional channels. Listing someone does not make them a participant or coauthor. No institutional affiliation, named expert endorsement, global-first claim or unique-solution theorem is added to this release.
 

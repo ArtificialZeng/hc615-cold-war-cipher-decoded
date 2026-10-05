@@ -95,8 +95,8 @@
     },
     {
       "path": "RELEASE_QA.json",
-      "bytes": 2199,
-      "sha256": "60d416ee01017a4a4e206624b8e6221a9e8f8e0ca3f13c234609995b7092194d"
+      "bytes": 2658,
+      "sha256": "5b6ecd1cfa27c3c9e8a2e11d94a5a868dfb1f56761ae1f65fea4deff0376c7b2"
     },
     {
       "path": "assets/feature/figure-1.png",
@@ -435,8 +435,8 @@
     },
     {
       "path": "docs/PUBLICATION_STATUS.md",
-      "bytes": 3583,
-      "sha256": "fecb986625a8bd35d06db431888277ead3acc467bb84109821bef3d8b1cc28f4"
+      "bytes": 3683,
+      "sha256": "4d584d64aa25786bd916fa13c4c70d41101229defae34bf7df77a0bf2038b616"
     },
     {
       "path": "docs/RESEARCH_NOTE.md",

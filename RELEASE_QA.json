@@ -1,6 +1,6 @@
 {
   "version": "HC615_PUBLIC_RELEASE_QA_v1.0.1",
-  "status": "PASS_PUBLIC_RELEASE_REMOTE_PUSH_CONFIRMED",
+  "status": "PASS_PUBLIC_RELEASE_REMOTE_AND_SIX_JOB_CI_VERIFIED",
   "date": "2026-10-05",
   "complete_ascii_blocks_checked": 7,
   "relative_markdown_links_checked": 154,
@@ -14,7 +14,7 @@
   "external_messages_sent": false,
   "github_remote_published": true,
   "external_expert_review": "PENDING",
-  "remote_ci": "BYTE_PRESERVING_CHECKOUT_FIX_PUSHED_RERUN_PENDING",
+  "remote_ci": "ALL_SIX_JOBS_SUCCESS",
   "source_acquisition_and_rebuild": "Official scan actually downloaded, hash matched; source-only reconstruction byte-identical",
   "language_cache_and_controls_rebuild": "Pinned owned local train/dev inputs; both rebuilds byte-identical to original research",
   "optimizer_rerun_for_publicity": false,
@@ -39,5 +39,20 @@
     "broken_relative_links": []
   },
   "initial_public_commit": "e249391",
-  "ci_portability_correction": "Initial Windows checkout normalized LF to CRLF; .gitattributes now preserves raw bytes. Scientific inputs and solver unchanged."
+  "ci_portability_correction": "Initial Windows checkout normalized LF to CRLF; .gitattributes now preserves raw bytes. Scientific inputs and solver unchanged.",
+  "remote_ci_verified": {
+    "run_id": 37271511025,
+    "url": "https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded/actions/runs/37271511025",
+    "commit": "b5be500ba9350ce26a753651546a3a611788581c",
+    "jobs_succeeded": 6,
+    "jobs_failed": 0,
+    "date": "2026-10-05"
+  },
+  "anonymous_clone_verification": {
+    "release_manifest_files": 136,
+    "forward_symbols": 220,
+    "source_segments": 32,
+    "source_lines": 8,
+    "meaningful_tests_passed": 13
+  }
 }
