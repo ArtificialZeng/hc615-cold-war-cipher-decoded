@@ -1,6 +1,6 @@
 {
-  "version": "HC615_PUBLIC_RELEASE_QA_v1",
-  "status": "PASS_PREPARED_LOCAL_RELEASE",
+  "version": "HC615_PUBLIC_RELEASE_QA_v1.0.1",
+  "status": "PASS_PUBLICATION_METADATA_PREPARED_UPLOAD_IN_PROGRESS",
   "date": "2026-10-05",
   "complete_ascii_blocks_checked": 7,
   "relative_markdown_links_checked": 154,
@@ -14,7 +14,7 @@
   "external_messages_sent": false,
   "github_remote_published": false,
   "external_expert_review": "PENDING",
-  "remote_ci": "CONFIGURED_NOT_RUN",
+  "remote_ci": "CONFIGURED_NOT_YET_VERIFIED",
   "source_acquisition_and_rebuild": "Official scan actually downloaded, hash matched; source-only reconstruction byte-identical",
   "language_cache_and_controls_rebuild": "Pinned owned local train/dev inputs; both rebuilds byte-identical to original research",
   "optimizer_rerun_for_publicity": false,
@@ -23,5 +23,19 @@
     "No original answer-sheet confirmation",
     "AI-agent/code reviews are internal",
     "Four unobserved historic glyphs remain unknown"
-  ]
+  ],
+  "github_repository_url": "https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded",
+  "public_author": "Zijian Zeng",
+  "author_reports_prior_coordinator_email": true,
+  "additional_expert_emails_sent_by_this_workflow": false,
+  "external_messages_sent_by_this_workflow": false,
+  "carried_forward_scientific_qa": "Original v1.0.0 observations retained; no new attack, source interpretation or Word-layout change.",
+  "coordinator_inquiry_status": "ACKNOWLEDGED_ASSESSMENT_PENDING",
+  "v1_0_1_metadata_verification": {
+    "release_hash_check": "PASS_135_FILES",
+    "solution_verifier": "PASS_220_GLYPHS_32_SEGMENTS_8_LINES",
+    "protected_files_and_word_unchanged": 100,
+    "relative_links_checked": 154,
+    "broken_relative_links": []
+  }
 }

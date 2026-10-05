@@ -40,7 +40,7 @@ The Czech Language Institute's scholarly dictionary provides context for histori
 | Material | Licence / status |
 |---|---|
 | Project-authored Python/C++ code, tests and automation | MIT; see [LICENSES/MIT.txt](../LICENSES/MIT.txt). |
-| Project-authored explanatory prose, original SVG artwork and original research annotations | CC BY 4.0; underlying archive text/image and third-party sources are excluded from this grant. |
+| Project-authored explanatory prose, original SVG/PNG artwork and original research annotations | CC BY 4.0; underlying archive text/image and third-party sources are excluded from this grant. |
 | Czech language model, frequency/word statistics and corpus-derived controls/results | CC BY-NC-SA 4.0 with the upstream attribution above. |
 | Recovered historical text and archival scan | Original-source status; no new blanket ownership/licensing claim. Scan pixels excluded. |
 | Linked external websites, staff contacts and research papers | Their original terms; links do not imply endorsement. |

@@ -19,3 +19,5 @@
 现在可请 HC Portal 负责人、捷克语读者及历史密码专家直接查证：字形是否对应、全文是否成立、有没有原始课程答案或先前释读。[已核验的专家公开联系方式](../docs/EXPERT_CONTACTS.md)。
 
 **真正有力量的新闻点是：全部符号都有解释，而且验证可以交到任何读者手里。**
+
+**作者:** Zijian Zeng, PhD · [GitHub](https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded)

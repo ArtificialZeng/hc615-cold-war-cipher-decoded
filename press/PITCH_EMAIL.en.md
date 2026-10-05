@@ -1,6 +1,6 @@
 # HC615 expert review / editorial pitch
 
-**Draft only — not sent.** The first expert outreach is intended for Eugen Antal, HC Portal's main coordinator. No other expert or media outlet has been contacted. Adapt the salutation and add the real public repository link only after publication; do not attach institution logos or imply endorsement.
+**Draft only — this draft has not been sent.** The author has already emailed Eugen Antal, HC Portal's main coordinator. The inquiry has been acknowledged; assessment is pending and no confirmation or endorsement is recorded. No additional expert or media messages have been sent by this workflow. Adapt this draft to the intended recipient; do not duplicate the first inquiry without a reason or imply institutional endorsement.
 
 **To, for the first expert review:** Eugen Antal, eugen.antal@stuba.sk
 
@@ -16,7 +16,9 @@ The exact accent-free text begins:
 
 It continues coherently through the final words `politicke prace`. The message describes Transporta sending nine comrades to a one-year work brigade and Ostrava needing participants with political-work experience. The accents and punctuation are editorial; the original `chrudimska` letter sequence allows two readings of sentence division. Unobserved letters f/q/w/x retain unknown historical cipher symbols.
 
-Original record: https://api.hcportal.eu/api/cryptograms/615
+Complete reproducible repository: https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded
+
+Original record: https://crypto.hcportal.eu/dashboard/cryptograms/615
 
 Original source image: https://api.hcportal.eu/media/1762/14161684790141.jpg
 
@@ -32,7 +34,7 @@ We are claiming a complete reconstruction of the observed message, not world-fir
 
 Thank you for your time,
 
-HC615 decipherment project
+Zijian Zeng, PhD
 
 ---
 

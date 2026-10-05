@@ -1,10 +1,10 @@
 # HC615 social and launch copy
 
-Prepared 5 October 2026. These are proposed posts, not messages already published. Append the actual repository URL after a repository is created; do not invent one. The source record is already public: https://api.hcportal.eu/api/cryptograms/615 . External specialist confirmation and a catalogue update remain pending.
+Prepared 5 October 2026. These are proposed posts, not messages already published. Author: Zijian Zeng, PhD. Repository address: https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded. Confirm that the full upload is available before distributing these proposed posts. The source record is already public: https://api.hcportal.eu/api/cryptograms/615 . External specialist confirmation and a catalogue update remain pending.
 
 ## Short English post
 
-> 220 symbols. Zero edits. One fixed key. We reconstructed the full Czech text of HC615, a Cold War-era course cryptogram catalogued as “Not solved.” Every observed symbol re-encodes exactly. Verification included; external expert review pending.
+> 220 symbols. Zero edits. One fixed key. We reconstructed the full Czech text of HC615, a Cold War-era course cryptogram catalogued as “Not solved.” Every observed symbol re-encodes exactly. Verification included; external expert review pending. https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded
 
 ## English launch thread
 

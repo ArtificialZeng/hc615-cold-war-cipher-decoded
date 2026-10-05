@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.0.1 — publication metadata prepared 2026-10-05
+
+- Add actual GitHub repository address and public author Zijian Zeng.
+- Update four-language homepage attribution, research-note citation metadata and editable press copy.
+- Record coordinator inquiry acknowledgment while leaving assessment and endorsement pending.
+- Replace repository-creation instructions with maintenance guidance.
+- Clarify that project-original SVG and PNG artwork share the project prose licence.
+- Preserve all scientific evidence and the visually checked Word artifact byte-for-byte.
+- Retain the original sealed v1.0.0 package unchanged; this is a publication metadata revision, not a new experiment.
+- Repository upload and remote CI are pending verification at preparation of this metadata.
+
 ## 1.0.0 — prepared 2026-10-05
 
 - English homepage with Chinese, Czech and Japanese translations.

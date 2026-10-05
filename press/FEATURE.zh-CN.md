@@ -121,3 +121,5 @@ politicke prace
 4. [UD_Czech-PDTC 固定版本语言数据](https://github.com/UniversalDependencies/UD_Czech-PDTC/tree/6d206ec7d337a7f76f34ddfc82893389cabbd76d)，遵循其 CC BY-NC-SA 4.0 许可及署名条件。
 5. [捷克语言研究所 SSJČ：organizace / organisace](https://ssjc.ujc.cas.cz/search.php?heslo=organizace&hsubstr=no)。
 6. 本项目[完整明文与钥表](../docs/SOLUTION.md)、[复现方法](../docs/METHODS.md)、[结论边界](../docs/CLAIMS.md)、[公开联系渠道](../docs/EXPERT_CONTACTS.md)。
+
+**作者：** Zijian Zeng, PhD · **完整复验仓库：** [hc615-cold-war-cipher-decoded](https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded)

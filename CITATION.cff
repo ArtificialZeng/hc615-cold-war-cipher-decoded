@@ -1,11 +1,14 @@
 cff-version: 1.2.0
-message: "Cite the prepared evidence release; external expert review and global priority remain unconfirmed."
+message: "Cite this evidence release; external expert review and global priority remain unconfirmed."
 type: software
 title: "HC615: an auditable complete Czech reconstruction of a 220-symbol archival cryptogram"
-version: "1.0.0"
+version: "1.0.1"
 authors:
-  - name: "HC615 project contributors"
-abstract: "One fixed 22-glyph substitution accounts for all 220 observed symbols, 32 source segments and 8 lines. Prepared release includes plaintext, key, source coordinates, exact symbolic certificate, controls, pinned statistical model and verification code. Individual public authorship metadata is pending; the contributor label is a project label, not an institution."
+  - family-names: "Zeng"
+    given-names: "Zijian"
+repository-code: "https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded"
+url: "https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded"
+abstract: "One fixed 22-glyph substitution accounts for all 220 observed symbols, 32 source segments and 8 lines. This release includes plaintext, key, source coordinates, exact symbolic certificate, controls, a pinned statistical model and verification code. External expert review and confirmation against an original course answer remain pending."
 license:
   - MIT
   - CC-BY-4.0

@@ -19,3 +19,5 @@ HC Portalにおける資料名は **「Unsolved cryptogram in 11 210」**。目�
 HC Portalの責任者、チェコ語の読者、歴史暗号の研究者に、資料・全文・既存の授業解答や先行解読の確認を求める。[確認済みの公開連絡先](../docs/EXPERT_CONTACTS.md)。
 
 **観測された記号のすべてに説明がある。検証は、読者自身が実行できる。**
+
+**著者:** Zijian Zeng, PhD · [GitHub](https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded)

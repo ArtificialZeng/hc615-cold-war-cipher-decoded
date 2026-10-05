@@ -19,3 +19,5 @@ Výsledkem je **úplná rekonstrukce pozorované zprávy**. Katalog popisuje vý
 K ověření zdroje, úplného čtení a případného staršího řešení či učebního klíče jsou zváni koordinátor HC Portal a odborníci na češtinu a historickou kryptologii. [Ověřené veřejné kontakty](../docs/EXPERT_CONTACTS.md).
 
 **Každý pozorovaný znak má své vysvětlení. Kontrolu může spustit každý čtenář.**
+
+**Autor:** Zijian Zeng, PhD · [GitHub](https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded)

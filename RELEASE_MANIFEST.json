@@ -1,7 +1,7 @@
 {
-  "version": "HC615-v1.0.0",
+  "version": "HC615-v1.0.1",
   "prepared_date": "2026-10-05",
-  "scope": "Public prepared release; excludes this manifest itself, local build/cache and Git metadata. Checksums are not an external signature.",
+  "scope": "Publication metadata release; excludes this manifest itself, local build/cache and Git metadata. Original v1.0.0 and scientific evidence preserved. Checksums are not an external signature.",
   "files": [
     {
       "path": ".github/ISSUE_TEMPLATE/reproduction.yml",
@@ -25,13 +25,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 719,
-      "sha256": "cd7c9191fd5f8ce252891f95b169fe7f095dccc671cfadc11c7f690cc3edb71e"
+      "bytes": 1495,
+      "sha256": "22831325438851afab1cef4f85a47b26b8329cbd192a29d3b6104a5200edbec2"
     },
     {
       "path": "CITATION.cff",
-      "bytes": 842,
-      "sha256": "5e8b1eafa10839a4346b2c784f4a5933dfacf68ec88cd48ae693de6a3f92b8b5"
+      "bytes": 976,
+      "sha256": "17940cf226c380037e06f45fc8bfb16531b813faadd10eb9e57f0d048482770d"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -40,8 +40,8 @@
     },
     {
       "path": "LICENSE",
-      "bytes": 1227,
-      "sha256": "25b9098950852ecd31fdd4f9069f55f523d0a85abd0ea016d185c9271d09ddcc"
+      "bytes": 1231,
+      "sha256": "9bd9ed9d5be262dc48aaa54e78d194ab1a16e9808e8cf78450bac8dd29974a9a"
     },
     {
       "path": "LICENSES/CC-BY-4.0.txt",
@@ -70,28 +70,28 @@
     },
     {
       "path": "README.cs.md",
-      "bytes": 7851,
-      "sha256": "a0b2590db5bf3838d160ef409b5e94d71991a1c1869cf89a9cdb8b67c4dc84cc"
+      "bytes": 8018,
+      "sha256": "e6b1823ecfdd8ae2fde7db3010dc95f23dc9f87e4152036555a5420872afbc7a"
     },
     {
       "path": "README.ja.md",
-      "bytes": 8963,
-      "sha256": "f79dadf38706e84343f65b7d98cf70a1be0e27aa3284332cf33769886801f165"
+      "bytes": 9139,
+      "sha256": "3270fa3bf569d264254c902caa93ead48840b7fc03591f8d283c39843f14248e"
     },
     {
       "path": "README.md",
-      "bytes": 7398,
-      "sha256": "b537579f19caa180d4c30da83aea3b04498595f050ebf4f36f3c9b0781490c65"
+      "bytes": 7567,
+      "sha256": "f8d632d2ad3b7e7600cec08773ff620aa45106e1263689d801b3f73b16e6028c"
     },
     {
       "path": "README.zh-CN.md",
-      "bytes": 6598,
-      "sha256": "e33688cf568bae7182ca037d733ae1b781de78ff587a57d1bb6a7b075f5ad73d"
+      "bytes": 6768,
+      "sha256": "1519c14ba47e2d6eae9c26f0196d7a998510c0f05f454452c106d60703f4d906"
     },
     {
       "path": "RELEASE_QA.json",
-      "bytes": 1195,
-      "sha256": "e5ed5962e2df5ef9039daa054d0cfd77cc8e749d5b1f6e453117a975ff05c71a"
+      "bytes": 1990,
+      "sha256": "1261206ba3bd0cff18eda8521bae902d258bfe44dce903568b85ae600a462639"
     },
     {
       "path": "assets/feature/figure-1.png",
@@ -410,8 +410,8 @@
     },
     {
       "path": "docs/GITHUB_UPLOAD.md",
-      "bytes": 2444,
-      "sha256": "1571fa9bebe85fc995558d47dcc1aedd3ce37621229cf73b38a62e0855597c2c"
+      "bytes": 2370,
+      "sha256": "e45e73e6e6822d11e1ca95be63f6c287dbd2798f15f5576eb43fd6db5f7fc0e6"
     },
     {
       "path": "docs/METHODS.md",
@@ -420,18 +420,23 @@
     },
     {
       "path": "docs/PROVENANCE.md",
-      "bytes": 6827,
-      "sha256": "0056184359f862528d5d563a9f15fc0a609083e7a58932ce508917c061fd73ca"
+      "bytes": 6831,
+      "sha256": "fbe55f21d89620585b776f6513a85b3d3b367b4d5842ac387a6a813a9c925bcb"
+    },
+    {
+      "path": "docs/PUBLICATION_METADATA_CHANGE_REPORT_v1.0.1.md",
+      "bytes": 2370,
+      "sha256": "a536c543a7671dca48f525ef6a3db5ff301777754b752091802e5846ede5532d"
     },
     {
       "path": "docs/PUBLICATION_STATUS.md",
-      "bytes": 2616,
-      "sha256": "7b3880e70a0362f95d92807a9c70b0267908ee355fc0ae34921764d0bbc84207"
+      "bytes": 3567,
+      "sha256": "0ef2171051dabe3221314e1546f6af8d46af8096418e484908b650cd3d190dea"
     },
     {
       "path": "docs/RESEARCH_NOTE.md",
-      "bytes": 5826,
-      "sha256": "239cf4271c1e14aea6f05284c2d8d27412cdb5f409c30fdf9a255fb74cad26c4"
+      "bytes": 5869,
+      "sha256": "28f93be6d9af79032f968168fbcc15356bf4f7cd34bdc8f34597a6e71d93dbfa"
     },
     {
       "path": "docs/SOLUTION.md",
@@ -575,8 +580,8 @@
     },
     {
       "path": "press/FEATURE.zh-CN.md",
-      "bytes": 10491,
-      "sha256": "a8ab2e67b43218831e742a08ec25b8823d4c3f0949d262cbab885053a678ed08"
+      "bytes": 10649,
+      "sha256": "b8d7d0dd714cc721cfd3dc33334aadf35c88a64ed7f5fae2e681b4628fc91565"
     },
     {
       "path": "press/HC615_冷战档案密码_科技报道图文稿.docx",
@@ -585,38 +590,38 @@
     },
     {
       "path": "press/PITCH_EMAIL.en.md",
-      "bytes": 3858,
-      "sha256": "9b95e4222ddeb18d0e8d91fd1955a203568f12bd3e0b74e3edafe4d337245290"
+      "bytes": 4083,
+      "sha256": "9db1bbf34c35564925f104ca85df744909444e13db454f9acc9526960e4f023f"
     },
     {
       "path": "press/PRESS_RELEASE.cs.md",
-      "bytes": 4040,
-      "sha256": "392e633b3f2eb35333893565dae7d444cdcd0a8a61600815deda84d4e7e7a692"
+      "bytes": 4146,
+      "sha256": "985266a89fc8aa35d251b2dd6ced153795df58278a2911f673d87f103a1cff9d"
     },
     {
       "path": "press/PRESS_RELEASE.en.md",
-      "bytes": 3935,
-      "sha256": "c4e2bd0db6334095d1e9dd129205701c7e43fa4292968a7ef9ce7c788a236532"
+      "bytes": 4042,
+      "sha256": "c1f56932da4c8aa66339d50054bc7da2e717dfcd4c4882ec9ed03742707cc4ff"
     },
     {
       "path": "press/PRESS_RELEASE.ja.md",
-      "bytes": 4340,
-      "sha256": "90952ca5125c83f9eaa4834b858ac7d693ea4c9a9c21c8db6ad3d5f7c9b3d07b"
+      "bytes": 4447,
+      "sha256": "0c0ef59262037a1585eea5ba855a40dcee8b1f9db83bcc4a74a1e336f12f6286"
     },
     {
       "path": "press/PRESS_RELEASE.zh-CN.md",
-      "bytes": 3572,
-      "sha256": "966c637e084120915e8c49d1da57eeb3b1d3455ba9fa598aeaded9019272dcd0"
+      "bytes": 3679,
+      "sha256": "933b97bde6b36c0fe5a44fe4db33639a6a40cf79f987c7e50d7beec1e0d21ed4"
     },
     {
       "path": "press/README.md",
-      "bytes": 1411,
-      "sha256": "a254e9775112eeed8a991793447d3843075cb468b67e17737ddf5a5a0f655455"
+      "bytes": 1638,
+      "sha256": "662fe6dea4c885bdd01369f8e9d94becb8a032b2b94f2a19002cb640a115b5ff"
     },
     {
       "path": "press/SOCIAL_POSTS.md",
-      "bytes": 3943,
-      "sha256": "92587465e9157e1a84eb8c3435a83aa56627809d242a1f8d56948db6960a9efd"
+      "bytes": 4119,
+      "sha256": "a78ff6eb9c801bebe9993405d61055dc57c990ca6f6b8fabda69e1b5535c130e"
     },
     {
       "path": "scripts/build_language_model.py",

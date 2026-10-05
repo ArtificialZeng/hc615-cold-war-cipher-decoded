@@ -1,45 +1,29 @@
-# Publish the prepared repository
+# Maintain the HC615 GitHub repository
 
-This guide is for the real repository owner. The package itself has not been uploaded. The public ZIP contains one `hc615/` directory; the separate Git bundle preserves a prepared release commit/tag.
+The actual repository is [ArtificialZeng/hc615-cold-war-cipher-decoded](https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded). Public author: Zijian Zeng, PhD. Release v1.0.1 updates publication metadata; the original v1.0.0 package and all frozen scientific evidence are retained.
 
-## From the ZIP
+## Obtain and verify the public files
 
-Extract the public ZIP, enter `hc615/`, and run:
+After the initial upload is available:
 
 ```sh
+git clone https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded.git
+cd hc615-cold-war-cipher-decoded
 python3 scripts/verify_release.py
 python3 scripts/verify_solution.py
 python3 -m unittest discover -s tests -v
-git init -b main
-git add .
-git commit -m "HC615 v1.0.0: complete observed-message reconstruction"
-git tag v1.0.0
 ```
 
-Use your real configured Git identity. Create an empty GitHub repository called `hc615` (or your chosen name), then use the exact remote URL GitHub provides. The optional `gh` route is:
+The English `README.md` is GitHub's default landing page and links Chinese, Czech and Japanese versions. The repository includes a Linux/macOS/Windows verification workflow; check its actual run result before announcing CI success.
 
-```sh
-gh repo create hc615 --public --source=. --remote=origin --push
-git push origin v1.0.0
-```
+## Make an evidence-preserving update
 
-Those commands publish externally and should be run only when you intend to publish. No fake owner or remote address is embedded in the package. Recommended description: **Complete 220-symbol Czech reconstruction of HC Portal 615: fixed key, zero edits, reproducible verifier. External historical review pending.**
+Use a branch and a descriptive commit. Preserve frozen source transcripts, original results, keys and certificates; put corrected or newly reviewed scientific evidence in new versioned files. Regenerate the release manifest after any documented payload change, excluding the manifest itself, Git metadata and ignored build/cache files. Then run both verifiers and applicable regression tests.
 
-## From the Git bundle
+Record repository publication and external-review status in [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md) only after the corresponding upload or reply is actually observed. Do not replace a pending-review statement with endorsement based on outreach alone. The coordinator inquiry has been acknowledged; substantive assessment remains pending.
 
-```sh
-git clone /path/to/HC615_GITHUB_RELEASE_v1.0.0.bundle hc615
-cd hc615
-python3 scripts/verify_release.py
-python3 scripts/verify_solution.py
-```
+## Keep the public package separate
 
-Replace `/path/to/…` with the real downloaded bundle location. The prepared commit uses a clearly labelled release identity; it is not an assertion of the researcher's legal name or affiliation.
+Keep the three licence scopes and upstream attribution. Do not upload the separately labelled **PRIVATE RESEARCH ARCHIVE**, raw archival scan/crops, raw cached language corpus, private correspondence or compiled local binaries. Optional acquisition and builds belong in ignored directories. The public package already contains what is needed for offline evidence verification.
 
-## Release contents and settings
-
-The English `README.md` is GitHub's default landing page and links three translations. The workflow covers Linux, macOS and Windows with Python 3.9/3.12. Issue forms distinguish source critique, cryptanalysis and reproduction problems. The DOI/repository fields intentionally remain absent until they exist.
-
-Keep the three licence scopes and upstream attribution. Do not upload the separately labelled **PRIVATE RESEARCH ARCHIVE**, raw archive scan/crops, cached corpus, private email drafts or compiled local binaries. Optional downloads and builds belong in ignored directories. The public package already contains what is needed for offline evidence verification.
-
-After publication, enter the real repository URL in `CITATION.cff` and press copy, and record the publication date in [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md). Update external-review status only with an actual reviewer reply.
+Use the actual repository URL in citations and press copy. Do not add a fictitious DOI, affiliation, original course answer or expert quotation. The visually checked Word feature remains its original artifact; publication metadata is supplied in the current editable press files and documentation.

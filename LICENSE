@@ -1,9 +1,9 @@
-HC615 mixed-licence research release — v1.0.0
+HC615 mixed-licence research release — v1.0.1
 
 Project-authored code in scripts/, src/, tests/ and .github/ is licensed under
 the MIT License (LICENSES/MIT.txt).
 
-Project-authored explanatory prose, original SVG artwork and original research
+Project-authored explanatory prose, original SVG/PNG artwork and original research
 annotations are licensed under Creative Commons Attribution 4.0 International:
 https://creativecommons.org/licenses/by/4.0/
 This grant excludes underlying historical text/images and third-party sources.

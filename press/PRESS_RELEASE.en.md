@@ -19,3 +19,5 @@ The result is a **complete reconstruction of the observed message**, not a claim
 The project invites HC Portal's coordinator, Czech readers and historical-cryptology researchers to inspect the evidence and identify any prior course answer or decipherment. [Verified professional contacts](../docs/EXPERT_CONTACTS.md).
 
 **The strongest headline is also the most testable: every observed symbol has an explanation, and anyone can run the check.**
+
+**Author:** Zijian Zeng, PhD · [GitHub](https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded)

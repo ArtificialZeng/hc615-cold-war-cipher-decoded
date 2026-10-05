@@ -1,6 +1,6 @@
 # An auditable Czech reconstruction of HC Portal cryptogram 615
 
-**Prepared research note — 5 October 2026.** Project contributor label pending individual author metadata. No outside peer review or original answer-sheet confirmation is claimed.
+**Prepared research note — 5 October 2026. Author: Zijian Zeng, PhD.** [Repository](https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded). No outside peer review or original answer-sheet confirmation is claimed.
 
 ## Abstract
 
