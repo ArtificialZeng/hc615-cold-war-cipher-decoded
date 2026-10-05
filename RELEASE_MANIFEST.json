@@ -4,6 +4,11 @@
   "scope": "Public release; excludes this manifest itself, local build/cache and Git metadata. Checksums are not an external signature.",
   "files": [
     {
+      "path": ".gitattributes",
+      "bytes": 128,
+      "sha256": "74de0a657bf56aaabfef01f7fd764866f494b2f795804576f35a00c1c6d009a8"
+    },
+    {
       "path": ".github/ISSUE_TEMPLATE/reproduction.yml",
       "bytes": 552,
       "sha256": "ccfa443034355f13180a16a94b24155d2ea05213071b2fbd68176004ab858000"
@@ -15,8 +20,8 @@
     },
     {
       "path": ".github/workflows/verify.yml",
-      "bytes": 662,
-      "sha256": "982e02c6a56ae1f16fede3d55a34869dc8257ad9b5d83b5cdf55dd046f6b7561"
+      "bytes": 776,
+      "sha256": "f68ab9e650786f257a22c5b607e030c459fe414fe82e08bc1d865a9d8b77934d"
     },
     {
       "path": ".gitignore",
@@ -25,8 +30,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 1495,
-      "sha256": "22831325438851afab1cef4f85a47b26b8329cbd192a29d3b6104a5200edbec2"
+      "bytes": 1716,
+      "sha256": "8b932a17b8090fe75a6551f9239cf30bb3bb7e37078526936b8ea902bdc9224d"
     },
     {
       "path": "CITATION.cff",
@@ -90,8 +95,8 @@
     },
     {
       "path": "RELEASE_QA.json",
-      "bytes": 2012,
-      "sha256": "c997bb5fc324ef4a4210cd1647ca2ae2097a2d78d672d4f2acfca62aef3cf9cf"
+      "bytes": 2199,
+      "sha256": "60d416ee01017a4a4e206624b8e6221a9e8f8e0ca3f13c234609995b7092194d"
     },
     {
       "path": "assets/feature/figure-1.png",
@@ -430,8 +435,8 @@
     },
     {
       "path": "docs/PUBLICATION_STATUS.md",
-      "bytes": 3518,
-      "sha256": "fbe245af6de9211f3ba26f6cd27cea7ff3485eb5a2071b73db50604a8c670317"
+      "bytes": 3583,
+      "sha256": "fecb986625a8bd35d06db431888277ead3acc467bb84109821bef3d8b1cc28f4"
     },
     {
       "path": "docs/RESEARCH_NOTE.md",

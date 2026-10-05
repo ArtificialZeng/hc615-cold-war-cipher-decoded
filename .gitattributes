@@ -1,0 +1,5 @@
+# Frozen evidence is SHA-256 hashed: preserve original bytes on every platform.
+* -text
+*.bin binary
+*.png binary
+*.docx binary

@@ -11,6 +11,9 @@
 - Retain the original sealed v1.0.0 package unchanged; this is a publication metadata revision, not a new experiment.
 - Repository upload and remote CI are pending verification at preparation of this metadata.
 
+- Preserve frozen evidence bytes across Windows Git checkouts with `.gitattributes`; initial CI exposed LF-to-CRLF hash changes.
+- CI checks the full release manifest and runs all six platform/Python jobs independently.
+
 ## 1.0.0 — prepared 2026-10-05
 
 - English homepage with Chinese, Czech and Japanese translations.
