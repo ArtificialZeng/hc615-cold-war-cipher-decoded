@@ -6,7 +6,7 @@
 
 **English** · [简体中文](README.zh-CN.md) · [Čeština](README.cs.md) · [日本語](README.ja.md)
 
-**Author:** Zijian Zeng, PhD · **Repository:** [hc615-cold-war-cipher-decoded](https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded) · **Release:** v1.0.1
+**Author:** Zijian Zeng, PhD · **Repository:** [hc615-cold-war-cipher-decoded](https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded) · **Release:** v1.0.2
 
 An archival cryptogram catalogued **“Not solved”** now has a complete, auditable Czech reconstruction: **one fixed substitution explains all 220 observed symbols, with zero edits, nulls, or positional exceptions.** This repository lets you check that result yourself.
 

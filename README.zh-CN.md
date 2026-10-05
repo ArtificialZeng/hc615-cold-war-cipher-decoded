@@ -6,7 +6,7 @@
 
 [English](README.md) · **简体中文** · [Čeština](README.cs.md) · [日本語](README.ja.md)
 
-**作者：** Zijian Zeng, PhD · **仓库：** [hc615-cold-war-cipher-decoded](https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded) · **版本：** v1.0.1
+**作者：** Zijian Zeng, PhD · **仓库：** [hc615-cold-war-cipher-decoded](https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded) · **版本：** v1.0.2
 
 一份在公开档案目录中登记为 **“Not solved”（未解）** 的密码，现在有了完整、可审计的捷克语解读：**一张固定替换表解释全部 220 个可见符号，零改字、零空码、零位置例外。** 这个仓库让你自己检验结果。
 

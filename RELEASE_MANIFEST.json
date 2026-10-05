@@ -1,5 +1,5 @@
 {
-  "version": "HC615-v1.0.1",
+  "version": "HC615-v1.0.2",
   "prepared_date": "2026-10-05",
   "scope": "Public release; excludes this manifest itself, local build/cache and Git metadata. Checksums are not an external signature.",
   "files": [
@@ -30,13 +30,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 1716,
-      "sha256": "8b932a17b8090fe75a6551f9239cf30bb3bb7e37078526936b8ea902bdc9224d"
+      "bytes": 2048,
+      "sha256": "7fc2920ab5790f1ce0bee4e98f9016769eddccaa3a60bb5aa711773655c1e337"
     },
     {
       "path": "CITATION.cff",
       "bytes": 1004,
-      "sha256": "903a7b68b40c04797ef56bd2fff439f34c16000b908a998c52f94185bfe4c25a"
+      "sha256": "8e91796860bd01a78387a8e02e2a22b1c9307f5bb515209e04c7206e932ec7a9"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -46,7 +46,7 @@
     {
       "path": "LICENSE",
       "bytes": 1231,
-      "sha256": "9bd9ed9d5be262dc48aaa54e78d194ab1a16e9808e8cf78450bac8dd29974a9a"
+      "sha256": "34b451e85710b8e25299d7a0106d8b743404502c5d848dbc828d711965ca1a9d"
     },
     {
       "path": "LICENSES/CC-BY-4.0.txt",
@@ -76,27 +76,27 @@
     {
       "path": "README.cs.md",
       "bytes": 8018,
-      "sha256": "e6b1823ecfdd8ae2fde7db3010dc95f23dc9f87e4152036555a5420872afbc7a"
+      "sha256": "f0aaf9ba57c78143e44338f2c62ba36f53919785b0229588b28aa8ab81a3e57d"
     },
     {
       "path": "README.ja.md",
       "bytes": 9139,
-      "sha256": "3270fa3bf569d264254c902caa93ead48840b7fc03591f8d283c39843f14248e"
+      "sha256": "ff85d7f6b025679e91577e167c5b466b2f71d5e43b6349504bc541ad9bd94dfb"
     },
     {
       "path": "README.md",
       "bytes": 7567,
-      "sha256": "f8d632d2ad3b7e7600cec08773ff620aa45106e1263689d801b3f73b16e6028c"
+      "sha256": "767aaa781208f696b1eee6dc4668eb54040ffb91a804c7da06af10052493b1be"
     },
     {
       "path": "README.zh-CN.md",
       "bytes": 6768,
-      "sha256": "1519c14ba47e2d6eae9c26f0196d7a998510c0f05f454452c106d60703f4d906"
+      "sha256": "a09fab6a41b98ac1a81503df8cfcc468c7cfba5472aa0d9171d14b46665e3960"
     },
     {
       "path": "RELEASE_QA.json",
-      "bytes": 2930,
-      "sha256": "7e0ca0355dcfe197a0799f16f3af5fd37733c4f40b8584d662f2b1d8c17edf9e"
+      "bytes": 3047,
+      "sha256": "8adf2079c7f3973d18171bd3615ec2ee1ac2f0bb42a02f590165dedd572df7db"
     },
     {
       "path": "assets/feature/figure-1.png",
@@ -420,8 +420,8 @@
     },
     {
       "path": "docs/METHODS.md",
-      "bytes": 8842,
-      "sha256": "301a12f2b0dc118882e19010df65e0dcbc05cfd78103ea7ca77c640161b023c1"
+      "bytes": 9086,
+      "sha256": "22ff11daa5a1212cc4921fc37a1b4181174cbbfdfdcbf5b7ab5855db5b59e031"
     },
     {
       "path": "docs/PROVENANCE.md",
@@ -430,13 +430,13 @@
     },
     {
       "path": "docs/PUBLICATION_METADATA_CHANGE_REPORT_v1.0.1.md",
-      "bytes": 2370,
-      "sha256": "a536c543a7671dca48f525ef6a3db5ff301777754b752091802e5846ede5532d"
+      "bytes": 2580,
+      "sha256": "16513b2aa5f04ae772806992b094367e9cfd234aeba17aeec071259524a55114"
     },
     {
       "path": "docs/PUBLICATION_STATUS.md",
       "bytes": 3791,
-      "sha256": "b5fbd9804de9ffa1cf2e0c4ae8c9399c1207a4cbf5922aa7b2f5756faa1ab8ed"
+      "sha256": "5f643bc20e06156b018036bca2edf0ea6f23f3e3e67bbf471c1792b022a476da"
     },
     {
       "path": "docs/RESEARCH_NOTE.md",
@@ -595,8 +595,8 @@
     },
     {
       "path": "press/PITCH_EMAIL.en.md",
-      "bytes": 4083,
-      "sha256": "9db1bbf34c35564925f104ca85df744909444e13db454f9acc9526960e4f023f"
+      "bytes": 4218,
+      "sha256": "c98a6cb26cee0ff34fe0469fb610ae0d2616771602cd6c46963100c344ebc693"
     },
     {
       "path": "press/PRESS_RELEASE.cs.md",

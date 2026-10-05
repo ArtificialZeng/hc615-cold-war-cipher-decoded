@@ -6,7 +6,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · **Čeština** · [日本語](README.ja.md)
 
-**Autor:** Zijian Zeng, PhD · **Repozitář:** [hc615-cold-war-cipher-decoded](https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded) · **Verze:** v1.0.1
+**Autor:** Zijian Zeng, PhD · **Repozitář:** [hc615-cold-war-cipher-decoded](https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded) · **Verze:** v1.0.2
 
 Archivní kryptogram, který veřejný katalog uvádí jako **„Not solved“**, nyní má úplnou, ověřitelnou českou rekonstrukci: **jedna pevná substituce vysvětluje všech 220 pozorovaných znaků bez oprav, nulových znaků a výjimek podle pozice.** Tento repozitář umožňuje výsledek samostatně zkontrolovat.
 

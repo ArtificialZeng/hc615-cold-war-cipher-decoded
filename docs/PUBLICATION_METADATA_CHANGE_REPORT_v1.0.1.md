@@ -1,5 +1,7 @@
 # v1.0.1 publication metadata revision
 
+This is a historical preparation-stage report. Later upload, CI and outreach events are recorded in [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md); the statements below describe the stage before those events.
+
 Prepared 2026-10-05 for the actual repository:
 https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded
 

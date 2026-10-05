@@ -6,7 +6,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [Čeština](README.cs.md) · **日本語**
 
-**著者：** Zijian Zeng, PhD · **リポジトリ：** [hc615-cold-war-cipher-decoded](https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded) · **版：** v1.0.1
+**著者：** Zijian Zeng, PhD · **リポジトリ：** [hc615-cold-war-cipher-decoded](https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded) · **版：** v1.0.2
 
 公開目録で **「Not solved（未解読）」** とされていた暗号文に、全文を検証できるチェコ語の読みが得られました。**1 つの固定置換表で、観測された 220 の記号すべてを説明できます。訂正、無意味なダミー記号、位置ごとの例外はいずれもゼロです。** このリポジトリでは、結果を自分で確かめられます。
 

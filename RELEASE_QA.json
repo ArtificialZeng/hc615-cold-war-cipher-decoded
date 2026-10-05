@@ -1,5 +1,5 @@
 {
-  "version": "HC615_PUBLIC_RELEASE_QA_v1.0.1",
+  "version": "HC615_PUBLIC_RELEASE_QA_v1.0.2",
   "status": "PASS_PUBLIC_RELEASE_REMOTE_AND_SIX_JOB_CI_VERIFIED",
   "date": "2026-10-05",
   "complete_ascii_blocks_checked": 7,
@@ -62,5 +62,6 @@
     "repository_url_in_every_sent_body": true,
     "coordinator_duplicate_sent": false,
     "delivery_or_expert_acceptance_claimed": false
-  }
+  },
+  "latest_revision": "Documentation-state reconciliation only; no new experiment, source edits or optimizer rerun."
 }

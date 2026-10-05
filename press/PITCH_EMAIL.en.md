@@ -1,6 +1,6 @@
 # HC615 expert review / editorial pitch
 
-**Draft only — this draft has not been sent.** The author has already emailed Eugen Antal, HC Portal's main coordinator. The inquiry has been acknowledged; assessment is pending and no confirmation or endorsement is recorded. No additional expert or media messages have been sent by this workflow. Adapt this draft to the intended recipient; do not duplicate the first inquiry without a reason or imply institutional endorsement.
+**Draft only — this draft has not been sent.** The author has already emailed Eugen Antal, HC Portal's main coordinator. The inquiry has been acknowledged; assessment is pending and no confirmation or endorsement is recorded. Eight separately personalized technical or archival review inquiries have been sent, each including the full public repository link; no media pitch has been distributed. This template itself remains unsent. Adapt this draft to the intended recipient; do not duplicate the first inquiry without a reason or imply institutional endorsement.
 
 **To, for the first expert review:** Eugen Antal, eugen.antal@stuba.sk
 

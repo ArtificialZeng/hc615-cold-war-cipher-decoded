@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Cite this evidence release; external expert review and global priority remain unconfirmed."
 type: software
 title: "HC615: an auditable complete Czech reconstruction of a 220-symbol archival cryptogram"
-version: "1.0.1"
+version: "1.0.2"
 date-released: "2026-10-05"
 authors:
   - family-names: "Zeng"

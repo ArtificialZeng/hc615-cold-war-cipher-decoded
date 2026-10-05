@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.2 — published 2026-10-05
+
+- Reconcile current method and pitch documentation with completed six-job CI and eight sent review inquiries.
+- Explicitly label the preparation-stage metadata report as historical.
+- Preserve the v1.0.0/v1.0.1 tags and all scientific inputs, solver code, outputs and illustrated Word artifact.
+
+
 ## 1.0.1 — publication metadata prepared 2026-10-05
 
 - Add actual GitHub repository address and public author Zijian Zeng.

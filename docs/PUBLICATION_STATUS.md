@@ -1,6 +1,6 @@
 # Publication and review status
 
-**Public release: v1.0.1, 2026-10-05. Author: Zijian Zeng, PhD.**
+**Public release: v1.0.2, 2026-10-05. Author: Zijian Zeng, PhD.**
 
 Repository address: [ArtificialZeng/hc615-cold-war-cipher-decoded](https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded). The full evidence package has been pushed to the public repository. Remote CI is checked separately and does not constitute external academic review.
 
