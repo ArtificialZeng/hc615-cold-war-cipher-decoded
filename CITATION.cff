@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Cite the prepared evidence release; external expert review and global priority remain unconfirmed."
+type: software
+title: "HC615: an auditable complete Czech reconstruction of a 220-symbol archival cryptogram"
+version: "1.0.0"
+authors:
+  - name: "HC615 project contributors"
+abstract: "One fixed 22-glyph substitution accounts for all 220 observed symbols, 32 source segments and 8 lines. Prepared release includes plaintext, key, source coordinates, exact symbolic certificate, controls, pinned statistical model and verification code. Individual public authorship metadata is pending; the contributor label is a project label, not an institution."
+license:
+  - MIT
+  - CC-BY-4.0
+  - CC-BY-NC-SA-4.0
+keywords:
+  - historical cryptology
+  - Czech
+  - monoalphabetic substitution
+  - reproducibility
+  - HC Portal

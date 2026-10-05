@@ -1,0 +1,20 @@
+name: Verify HC615 evidence
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  offline-verification:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        python: ['3.9', '3.12']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Verify source transcript, forward certificate and archived scores
+        run: python scripts/verify_solution.py
+      - name: Meaningful tampering and parser regressions
+        run: python -m unittest discover -s tests -v

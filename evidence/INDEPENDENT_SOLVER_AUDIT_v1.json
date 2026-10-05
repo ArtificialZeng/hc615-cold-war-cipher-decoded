@@ -1,0 +1,134 @@
+{
+  "public_projection_notice": "Chronological internal AI-agent/code audit, not outside peer review. Private paths redacted; original artifact hash retained in ORIGINAL_EVIDENCE_INDEX.json. Historic paths refer to private research archive, not necessarily public-repository files.",
+  "original_relative_path": "reports/INDEPENDENT_SOLVER_AUDIT_v1.json",
+  "original_sha256": "ffbf3afb8c254acfc906adc2ffde8029c7c22c2e1abbee1fc783527b9bc4749f",
+  "original_payload_sanitized": {
+    "schema_version": "1.0",
+    "project": "hcportal615_1952_decipherment",
+    "reviewed_utc": "2026-10-05T01:10:18.554856+00:00",
+    "audited_sources": [
+      {
+        "path": "data/derived/independent_solver_audit_v1/AUDITED_mono_substitution_sa_v1.cpp",
+        "sha256": "b3289edca0249edd4adea9fcf3c90c531e6cbbe32a5ff5f267f59aab370d4fbe"
+      },
+      {
+        "path": "data/derived/independent_solver_audit_v1/AUDITED_build_czech_language_v1.py",
+        "sha256": "a6dda36fb1c5e19a1031c70ca6dbea2d44c02a9605590b35f2b93889962d0519"
+      }
+    ],
+    "tested_binary": {
+      "path": "scripts/mono_substitution_sa_v1",
+      "sha256": "9b6b0ab6b936a03d3aa219639df61aa9111bd69bb63f1ff98c28deacf28b7cc8"
+    },
+    "results": {
+      "model_reconstruction_byte_exact": true,
+      "model_finite": true,
+      "frequency_order_reconstruction_exact": true,
+      "model_ngrams": 1174081,
+      "train_documents": 950,
+      "dev_documents": 1006,
+      "document_overlap": 0,
+      "sentence_id_overlap": 0,
+      "synthetic_checks": [
+        {
+          "score": -129.32162237167358,
+          "key_bijective": true,
+          "render_exact": true,
+          "inverse_roundtrip": true,
+          "space_positions_fixed": true
+        },
+        {
+          "score": -169.14326000213623,
+          "key_bijective": true,
+          "render_exact": true,
+          "inverse_roundtrip": true,
+          "space_positions_fixed": true
+        },
+        {
+          "score": -129.32162237167358,
+          "key_bijective": true,
+          "render_exact": true,
+          "inverse_roundtrip": true,
+          "space_positions_fixed": true
+        }
+      ],
+      "malformed_input_silently_truncated": {
+        "confirmed": true,
+        "process_returncode": 0,
+        "rendered_length": 16,
+        "valid_prefix_length": 16,
+        "trailing_valid_symbols_ignored": 2
+      },
+      "v1_controls_isolation": [
+        {
+          "control_id": "C00",
+          "document_id": "cmpr9410-009",
+          "absent_from_train_documents": true,
+          "full_plain_absent_from_training_stream": true
+        },
+        {
+          "control_id": "C01",
+          "document_id": "cmpr9410-019",
+          "absent_from_train_documents": true,
+          "full_plain_absent_from_training_stream": true
+        },
+        {
+          "control_id": "C02",
+          "document_id": "cmpr9410-029",
+          "absent_from_train_documents": true,
+          "full_plain_absent_from_training_stream": true
+        },
+        {
+          "control_id": "C03",
+          "document_id": "cmpr9410-039",
+          "absent_from_train_documents": true,
+          "full_plain_absent_from_training_stream": true
+        },
+        {
+          "control_id": "C04",
+          "document_id": "cmpr9410-049",
+          "absent_from_train_documents": true,
+          "full_plain_absent_from_training_stream": true
+        },
+        {
+          "control_id": "C05",
+          "document_id": "cmpr9413-007",
+          "absent_from_train_documents": true,
+          "full_plain_absent_from_training_stream": true
+        }
+      ],
+      "v1_controls_inferred_by_this_audit": false,
+      "target_read_or_run": false,
+      "scope": "Static source audit plus synthetic implementation checks; v1 six45-word files prepared, not a negative optimizer campaign; v2 pending separate root qualification."
+    },
+    "findings": [
+      {
+        "id": "INPUT_PARSE_TRUNCATION",
+        "severity": "medium",
+        "status": "CONFIRMED_OLD_SNAPSHOT",
+        "source_line": 22,
+        "mechanism": "while(cf>>v) stops on noninteger extraction failure without checking eof; a valid prefix is silently treated as the complete input and later tokens ignored.",
+        "actual_input_effect": "No corruption if preregistered actual input is independently proven entirely integer0..26 with expected full slot count. Must reject malformed input or independently enforce full parsing before actual attack.",
+        "synthetic_receipt": "data/derived/independent_solver_audit_v1/synthetic_malformed_result.json"
+      },
+      {
+        "id": "OUTPUT_WRITE_UNCHECKED",
+        "severity": "low",
+        "status": "STATIC_HARDENING_RISK",
+        "mechanism": "Output stream open/write success is not checked. The scorer may exit successfully despite inaccessible output destination. Downstream missing-file/hash validation would detect this.",
+        "actual_input_effect": "Not a score or cipher-model defect."
+      }
+    ],
+    "assessment": "CORE_SCORING_AND_BIJECTION_PASS; INPUT_VALIDATION_FIX_OR_STRICT_PREFLIGHT_REQUIRED",
+    "code_unchanged_by_reviewer": true,
+    "limits": [
+      "No target optimization or v1/v2 controls inference was run by this reviewer. The tiny artificial arithmetic/roundtrip smoke check does not qualify optimizer recovery.",
+      "V1 prepared45-word controls are not a failed experiment; target-matched v2 qualification is separate.",
+      "26-letter key is injective on22 observed cipher classes; unused key entries are unidentifiable from target and cannot be counted as recovered evidence.",
+      "ASCII accent-stripped Czech is an explicit language/orthography hypothesis; 1990s/news/business UD text is not1952 exercise-domain proof.",
+      "Quadgram score is a fixed heuristic, not posterior odds or evidence that target is Czech.",
+      "Source normalization maps combining accents away and excludes non-ASCII tokens; restored accents must be marked inferred.",
+      "Binaryfloat storage is host-native; current reconstruction byte-exact on this little-endian host, not universal architecture portability."
+    ]
+  }
+}

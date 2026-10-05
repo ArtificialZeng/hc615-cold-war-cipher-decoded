@@ -1,0 +1,22 @@
+name: Source or solution review
+description: Challenge a glyph, full reading, historical attribution or prior-answer claim
+body:
+  - type: markdown
+    attributes:
+      value: "Please give occurrence IDs/primary sources. Internal checks are not outside peer review. Avoid uploading archive pixels without permission."
+  - type: textarea
+    id: claim
+    attributes:
+      label: Claim or occurrence being reviewed
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Primary source, coordinates, alternative key or prior answer
+    validations:
+      required: true
+  - type: textarea
+    id: accounting
+    attributes:
+      label: Complete forward accounting or precise limits of this objection

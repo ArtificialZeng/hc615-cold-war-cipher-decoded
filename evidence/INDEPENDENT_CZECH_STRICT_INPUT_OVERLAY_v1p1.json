@@ -1,0 +1,200 @@
+{
+  "public_projection_notice": "Chronological internal AI-agent/code audit, not outside peer review. Private paths redacted; original artifact hash retained in ORIGINAL_EVIDENCE_INDEX.json. Historic paths refer to private research archive, not necessarily public-repository files.",
+  "original_relative_path": "reports/INDEPENDENT_CZECH_STRICT_INPUT_OVERLAY_v1p1.json",
+  "original_sha256": "fa0bdd5ef3d48d779b4edbb4a9422d25cb106fd3afcdf8c37693b172f3048953",
+  "original_payload_sanitized": {
+    "version": "INDEPENDENT_CZECH_STRICT_INPUT_OVERLAY_v1p1",
+    "utc": "2026-10-05T01:14:55.234666+00:00",
+    "status": "PASS_LOCALIZED_INPUT_VALIDATION_REPAIR_AND_VALID_INPUT_EQUIVALENCE",
+    "base_control_audit_preserved": true,
+    "target_read": false,
+    "solver_or_regression_rerun_by_this_auditor": false,
+    "frequency_order_independently_reconstructed_in_base_audit": true,
+    "frequency_order_sha256": "156c666c1f2c72247c67b6607a05a08b5c63e56908b4ba724e3183c3844122be",
+    "static_repair_review": "Only comment/input reader changed. Token stoi tracks consumed characters; noninteger/suffix/outofrange/file/read errors reject. Source after input-length check is byte-identical, preserving SA/scoring/key/seed/budget logic.",
+    "old_reader_limitation": "operator>>int could stop at junk and silently accept a valid prefix, or partially parse a decimal. This did not occur in six frozen integer synthetic inputs, all fully parsed and independently checked.",
+    "root_five_regression_results_reviewed": [
+      {
+        "case": "valid",
+        "exit_code": 0,
+        "expected_accept": true,
+        "output_exists": true,
+        "stderr": "done seed=615555 score=-38.3661\n"
+      },
+      {
+        "case": "bad_middle",
+        "exit_code": -6,
+        "expected_accept": false,
+        "output_exists": false,
+        "stderr": "libc++abi: terminating due to uncaught exception of type std::runtime_error: noninteger input token\n"
+      },
+      {
+        "case": "bad_trailing",
+        "exit_code": -6,
+        "expected_accept": false,
+        "output_exists": false,
+        "stderr": "libc++abi: terminating due to uncaught exception of type std::runtime_error: noninteger input token\n"
+      },
+      {
+        "case": "bad_suffix",
+        "exit_code": -6,
+        "expected_accept": false,
+        "output_exists": false,
+        "stderr": "libc++abi: terminating due to uncaught exception of type std::runtime_error: noninteger input token suffix\n"
+      },
+      {
+        "case": "bad_range",
+        "exit_code": -6,
+        "expected_accept": false,
+        "output_exists": false,
+        "stderr": "libc++abi: terminating due to uncaught exception of type std::runtime_error: bad symbol\n"
+      }
+    ],
+    "five_saved_case_inputs_independently_checked": [
+      {
+        "path": "experiments/input_validation_v1p1/bad_middle.txt",
+        "sha256": "c9c2dd2ae20453ee0494fb7fd4bcc83bc8e57a09a02fb6da6f8d56bdf42053fb",
+        "tokens": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "BAD",
+          "4",
+          "5"
+        ],
+        "whole_integer_range_valid": false
+      },
+      {
+        "path": "experiments/input_validation_v1p1/bad_range.txt",
+        "sha256": "995012643ba185af0285f338a4322c5db49a60165d4075d8650d47d00775a47f",
+        "tokens": [
+          "0",
+          "1",
+          "2",
+          "27",
+          "4",
+          "5"
+        ],
+        "whole_integer_range_valid": false
+      },
+      {
+        "path": "experiments/input_validation_v1p1/bad_suffix.txt",
+        "sha256": "76a6c8f73551ed5021881e73d29d3e5f80f4cd20b9cee09e5383fd4fc2dce5d5",
+        "tokens": [
+          "0",
+          "1",
+          "2",
+          "3.0",
+          "4",
+          "5"
+        ],
+        "whole_integer_range_valid": false
+      },
+      {
+        "path": "experiments/input_validation_v1p1/bad_trailing.txt",
+        "sha256": "5f6e2c033046ef544b37b26ef0641ef76c431fe5967100621e4b66c85eb22fcb",
+        "tokens": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "BAD"
+        ],
+        "whole_integer_range_valid": false
+      },
+      {
+        "path": "experiments/input_validation_v1p1/valid.txt",
+        "sha256": "36f210a5dd370d550e7e91c6d8895e95a9028bee710bf5a96455602bf99e350f",
+        "tokens": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "whole_integer_range_valid": true
+      }
+    ],
+    "same_valid_control_C00_full_result_byte_identical": true,
+    "same_control_seed_and_budget": true,
+    "interpretation": "Valid-input equivalence diagnostic, not a new control sample, new calibration or added search strategy. Original v1 artifacts remain unchanged.",
+    "scope_limits": [
+      "This auditor reviewed the saved root regression receipt and inputs; it did not independently execute those tests again.",
+      "Current frequency order is now explicitly hashed in root repair receipt and both independent audits; original config is retained rather than rewritten.",
+      "All matched-model/unknown-target domain limitations in the base audit remain."
+    ],
+    "source_diff": [
+      "--- scripts/mono_substitution_sa_v1.cpp\n",
+      "+++ scripts/mono_substitution_sa_v1p1.cpp\n",
+      "@@ -1,3 +1,4 @@\n",
+      "+// v1p1: reject malformed whole inputs; inference algorithm unchanged.",
+      " // Bounded bijective substitution solver. No plaintext truth or target metadata.",
+      " // Score is a fixed public-corpus quadgram heuristic, not a posterior probability.",
+      " #include <algorithm>",
+      "@@ -18,8 +19,15 @@\n",
+      "   std::vector<float> model(nmodel);",
+      "   std::ifstream mf(argv[1],std::ios::binary);mf.read(reinterpret_cast<char*>(model.data()),nmodel*sizeof(float));",
+      "   if(mf.gcount()!=nmodel*sizeof(float))throw std::runtime_error(\"bad model size\");",
+      "-  std::ifstream cf(argv[2]);std::vector<int> code;int v;",
+      "-  while(cf>>v){if(v<0||v>26)throw std::runtime_error(\"bad symbol\");code.push_back(v);}",
+      "+  std::ifstream cf(argv[2]);if(!cf)throw std::runtime_error(\"input file unavailable\");",
+      "+  std::vector<int> code;std::string token;",
+      "+  while(cf>>token){",
+      "+    std::size_t used=0;int v;",
+      "+    try{v=std::stoi(token,&used);}catch(...){throw std::runtime_error(\"noninteger input token\");}",
+      "+    if(used!=token.size())throw std::runtime_error(\"noninteger input token suffix\");",
+      "+    if(v<0||v>26)throw std::runtime_error(\"bad symbol\");code.push_back(v);",
+      "+  }",
+      "+  if(!cf.eof())throw std::runtime_error(\"input read error\");",
+      "   if(code.size()<4)throw std::runtime_error(\"short input\");",
+      "   Key freq;std::ifstream ff(argv[3]);for(int&i:freq)if(!(ff>>i))throw std::runtime_error(\"bad frequency order\");",
+      "   auto sorted=freq;std::sort(sorted.begin(),sorted.end());for(int i=0;i<26;i++)if(sorted[i]!=i)throw std::runtime_error(\"bad frequency permutation\");"
+    ],
+    "artifacts": [
+      {
+        "path": "scripts/mono_substitution_sa_v1.cpp",
+        "bytes": 3348,
+        "sha256": "b3289edca0249edd4adea9fcf3c90c531e6cbbe32a5ff5f267f59aab370d4fbe"
+      },
+      {
+        "path": "scripts/mono_substitution_sa_v1p1.cpp",
+        "bytes": 3778,
+        "sha256": "651b888047c939dd0ce6e0d84805b8a4beba45eb6b0d8ebfe3ab43eb60681276"
+      },
+      {
+        "path": "scripts/mono_substitution_sa_v1p1",
+        "bytes": 40792,
+        "sha256": "bdce50f8dccc649f4f3e348aff5202e75ef7608e4bcb2dc2c6e361d8047be790"
+      },
+      {
+        "path": "data/derived/language_czech_v1/frequency_order.txt",
+        "bytes": 68,
+        "sha256": "156c666c1f2c72247c67b6607a05a08b5c63e56908b4ba724e3183c3844122be"
+      },
+      {
+        "path": "reports/STRICT_INPUT_VALIDATION_v1p1.json",
+        "bytes": 1858,
+        "sha256": "e8425d8fee8fc39af3381e5d63e3a392833c58b95f4362dab9912c853e70292d"
+      },
+      {
+        "path": "reports/INDEPENDENT_CZECH_CONTROL_AUDIT_v1.json",
+        "bytes": 18781,
+        "sha256": "39f1c8f2d263e3b4c1fe5cd50baea1a1f5cda816e69b3110e26f0b15ef2c95f4"
+      },
+      {
+        "path": "reports/INDEPENDENT_CZECH_CONTROL_AUDIT_v1.md",
+        "bytes": 3016,
+        "sha256": "8d8ac1f85ad633db17bea56797efcb407822abf1491df3c368821ee02649508a"
+      },
+      {
+        "path": "experiments/input_validation_v1p1/valid_control_C00_same_seed.json",
+        "bytes": 6210,
+        "sha256": "1c997ce107fc987846061f2546bcd1d22945c4233a644128cd4ef770156cff95"
+      }
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "public_projection_notice": "Chronological internal AI-agent/code audit, not outside peer review. Private paths redacted; original artifact hash retained in ORIGINAL_EVIDENCE_INDEX.json. Historic paths refer to private research archive, not necessarily public-repository files.",
+  "original_relative_path": "reports/INDEPENDENT_SOURCE_AUDIT_v1.json",
+  "original_sha256": "77c070aa01a01e5cd9c5e2dff8f73b26b9d0fd364a2fe70b8f8b063dc070cdea",
+  "original_payload_sanitized": {
+    "schema_version": "1.0",
+    "reviewed_utc": "2026-10-05T01:10:18.554111+00:00",
+    "project": "hcportal615_1952_decipherment",
+    "reviewer": "book_sources independent visual reviewer",
+    "source": {
+      "path": "data/raw/615_image_1385.jpg",
+      "sha256": "712891e2f5019509798a750d4a92318910333b623ee583ae39ea5d86a7b1d4e6",
+      "url": "https://api.hcportal.eu/media/1762/14161684790141.jpg"
+    },
+    "review_order": "Viewed full source and all eight crops, counted and classified manually before reading manual_source_spec.json. Afterwards compared every line sequence to the draft and checked seven native unscaled detail crops.",
+    "compared_spec": {
+      "path": "data/derived/source_transcription_v1/manual_source_spec.json",
+      "sha256": "19b3a71caa997b3511b3e17d17d4b76a988ac233fc7340a9e926f4fd1ad81014"
+    },
+    "counts": {
+      "glyph_occurrences": 220,
+      "glyph_classes": 22,
+      "red_segments": 32,
+      "line_lengths": [
+        27,
+        30,
+        32,
+        26,
+        29,
+        32,
+        30,
+        14
+      ],
+      "segment_lengths_by_line": [
+        [
+          8,
+          2,
+          9,
+          8
+        ],
+        [
+          10,
+          10,
+          10
+        ],
+        [
+          7,
+          5,
+          8,
+          2,
+          10
+        ],
+        [
+          7,
+          4,
+          4,
+          4,
+          7
+        ],
+        [
+          13,
+          6,
+          10
+        ],
+        [
+          4,
+          2,
+          10,
+          7,
+          9
+        ],
+        [
+          10,
+          5,
+          4,
+          10,
+          1
+        ],
+        [
+          9,
+          5
+        ]
+      ]
+    },
+    "sequence_agreement": {
+      "all_eight_line_sequences_agree": true,
+      "requested_source_edits": []
+    },
+    "specific_observations": [
+      "L1 final segment6 has VSTEM morphology, visibly narrower than broad serif numeral1 on L4W3U3; preserve separate classes.",
+      "Single horizontal H1 and double horizontal H2 are separately represented; native examples at L1 and L5 support distinction.",
+      "L6W5U6 high-position wedge is a counted cipher sign, distinct from low/baseline dot.",
+      "Question-shaped sign repeats as a printed cipher unit, not a missing-glyph marker.",
+      "Pound-like, section-like and ornate double-loop signs remain three distinct classes. Red underlines beneath ornate signs are annotations.",
+      "The marginal handwritten220 does not establish count; count220 follows independent occurrence count.",
+      "Large red page annotation and crossing black marginal mark after L1 end are outside cipher boundaries."
+    ],
+    "limits": [
+      "Shape labels are mnemonic classes, not plaintext values.",
+      "Font alternative VSTEM=!/I/l/alternate1 does not authorize merging with numeral1.",
+      "Red segments as plaintext words remains an explicit attack hypothesis.",
+      "Source-class consistency does not prove a fixed monoalphabetic substitution or Czech language.",
+      "Native crop inspection cannot create detail absent from original960x601 raster."
+    ],
+    "detail_manifest": "data/derived/independent_source_audit_v1/DETAIL_MANIFEST.json",
+    "detail_manifest_sha256": "543601f96516e90de802579cc5c6a481b5c2b75022730928f4dd7686f330a29e",
+    "language_inference_or_target_solver_access": false,
+    "assessment": "SOURCE_ONLY_CONSERVATIVE_TRANSCRIPT_INDEPENDENTLY_CORROBORATED"
+  }
+}

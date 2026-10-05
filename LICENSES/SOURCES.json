@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+    "final_url": null,
+    "path": "LICENSES/CC-BY-4.0.txt",
+    "sha256": "a6c3098ca2ea95002a630156f99a545ad28791a96b184b5c19becf4faf0ca19e",
+    "bytes": 467,
+    "access_date": "2026-10-05",
+    "retrieval": "Original plain-text endpoint unavailable: HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.txt",
+    "final_url": null,
+    "path": "LICENSES/CC-BY-NC-SA-4.0.txt",
+    "sha256": "bddd1579f9f669101e1b713ebb42eb7f330fa3cc5e5eca7927062272895343b3",
+    "bytes": 504,
+    "access_date": "2026-10-05",
+    "retrieval": "Original plain-text endpoint unavailable: HTTP Error 403: Forbidden"
+  }
+]

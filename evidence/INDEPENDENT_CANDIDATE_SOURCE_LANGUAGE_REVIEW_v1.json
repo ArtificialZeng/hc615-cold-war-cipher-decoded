@@ -1,0 +1,285 @@
+{
+  "public_projection_notice": "Chronological internal AI-agent/code audit, not outside peer review. Private paths redacted; original artifact hash retained in ORIGINAL_EVIDENCE_INDEX.json. Historic paths refer to private research archive, not necessarily public-repository files.",
+  "original_relative_path": "reports/INDEPENDENT_CANDIDATE_SOURCE_LANGUAGE_REVIEW_v1.json",
+  "original_sha256": "5267fe2ceace0f6b53bdbb113b78fbc90806cea74aadc3d88f782894c9125f87",
+  "original_payload_sanitized": {
+    "schema_version": "1.0",
+    "project": "hcportal615_1952_decipherment",
+    "reviewer": "book_sources independent source and whole-text reviewer",
+    "reviewed_utc": "2026-10-05T01:24:17.769077+00:00",
+    "assigned_gate_verdict": "PASS_WHOLE_COHERENT_PLUS_SOURCE_EXACT",
+    "gates": {
+      "whole_text_coherent_without_ascii_letter_change": true,
+      "all220_source_occurrences_forward_exact": true,
+      "all32_red_segments_retained": true,
+      "fixed_source22class_key_injective": true,
+      "source_glyph_edits": 0,
+      "nulls": 0,
+      "per_position_exceptions": 0,
+      "source_variants_selected_by_language": false,
+      "organisace_s_preserved": true,
+      "reading_layer_normalizes_to_exact_unchanged_ascii": true
+    },
+    "candidate": {
+      "path": "experiments/czech_bijective_target_v1p1/target_result.json",
+      "sha256": "21e6c4c920438c102e1f45bb029d945d312b97bdc73cd3a24cd5921e7f62266a",
+      "plain_ascii_unaltered": "vysilaji na ostravsko nejlepsi pracovniky chrudimska transporta vyslala devet soudruhu na jednorocni brigadu jsou mezi nimi clenove celozavodniho vyboru organisace sami se prihlasili ostrava potrebuje brigadniky kteri maji zkusenosti z politicke prace",
+      "observed_key": [
+        {
+          "glyph_id": "C001",
+          "visual_label": "0",
+          "occurrence_count": 3,
+          "decoded_ascii": "g"
+        },
+        {
+          "glyph_id": "C002",
+          "visual_label": "1",
+          "occurrence_count": 4,
+          "decoded_ascii": "z"
+        },
+        {
+          "glyph_id": "C003",
+          "visual_label": "2",
+          "occurrence_count": 6,
+          "decoded_ascii": "j"
+        },
+        {
+          "glyph_id": "C004",
+          "visual_label": "3",
+          "occurrence_count": 9,
+          "decoded_ascii": "u"
+        },
+        {
+          "glyph_id": "C005",
+          "visual_label": "4",
+          "occurrence_count": 23,
+          "decoded_ascii": "i"
+        },
+        {
+          "glyph_id": "C006",
+          "visual_label": "5",
+          "occurrence_count": 7,
+          "decoded_ascii": "d"
+        },
+        {
+          "glyph_id": "C007",
+          "visual_label": "6",
+          "occurrence_count": 18,
+          "decoded_ascii": "o"
+        },
+        {
+          "glyph_id": "C008",
+          "visual_label": "7",
+          "occurrence_count": 21,
+          "decoded_ascii": "a"
+        },
+        {
+          "glyph_id": "C009",
+          "visual_label": "8",
+          "occurrence_count": 9,
+          "decoded_ascii": "l"
+        },
+        {
+          "glyph_id": "C010",
+          "visual_label": "X",
+          "occurrence_count": 9,
+          "decoded_ascii": "t"
+        },
+        {
+          "glyph_id": "C011",
+          "visual_label": "QMARK",
+          "occurrence_count": 9,
+          "decoded_ascii": "v"
+        },
+        {
+          "glyph_id": "C012",
+          "visual_label": "POUND",
+          "occurrence_count": 5,
+          "decoded_ascii": "y"
+        },
+        {
+          "glyph_id": "C013",
+          "visual_label": "ORNATE",
+          "occurrence_count": 8,
+          "decoded_ascii": "c"
+        },
+        {
+          "glyph_id": "C014",
+          "visual_label": "SECTION",
+          "occurrence_count": 4,
+          "decoded_ascii": "h"
+        },
+        {
+          "glyph_id": "C015",
+          "visual_label": "H1",
+          "occurrence_count": 16,
+          "decoded_ascii": "s"
+        },
+        {
+          "glyph_id": "C016",
+          "visual_label": "H2",
+          "occurrence_count": 17,
+          "decoded_ascii": "e"
+        },
+        {
+          "glyph_id": "C017",
+          "visual_label": "SLASH",
+          "occurrence_count": 16,
+          "decoded_ascii": "r"
+        },
+        {
+          "glyph_id": "C018",
+          "visual_label": "PERCENT",
+          "occurrence_count": 13,
+          "decoded_ascii": "n"
+        },
+        {
+          "glyph_id": "C019",
+          "visual_label": "PLUS",
+          "occurrence_count": 5,
+          "decoded_ascii": "m"
+        },
+        {
+          "glyph_id": "C020",
+          "visual_label": "LOWDOT",
+          "occurrence_count": 7,
+          "decoded_ascii": "k"
+        },
+        {
+          "glyph_id": "C021",
+          "visual_label": "UPPER",
+          "occurrence_count": 4,
+          "decoded_ascii": "b"
+        },
+        {
+          "glyph_id": "C022",
+          "visual_label": "VSTEM",
+          "occurrence_count": 7,
+          "decoded_ascii": "p"
+        }
+      ],
+      "unobserved_solver_key_labels": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "unobserved_key_entries_not_recovered_evidence": true
+    },
+    "source": {
+      "default_path": "data/derived/source_transcription_v1/DEFAULT_WORDS.json",
+      "default_sha256": "a722fbac91cf338dc016d597799fe1f6387b9e1dd4ae79e191acb74590b22b23",
+      "source_raster": "data/raw/615_image_1385.jpg",
+      "source_raster_sha256": "712891e2f5019509798a750d4a92318910333b623ee583ae39ea5d86a7b1d4e6",
+      "pre_inference_independent_audit": "reports/INDEPENDENT_SOURCE_AUDIT_v1.json",
+      "pre_inference_audit_sha256": "77c070aa01a01e5cd9c5e2dff8f73b26b9d0fd364a2fe70b8f8b063dc070cdea"
+    },
+    "source_forward_receipt": {
+      "path": "data/derived/independent_candidate_review_v1/SOURCE_POSITION_FORWARD_AUDIT.json",
+      "sha256": "84553d751808b58af85bbdddc4de34f3d7f8fd76d20a71ff743ddb353219c92a"
+    },
+    "sensitive_shapes": [
+      {
+        "class": "UPPER",
+        "plain": "b",
+        "count": 4,
+        "evidence": "Raised ink class independently distinguished from low dot before inference; re-viewed native L6 detail after candidate; no glyph relabel."
+      },
+      {
+        "class": "LOWDOT",
+        "plain": "k",
+        "count": 7
+      },
+      {
+        "class": "H1",
+        "plain": "s",
+        "count": 16
+      },
+      {
+        "class": "H2",
+        "plain": "e",
+        "count": 17,
+        "evidence": "Independent native single/double horizontal comparisons support separate source identities."
+      },
+      {
+        "class": "1",
+        "plain": "z",
+        "count": 4
+      },
+      {
+        "class": "VSTEM",
+        "plain": "p",
+        "count": 7,
+        "evidence": "Native serif-one versus narrow stem contrast preserved; no merge to gain fluency."
+      }
+    ],
+    "language_review": [
+      {
+        "span": "vysilaji na ostravsko nejlepsi pracovniky",
+        "assessment": "Complete present-tense3plural clause with implicit they; accusative plural workers; Ostravsko is a regional destination. Headline-like segmentation is an interpretation, not original punctuation."
+      },
+      {
+        "span": "chrudimska transporta vyslala devet soudruhu na jednorocni brigadu",
+        "assessment": "Feminine singular company subject/adjective agrees with vyslala; devet takes genitive plural soudruhu; na+accusative brigadu expresses assignment to a one-year work brigade. No consonant change needed."
+      },
+      {
+        "span": "jsou mezi nimi clenove celozavodniho vyboru organisace",
+        "assessment": "Normal existential statement: members of the company-wide committee of the organization are among them. Organisation type is unspecified; do not expand to a particular party or union."
+      },
+      {
+        "span": "sami se prihlasili",
+        "assessment": "Plural masculine subjects volunteered/signed up themselves; consistent with the preceding workers/comrades."
+      },
+      {
+        "span": "ostrava potrebuje brigadniky kteri maji zkusenosti z politicke prace",
+        "assessment": "Ostrava needs work-brigade participants who have experience of political work; relative pronoun masculine animate plural agrees; z takes genitive politicke prace. Complete final clause."
+      }
+    ],
+    "reading_layers": {
+      "czech_accents_capitals_punctuation": "Vysílají na Ostravsko nejlepší pracovníky. Chrudimská Transporta vyslala devět soudruhů na jednoroční brigádu. Jsou mezi nimi členové celozávodního výboru organisace. Sami se přihlásili. Ostrava potřebuje brigádníky, kteří mají zkušenosti z politické práce.",
+      "chinese_interpretive_translation": "他们将最优秀的工作人员派往俄斯特拉发地区。克鲁迪姆的 Transporta 公司派出了九位同志，参加为期一年的劳动支援。其中有该组织全厂委员会的成员。他们主动报了名。俄斯特拉发需要具有政治工作经验的劳动支援人员。",
+      "status": "POST_DECODING_READING_RESTORATION_NOT_CIPHER_OBSERVATION",
+      "ascii_letters_changed": 0,
+      "organisace_modernized": false,
+      "party_or_union_identity_inferred": false
+    },
+    "primary_lexical_sources": [
+      {
+        "receipt": "data/raw/independent_candidate_review_v1/ujc_ssjc_organisace.receipt.json",
+        "receipt_sha256": "608f4e3aa78edd2e94ddd3e8cd0aad7ec29f2fc2ca268d095b703e880b6675e3",
+        "url": "https://ssjc.ujc.cas.cz/search.php?heslo=organizace&hsubstr=no",
+        "raw_html_sha256": "8486445fe2b062ade9edb7ff43abf5a5279839ed05bfa619e367b4287bddf4c2"
+      },
+      {
+        "receipt": "data/raw/independent_candidate_review_v1/ujc_ssjc_brigada.receipt.json",
+        "receipt_sha256": "8dbd45dea90d97bf12a3a1ad49a42b5d663fba052cde99c7db70a610a47285bc",
+        "url": "https://ssjc.ujc.cas.cz/search.php?heslo=brig%C3%A1da&hsubstr=no",
+        "raw_html_sha256": "13fa1e29b91b4a4f29e4d40b4733f8ef516b408502a2cb8ae6b487c96caea6d0"
+      },
+      {
+        "receipt": "data/raw/independent_candidate_review_v1/ujc_ssjc_celozavodni.receipt.json",
+        "receipt_sha256": "d60ad91eb0b8b99e93b7b09c003f2d69a95e10c5903abaae27e8e0bad1adbc81",
+        "url": "https://ssjc.ujc.cas.cz/search.php?heslo=celoz%C3%A1vodn%C3%AD&hsubstr=no",
+        "raw_html_sha256": "fd1973e4ac0b0976c9bd017ff058fdb60ebb0d3e3da736dbf305e7c22316e3a3"
+      }
+    ],
+    "historical_name_scope": {
+      "Chrudimska": "Interpreted as Chrudimská, the adjective from Chrudim.",
+      "Transporta": "Proper-name capitalization inferred from syntax; municipal public newsletter search excerpt corroborates Transporta-Chrudim association, not this specific1952 event. Nonessential largePDF download exceeded5MB retention cap and was not kept; no original news-source match is claimed.",
+      "Ostravsko_and_Ostrava": "Distinct geographic region and city forms, consistent across whole text."
+    },
+    "metadata_scope": {
+      "catalogue_solution_Not_solved": "Catalogue record state only; does not establish absence of prior private/public readings.",
+      "date_around1952": "Approximate catalogue dating of course material, not a date signed in the decoded prose.",
+      "sender_recipient": "Unknown in catalogue and not recovered from this passage."
+    },
+    "limits": [
+      "Exactness is complete frozen glyph-class/segment regeneration, not recreation of original JPEG pixels or printer font.",
+      "Historical accents, capitals and punctuation were removed or absent in thiscipher representation and are not independently recoverable as original typography.",
+      "Bijective output does not prove uniqueness among every conceivable cipher family; four unobserved key entries are arbitrary.",
+      "This review does not assert globally first decipherment, expert endorsement, or a specific original newspaper issue.",
+      "Whole-text fluency alone would be insufficient; verdict combines independently frozen source, one global substitution and zero-exception forward regeneration.",
+      "No new target search, added budget, crib or source-variant optimization was conducted by this reviewer."
+    ]
+  }
+}

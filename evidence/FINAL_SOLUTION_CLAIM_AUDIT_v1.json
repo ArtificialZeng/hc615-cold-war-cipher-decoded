@@ -1,0 +1,296 @@
+{
+  "public_projection_notice": "Chronological internal AI-agent/code audit, not outside peer review. Private paths redacted; original artifact hash retained in ORIGINAL_EVIDENCE_INDEX.json. Historic paths refer to private research archive, not necessarily public-repository files.",
+  "original_relative_path": "reports/FINAL_SOLUTION_CLAIM_AUDIT_v1.json",
+  "original_sha256": "3ac33b772875f0ddd44c5c78b98bd71feec69feeb73a818a2aa119b3356fe18a",
+  "original_payload_sanitized": {
+    "version": "FINAL_SOLUTION_CLAIM_AUDIT_v1",
+    "utc": "2026-10-05T01:43:29.514053+00:00",
+    "reviewed_current_report_sha256": "8d59b52f803315796e0572606bc784e460eb367be3bb6f08e6ea3c76360e692f",
+    "status": "PASS_CURRENT_COMPLETE_OBSERVED_MESSAGE_CLAIMS_WITH_EDITORIAL_AMBIGUITY_DISCLOSED",
+    "source_claim_counts": {
+      "letters": 220,
+      "visual_classes": 22,
+      "red_segments": 32,
+      "lines": 8,
+      "line_counts": [
+        27,
+        30,
+        32,
+        26,
+        29,
+        32,
+        30,
+        14
+      ]
+    },
+    "all22_markdown_key_entries_match_frozen_key_and_frequency": true,
+    "all220_forward_symbols_match_frozen_source": true,
+    "eight_report_plain_lines_exact": true,
+    "source_crop_checks": [
+      {
+        "glyph_id": "C001",
+        "source_occurrence": "O0093",
+        "exact_source_crop_pixels": true,
+        "exact_atlas_pasted_pixels": true
+      },
+      {
+        "glyph_id": "C002",
+        "source_occurrence": "O0103",
+        "exact_source_crop_pixels": true,
+        "exact_atlas_pasted_pixels": true
+      },
+      {
+        "glyph_id": "C003",
+        "source_occurrence": "O0007",
+        "exact_source_crop_pixels": true,
+        "exact_atlas_pasted_pixels": true
+      },
+      {
+        "glyph_id": "C004",
+        "source_occurrence": "O0041",
+        "exact_source_crop_pixels": true,
+        "exact_atlas_pasted_pixels": true
+      },
+      {
+        "glyph_id": "C005",
+        "source_occurrence": "O0004",
+        "exact_source_crop_pixels": true,
+        "exact_atlas_pasted_pixels": true
+      },
+      {
+        "glyph_id": "C006",
+        "source_occurrence": "O0042",
+        "exact_source_crop_pixels": true,
+        "exact_atlas_pasted_pixels": true
+      },
+      {
+        "glyph_id": "C007",
+        "source_occurrence": "O0011",
+        "exact_source_crop_pixels": true,
+        "exact_atlas_pasted_pixels": true
+      },
+      {
+        "glyph_id": "C008",
+        "source_occurrence": "O0006",
+        "exact_source_crop_pixels": true,
+        "exact_atlas_pasted_pixels": true
+      },
+      {
+        "glyph_id": "C009",
+        "source_occurrence": "O0005",
+        "exact_source_crop_pixels": true,
+        "exact_atlas_pasted_pixels": true
+      },
+      {
+        "glyph_id": "C010",
+        "source_occurrence": "O0013",
+        "exact_source_crop_pixels": true,
+        "exact_atlas_pasted_pixels": true
+      },
+      {
+        "glyph_id": "C011",
+        "source_occurrence": "O0001",
+        "exact_source_crop_pixels": true,
+        "exact_atlas_pasted_pixels": true
+      },
+      {
+        "glyph_id": "C012",
+        "source_occurrence": "O0002",
+        "exact_source_crop_pixels": true,
+        "exact_atlas_pasted_pixels": true
+      },
+      {
+        "glyph_id": "C013",
+        "source_occurrence": "O0031",
+        "exact_source_crop_pixels": true,
+        "exact_atlas_pasted_pixels": true
+      },
+      {
+        "glyph_id": "C014",
+        "source_occurrence": "O0039",
+        "exact_source_crop_pixels": true,
+        "exact_atlas_pasted_pixels": true
+      },
+      {
+        "glyph_id": "C015",
+        "source_occurrence": "O0003",
+        "exact_source_crop_pixels": true,
+        "exact_atlas_pasted_pixels": true
+      },
+      {
+        "glyph_id": "C016",
+        "source_occurrence": "O0021",
+        "exact_source_crop_pixels": true,
+        "exact_atlas_pasted_pixels": true
+      },
+      {
+        "glyph_id": "C017",
+        "source_occurrence": "O0014",
+        "exact_source_crop_pixels": true,
+        "exact_atlas_pasted_pixels": true
+      },
+      {
+        "glyph_id": "C018",
+        "source_occurrence": "O0009",
+        "exact_source_crop_pixels": true,
+        "exact_atlas_pasted_pixels": true
+      },
+      {
+        "glyph_id": "C019",
+        "source_occurrence": "O0044",
+        "exact_source_crop_pixels": true,
+        "exact_atlas_pasted_pixels": true
+      },
+      {
+        "glyph_id": "C020",
+        "source_occurrence": "O0018",
+        "exact_source_crop_pixels": true,
+        "exact_atlas_pasted_pixels": true
+      },
+      {
+        "glyph_id": "C021",
+        "source_occurrence": "O0090",
+        "exact_source_crop_pixels": true,
+        "exact_atlas_pasted_pixels": true
+      },
+      {
+        "glyph_id": "C022",
+        "source_occurrence": "O0025",
+        "exact_source_crop_pixels": true,
+        "exact_atlas_pasted_pixels": true
+      }
+    ],
+    "all_internal_markdown_references_exist": [
+      "[RESEARCH_ROOT]/data/derived/solution_display_v1/OBSERVED_KEY_SOURCE_CROPS.png",
+      "[RESEARCH_ROOT]/reports/INDEPENDENT_HC615_SOLUTION_AUDIT_v1.md",
+      "[RESEARCH_ROOT]/data/derived/independent_solution_audit_v1/EXACT_FORWARD_CERTIFICATE.json",
+      "[RESEARCH_ROOT]/reports/INDEPENDENT_CANDIDATE_SOURCE_LANGUAGE_REVIEW_v1.md",
+      "[RESEARCH_ROOT]/reports/NOVELTY_AND_LEAKAGE_AUDIT_v1.md",
+      "[RESEARCH_ROOT]/reports/ROOT_COMPLETE_SOLUTION_REPLAY_v1.json",
+      "[RESEARCH_ROOT]/data/derived/independent_solution_audit_v1/OBSERVED_GLYPH_KEY.json",
+      "[RESEARCH_ROOT]/data/derived/independent_solution_audit_v1/PLAINTEXT_ASCII.txt",
+      "[RESEARCH_ROOT]/scripts/reencrypt_hc615_solution_v1.py",
+      "[RESEARCH_ROOT]/release/hc615_forward_bundle_v1.zip"
+    ],
+    "search_receipt_verified_values": {
+      "seed": 615499,
+      "restarts": 16,
+      "steps_per_restart": 32768,
+      "nominal_move_attempts": 524288,
+      "full_input_slots": 251,
+      "quadgram_windows": 248,
+      "all16_stored_observed_maps_and_plaintexts_agree": true,
+      "distinct_full26_solver_completions_stored": 12,
+      "score_exactly_recomputed": -2300.7876777648926
+    },
+    "control_summary": {
+      "mean_letter_recovery": 0.9967077590111953,
+      "macro_percent_rounded_four_decimals": 99.6708,
+      "micro_correct": 1215,
+      "micro_total": 1219,
+      "target_accuracy_inferred_from_controls": false
+    },
+    "editorial_ambiguity": {
+      "ASCII_word": "chrudimska",
+      "alternatives": [
+        "Chrudimská Transporta = adjective modifying feminine company name",
+        "pracovníky Chrudimska. Transporta = genitive region attached to preceding clause/headline"
+      ],
+      "both_normalize_to_identical_frozen_ASCII": true,
+      "current_root_report_explicitly_discloses_both": true,
+      "required_amendment_current_version": null,
+      "original_accents_punctuation_not_proven": true
+    },
+    "limits_accepted": [
+      "Symbolic class/layout regeneration; does not recreate photograph pixels. Display uses exact cropped original pixels.",
+      "No recovered glyph for f/q/w/x;24 unused-slot permutations do not supply historical key values.",
+      "No global cryptographic uniqueness or priority claim.",
+      "Circa1952 is catalogue course dating, not original article/event date.",
+      "Finite restart convergence and heuristic score are not confidence/significance.",
+      "Standalone forward package is a component certificate; root complete verdict combines source/mathematical/language audits."
+    ],
+    "no_solver_optimizer_download_or_source_change": true,
+    "readonly_input_hashes": [
+      {
+        "path": "reports/HC615_SOLUTION_v1.md",
+        "bytes": 8409,
+        "sha256": "8d59b52f803315796e0572606bc784e460eb367be3bb6f08e6ea3c76360e692f"
+      },
+      {
+        "path": "reports/ROOT_COMPLETE_SOLUTION_REPLAY_v1.json",
+        "bytes": 2255,
+        "sha256": "20a0f5e5f10fd855c505320ff9cda75e79f7d5d06671af40fe5adc5cd63c0c86"
+      },
+      {
+        "path": "data/raw/615_image_1385.jpg",
+        "bytes": 161668,
+        "sha256": "712891e2f5019509798a750d4a92318910333b623ee583ae39ea5d86a7b1d4e6"
+      },
+      {
+        "path": "data/derived/independent_solution_audit_v1/OBSERVED_GLYPH_KEY.json",
+        "bytes": 1090,
+        "sha256": "7553696586c40975a2fa0ad9dcee3b99e06e3a3fc14c521e2daafe0f5a86e5bf"
+      },
+      {
+        "path": "data/derived/source_transcription_v1/DEFAULT_WORDS.json",
+        "bytes": 31694,
+        "sha256": "a722fbac91cf338dc016d597799fe1f6387b9e1dd4ae79e191acb74590b22b23"
+      },
+      {
+        "path": "data/derived/source_transcription_v1/glyph_occurrences.jsonl",
+        "bytes": 110001,
+        "sha256": "e1f26cdc4158d02b537cb1c2a4cabf7799630661ea4fa960ae3c6f33352a8bac"
+      },
+      {
+        "path": "experiments/czech_bijective_target_v1p1/target_result.json",
+        "bytes": 6529,
+        "sha256": "21e6c4c920438c102e1f45bb029d945d312b97bdc73cd3a24cd5921e7f62266a"
+      },
+      {
+        "path": "data/derived/solution_display_v1/KEY_CROP_PROVENANCE.json",
+        "bytes": 5754,
+        "sha256": "d26d0ad8e4dd5dcbda4aba58288a2cf1e0e649f507119bd04585825d3d039949"
+      },
+      {
+        "path": "data/derived/solution_display_v1/OBSERVED_KEY_SOURCE_CROPS.png",
+        "bytes": 76558,
+        "sha256": "570fc7962167425aa81a1040eadafc286eb1cbf51f36beb09c0e8007496b4345"
+      },
+      {
+        "path": "data/derived/solution_display_v1/MANIFEST.json",
+        "bytes": 5172,
+        "sha256": "d920c10946568768ea3e25dc6b8bfd7c915cd3b940e70bbc4c749877f91be3c2"
+      },
+      {
+        "path": "data/derived/solution_display_v1/CZECH_EDITORIAL_READING.txt",
+        "bytes": 285,
+        "sha256": "580787d261bdfc5cfe9e9c5180bc04f0e282cc63d29aa3a4bbf359024825c77e"
+      },
+      {
+        "path": "reports/CZECH_BIJECTIVE_CONTROLS_v1.json",
+        "bytes": 4175,
+        "sha256": "ba3befe2335479dd2dd76d9251a68ef9ec7b6ba6e97f9cc70945c294b316795c"
+      },
+      {
+        "path": "data/derived/language_czech_v1/quadgram27.bin",
+        "bytes": 2125764,
+        "sha256": "8aa157cf337f4a12eb5216999105ae8e7eaec20f2a655314f2ae0e6efadfa8fd"
+      },
+      {
+        "path": "config/czech_bijective_target_v1p1.json",
+        "bytes": 1447,
+        "sha256": "776343522b1588fcd71c35a4bb86adedf6031ffa0ddc4bf959875a3e7059a65a"
+      },
+      {
+        "path": "reports/NOVELTY_AND_LEAKAGE_AUDIT_v1.md",
+        "bytes": 6690,
+        "sha256": "d67ed5ea317d249f467184cde7b0b6dccc8456f56d0ad53c30650e51477c2853"
+      },
+      {
+        "path": "data/derived/novelty_audit_v1/AUDIT.json",
+        "bytes": 8790,
+        "sha256": "fa5a1bbed715dff3c0cdf75c903a80098511326d970941e6a8d48ad66508a730"
+      }
+    ]
+  }
+}

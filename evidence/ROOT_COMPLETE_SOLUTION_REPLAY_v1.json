@@ -1,0 +1,85 @@
+{
+  "public_projection_notice": "Chronological internal AI-agent/code audit, not outside peer review. Private paths redacted; original artifact hash retained in ORIGINAL_EVIDENCE_INDEX.json. Historic paths refer to private research archive, not necessarily public-repository files.",
+  "original_relative_path": "reports/ROOT_COMPLETE_SOLUTION_REPLAY_v1.json",
+  "original_sha256": "20a0f5e5f10fd855c505320ff9cda75e79f7d5d06671af40fe5adc5cd63c0c86",
+  "original_payload_sanitized": {
+    "version": "ROOT_COMPLETE_SOLUTION_REPLAY_v1",
+    "status": "PASS_COMPLETE_OBSERVED_MESSAGE_S4_COMPONENTS",
+    "no_new_inference_or_source_variant_choice": true,
+    "verified_manifests": [
+      {
+        "path": "data/derived/source_transcription_v1/MANIFEST.json",
+        "sha256": "fc32a982eb7de8f2836ec4c768adaeb237dd2a07d75e9dcf8d0c6f480560d488",
+        "entries_verified": 19
+      },
+      {
+        "path": "sources/INDEPENDENT_HC615_SOLUTION_AUDIT_v1_MANIFEST.json",
+        "sha256": "3ccbac1b7f02ee3c2ed34cc8d86eae81e139d9b9d652ff254dfb847f84bb9212",
+        "entries_verified": 15
+      },
+      {
+        "path": "sources/INDEPENDENT_CANDIDATE_SOURCE_LANGUAGE_REVIEW_v1_receipt.json",
+        "sha256": "205f130d9068e99697196cdb7d3701cbcb9c2210d19615b058885bbd6b7dbcc5",
+        "entries_verified": 13
+      }
+    ],
+    "source_counts": {
+      "glyphs": 220,
+      "observed_classes": 22,
+      "red_segments": 32,
+      "source_lines": 8,
+      "line_counts": [
+        27,
+        30,
+        32,
+        26,
+        29,
+        32,
+        30,
+        14
+      ]
+    },
+    "search_budget": {
+      "seed": 615499,
+      "restarts": 16,
+      "steps_per_restart": 32768,
+      "one_target_input": true
+    },
+    "all_trial_scores_recomputed": [
+      -2300.7876777648926,
+      -2300.7876777648926,
+      -2300.7876777648926,
+      -2300.7876777648926,
+      -2300.7876777648926,
+      -2300.7876777648926,
+      -2300.7876777648926,
+      -2300.7876777648926,
+      -2300.7876777648926,
+      -2300.7876777648926,
+      -2300.7876777648926,
+      -2300.7876777648926,
+      -2300.7876777648926,
+      -2300.7876777648926,
+      -2300.7876777648926,
+      -2300.7876777648926
+    ],
+    "observed_keys": 1,
+    "full_solver_keys": 12,
+    "unobserved_letters": [
+      "f",
+      "q",
+      "w",
+      "x"
+    ],
+    "source_edits": 0,
+    "nulls": 0,
+    "positional_exceptions": 0,
+    "all220_glyphs_reencrypted_exactly": true,
+    "editorial_czech_reading_normalizes_to_unchanged_ascii": true,
+    "independent_whole_text_review": "PASS_WHOLE_COHERENT_PLUS_SOURCE_EXACT",
+    "historical_mechanism": "One fixed letter-to-symbol substitution consistent with an archival cryptanalysis-course exercise; original key sheet not supplied.",
+    "mathematical_global_uniqueness_claim": false,
+    "original_accents_and_punctuation_proven": false,
+    "global_priority_claim": false
+  }
+}

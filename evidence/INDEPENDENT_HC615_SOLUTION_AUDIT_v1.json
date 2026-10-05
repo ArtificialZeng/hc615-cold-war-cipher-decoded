@@ -1,0 +1,948 @@
+{
+  "public_projection_notice": "Chronological internal AI-agent/code audit, not outside peer review. Private paths redacted; original artifact hash retained in ORIGINAL_EVIDENCE_INDEX.json. Historic paths refer to private research archive, not necessarily public-repository files.",
+  "original_relative_path": "reports/INDEPENDENT_HC615_SOLUTION_AUDIT_v1.json",
+  "original_sha256": "4ce686339a4178724d8b3e4215606aba4ba0c20de59638024b5627d15c5015a1",
+  "original_payload_sanitized": {
+    "version": "INDEPENDENT_HC615_SOLUTION_AUDIT_v1",
+    "utc": "2026-10-05T01:22:44.389188+00:00",
+    "status": "PASS_EXACT_COMPLETE_SUBSTITUTION_SOURCE_ACCOUNTING_COMPONENT",
+    "s4_mathematical_and_encoding_component_pass": true,
+    "overall_s4": "PENDING_INDEPENDENT_LANGUAGE_COHERENCE_AND_HISTORICAL_REVIEW",
+    "cipher_solved_declared_by_this_auditor": false,
+    "no_solver_rerun_or_key_optimization": true,
+    "source_alternative_selected": false,
+    "candidate_ascii": "vysilaji na ostravsko nejlepsi pracovniky chrudimska transporta vyslala devet soudruhu na jednorocni brigadu jsou mezi nimi clenove celozavodniho vyboru organisace sami se prihlasili ostrava potrebuje brigadniky kteri maji zkusenosti z politicke prace",
+    "all220_glyphs_regenerated": true,
+    "all32_source_redsegments_regenerated": true,
+    "all8_source_lines_regenerated": true,
+    "source_provenance": {
+      "original_image": "data/raw/615_image_1385.jpg",
+      "original_image_sha256": "712891e2f5019509798a750d4a92318910333b623ee583ae39ea5d86a7b1d4e6",
+      "default_words": "data/derived/source_transcription_v1/DEFAULT_WORDS.json",
+      "default_words_sha256": "a722fbac91cf338dc016d597799fe1f6387b9e1dd4ae79e191acb74590b22b23",
+      "occurrences": "data/derived/source_transcription_v1/glyph_occurrences.jsonl",
+      "occurrences_sha256": "e1f26cdc4158d02b537cb1c2a4cabf7799630661ea4fa960ae3c6f33352a8bac",
+      "all19_source_manifest_artifacts_hash_preserved": true,
+      "independent_source_review": "reports/INDEPENDENT_SOURCE_AUDIT_v1.json",
+      "independent_source_review_predates_target_inference": true,
+      "source_visual_edits": 0,
+      "glyph_identity_merges_or_splits": 0,
+      "source_pixel_inspection": "This auditor actually viewed the original960×601 publicimage; all8line transcript was independently source-reviewed before target inference by book_sources. Fontnames remain alternatives."
+    },
+    "mechanism": {
+      "description": "For each lowercase ASCII plaintextletter, emit its one fixed observed cipherglyph; retain registered redsegment and original line layout. The reverse map decrypts every glyph consistently.",
+      "alphabet_observed": 22,
+      "nulls": 0,
+      "deletions": 0,
+      "insertions": 0,
+      "per_position_exceptions": 0,
+      "transpositions": 0,
+      "reddivision_words": "Fixed prerun hypothesis, now accounts for candidateword lengths; annotations preserved, not substituted by scored alternative segmentation.",
+      "key_table": [
+        {
+          "glyph_id": "C001",
+          "raw_visual_label": "0",
+          "plaintext_ascii_letter": "g",
+          "occurrence_count": 3,
+          "font_candidates": [
+            "0",
+            "O"
+          ],
+          "all_occurrences_consistent": true
+        },
+        {
+          "glyph_id": "C002",
+          "raw_visual_label": "1",
+          "plaintext_ascii_letter": "z",
+          "occurrence_count": 4,
+          "font_candidates": [
+            "1"
+          ],
+          "all_occurrences_consistent": true
+        },
+        {
+          "glyph_id": "C003",
+          "raw_visual_label": "2",
+          "plaintext_ascii_letter": "j",
+          "occurrence_count": 6,
+          "font_candidates": [
+            "2"
+          ],
+          "all_occurrences_consistent": true
+        },
+        {
+          "glyph_id": "C004",
+          "raw_visual_label": "3",
+          "plaintext_ascii_letter": "u",
+          "occurrence_count": 9,
+          "font_candidates": [
+            "3"
+          ],
+          "all_occurrences_consistent": true
+        },
+        {
+          "glyph_id": "C005",
+          "raw_visual_label": "4",
+          "plaintext_ascii_letter": "i",
+          "occurrence_count": 23,
+          "font_candidates": [
+            "4"
+          ],
+          "all_occurrences_consistent": true
+        },
+        {
+          "glyph_id": "C006",
+          "raw_visual_label": "5",
+          "plaintext_ascii_letter": "d",
+          "occurrence_count": 7,
+          "font_candidates": [
+            "5"
+          ],
+          "all_occurrences_consistent": true
+        },
+        {
+          "glyph_id": "C007",
+          "raw_visual_label": "6",
+          "plaintext_ascii_letter": "o",
+          "occurrence_count": 18,
+          "font_candidates": [
+            "6"
+          ],
+          "all_occurrences_consistent": true
+        },
+        {
+          "glyph_id": "C008",
+          "raw_visual_label": "7",
+          "plaintext_ascii_letter": "a",
+          "occurrence_count": 21,
+          "font_candidates": [
+            "7"
+          ],
+          "all_occurrences_consistent": true
+        },
+        {
+          "glyph_id": "C009",
+          "raw_visual_label": "8",
+          "plaintext_ascii_letter": "l",
+          "occurrence_count": 9,
+          "font_candidates": [
+            "8"
+          ],
+          "all_occurrences_consistent": true
+        },
+        {
+          "glyph_id": "C010",
+          "raw_visual_label": "X",
+          "plaintext_ascii_letter": "t",
+          "occurrence_count": 9,
+          "font_candidates": [
+            "X",
+            "x"
+          ],
+          "all_occurrences_consistent": true
+        },
+        {
+          "glyph_id": "C011",
+          "raw_visual_label": "QMARK",
+          "plaintext_ascii_letter": "v",
+          "occurrence_count": 9,
+          "font_candidates": [
+            "?"
+          ],
+          "all_occurrences_consistent": true
+        },
+        {
+          "glyph_id": "C012",
+          "raw_visual_label": "POUND",
+          "plaintext_ascii_letter": "y",
+          "occurrence_count": 5,
+          "font_candidates": [
+            "£",
+            "ornate-f-like sign"
+          ],
+          "all_occurrences_consistent": true
+        },
+        {
+          "glyph_id": "C013",
+          "raw_visual_label": "ORNATE",
+          "plaintext_ascii_letter": "c",
+          "occurrence_count": 8,
+          "font_candidates": [
+            "&",
+            "ornate-double-loop sign"
+          ],
+          "all_occurrences_consistent": true
+        },
+        {
+          "glyph_id": "C014",
+          "raw_visual_label": "SECTION",
+          "plaintext_ascii_letter": "h",
+          "occurrence_count": 4,
+          "font_candidates": [
+            "§",
+            "section-like sign"
+          ],
+          "all_occurrences_consistent": true
+        },
+        {
+          "glyph_id": "C015",
+          "raw_visual_label": "H1",
+          "plaintext_ascii_letter": "s",
+          "occurrence_count": 16,
+          "font_candidates": [
+            "-"
+          ],
+          "all_occurrences_consistent": true
+        },
+        {
+          "glyph_id": "C016",
+          "raw_visual_label": "H2",
+          "plaintext_ascii_letter": "e",
+          "occurrence_count": 17,
+          "font_candidates": [
+            "="
+          ],
+          "all_occurrences_consistent": true
+        },
+        {
+          "glyph_id": "C017",
+          "raw_visual_label": "SLASH",
+          "plaintext_ascii_letter": "r",
+          "occurrence_count": 16,
+          "font_candidates": [
+            "/"
+          ],
+          "all_occurrences_consistent": true
+        },
+        {
+          "glyph_id": "C018",
+          "raw_visual_label": "PERCENT",
+          "plaintext_ascii_letter": "n",
+          "occurrence_count": 13,
+          "font_candidates": [
+            "%"
+          ],
+          "all_occurrences_consistent": true
+        },
+        {
+          "glyph_id": "C019",
+          "raw_visual_label": "PLUS",
+          "plaintext_ascii_letter": "m",
+          "occurrence_count": 5,
+          "font_candidates": [
+            "+"
+          ],
+          "all_occurrences_consistent": true
+        },
+        {
+          "glyph_id": "C020",
+          "raw_visual_label": "LOWDOT",
+          "plaintext_ascii_letter": "k",
+          "occurrence_count": 7,
+          "font_candidates": [
+            ".",
+            "low-dot cipher sign"
+          ],
+          "all_occurrences_consistent": true
+        },
+        {
+          "glyph_id": "C021",
+          "raw_visual_label": "UPPER",
+          "plaintext_ascii_letter": "b",
+          "occurrence_count": 4,
+          "font_candidates": [
+            "raised-dot sign",
+            "apostrophe-like sign"
+          ],
+          "all_occurrences_consistent": true
+        },
+        {
+          "glyph_id": "C022",
+          "raw_visual_label": "VSTEM",
+          "plaintext_ascii_letter": "p",
+          "occurrence_count": 7,
+          "font_candidates": [
+            "!",
+            "I",
+            "l",
+            "alternate1-font sign"
+          ],
+          "all_occurrences_consistent": true
+        }
+      ],
+      "unobserved_letters": [
+        {
+          "letter": "f",
+          "source_glyph": "UNKNOWN"
+        },
+        {
+          "letter": "q",
+          "source_glyph": "UNKNOWN"
+        },
+        {
+          "letter": "w",
+          "source_glyph": "UNKNOWN"
+        },
+        {
+          "letter": "x",
+          "source_glyph": "UNKNOWN"
+        }
+      ],
+      "synthetic_unused_slots_are_sourceglyphs": false,
+      "accent_or_punctuation_restoration": "Not asserted by this ASCII encoder or audited against ciphertext; any later restoration must be labeled editorial.",
+      "pixel_regeneration": "Exact symbolic/sourcecoordinate accounting, not physical pixel rendering."
+    },
+    "search_results_audit": {
+      "score": -2300.7876777648926,
+      "quadgram_windows": 248,
+      "all16trial_scores_recomputed": true,
+      "all16trial_key_bijections_verified": true,
+      "all16trial_fullinput_roundtrips_verified": true,
+      "winning_trial_max_verified": true,
+      "stored_distinct_observed_keys": 1,
+      "stored_distinct_plaintexts": 1,
+      "stored_distinct_full26solverkeys": 12,
+      "score_invariant_unused_completions": 24,
+      "unused_completion_explanation": "Solver slots22–25 never appear in targetinput. The24 permutations of their remainingf/q/w/x values give identical targetplaintext/score. They do not identify historicalglyphs.",
+      "competition_scope": "All16saved restartbests have the same observedkey/plaintext/score. No distinct observed alternative is stored, so no alternativecandidate scoregap is estimated. This is finite search convergence, not proof of globaloptimum or mathematical uniqueness.",
+      "statistical_confidence": "No probability/significance is inferred from correlated restarts or overlappingjointquadgramscore.",
+      "fixed_budget": {
+        "seed": 615499,
+        "restarts": 16,
+        "steps_per_restart": 32768,
+        "nominal_proposal_cap": 524288
+      },
+      "trials": [
+        {
+          "restart": 0,
+          "score": -2300.7876777648926,
+          "plain_sha256": "ca3aaf3647fdd2f447ff234bae6819efeb318efdcfba672aa00aee7ba573102c",
+          "observed_glyph_key": {
+            "C001": "g",
+            "C002": "z",
+            "C003": "j",
+            "C004": "u",
+            "C005": "i",
+            "C006": "d",
+            "C007": "o",
+            "C008": "a",
+            "C009": "l",
+            "C010": "t",
+            "C011": "v",
+            "C012": "y",
+            "C013": "c",
+            "C014": "h",
+            "C015": "s",
+            "C016": "e",
+            "C017": "r",
+            "C018": "n",
+            "C019": "m",
+            "C020": "k",
+            "C021": "b",
+            "C022": "p"
+          },
+          "solver_unused_completion": [
+            16,
+            23,
+            22,
+            5
+          ],
+          "solver_unused_completion_is_source_key": false,
+          "all251_solver_positions_forward_inverse_match": true
+        },
+        {
+          "restart": 1,
+          "score": -2300.7876777648926,
+          "plain_sha256": "ca3aaf3647fdd2f447ff234bae6819efeb318efdcfba672aa00aee7ba573102c",
+          "observed_glyph_key": {
+            "C001": "g",
+            "C002": "z",
+            "C003": "j",
+            "C004": "u",
+            "C005": "i",
+            "C006": "d",
+            "C007": "o",
+            "C008": "a",
+            "C009": "l",
+            "C010": "t",
+            "C011": "v",
+            "C012": "y",
+            "C013": "c",
+            "C014": "h",
+            "C015": "s",
+            "C016": "e",
+            "C017": "r",
+            "C018": "n",
+            "C019": "m",
+            "C020": "k",
+            "C021": "b",
+            "C022": "p"
+          },
+          "solver_unused_completion": [
+            22,
+            16,
+            23,
+            5
+          ],
+          "solver_unused_completion_is_source_key": false,
+          "all251_solver_positions_forward_inverse_match": true
+        },
+        {
+          "restart": 2,
+          "score": -2300.7876777648926,
+          "plain_sha256": "ca3aaf3647fdd2f447ff234bae6819efeb318efdcfba672aa00aee7ba573102c",
+          "observed_glyph_key": {
+            "C001": "g",
+            "C002": "z",
+            "C003": "j",
+            "C004": "u",
+            "C005": "i",
+            "C006": "d",
+            "C007": "o",
+            "C008": "a",
+            "C009": "l",
+            "C010": "t",
+            "C011": "v",
+            "C012": "y",
+            "C013": "c",
+            "C014": "h",
+            "C015": "s",
+            "C016": "e",
+            "C017": "r",
+            "C018": "n",
+            "C019": "m",
+            "C020": "k",
+            "C021": "b",
+            "C022": "p"
+          },
+          "solver_unused_completion": [
+            16,
+            22,
+            23,
+            5
+          ],
+          "solver_unused_completion_is_source_key": false,
+          "all251_solver_positions_forward_inverse_match": true
+        },
+        {
+          "restart": 3,
+          "score": -2300.7876777648926,
+          "plain_sha256": "ca3aaf3647fdd2f447ff234bae6819efeb318efdcfba672aa00aee7ba573102c",
+          "observed_glyph_key": {
+            "C001": "g",
+            "C002": "z",
+            "C003": "j",
+            "C004": "u",
+            "C005": "i",
+            "C006": "d",
+            "C007": "o",
+            "C008": "a",
+            "C009": "l",
+            "C010": "t",
+            "C011": "v",
+            "C012": "y",
+            "C013": "c",
+            "C014": "h",
+            "C015": "s",
+            "C016": "e",
+            "C017": "r",
+            "C018": "n",
+            "C019": "m",
+            "C020": "k",
+            "C021": "b",
+            "C022": "p"
+          },
+          "solver_unused_completion": [
+            22,
+            5,
+            23,
+            16
+          ],
+          "solver_unused_completion_is_source_key": false,
+          "all251_solver_positions_forward_inverse_match": true
+        },
+        {
+          "restart": 4,
+          "score": -2300.7876777648926,
+          "plain_sha256": "ca3aaf3647fdd2f447ff234bae6819efeb318efdcfba672aa00aee7ba573102c",
+          "observed_glyph_key": {
+            "C001": "g",
+            "C002": "z",
+            "C003": "j",
+            "C004": "u",
+            "C005": "i",
+            "C006": "d",
+            "C007": "o",
+            "C008": "a",
+            "C009": "l",
+            "C010": "t",
+            "C011": "v",
+            "C012": "y",
+            "C013": "c",
+            "C014": "h",
+            "C015": "s",
+            "C016": "e",
+            "C017": "r",
+            "C018": "n",
+            "C019": "m",
+            "C020": "k",
+            "C021": "b",
+            "C022": "p"
+          },
+          "solver_unused_completion": [
+            5,
+            16,
+            22,
+            23
+          ],
+          "solver_unused_completion_is_source_key": false,
+          "all251_solver_positions_forward_inverse_match": true
+        },
+        {
+          "restart": 5,
+          "score": -2300.7876777648926,
+          "plain_sha256": "ca3aaf3647fdd2f447ff234bae6819efeb318efdcfba672aa00aee7ba573102c",
+          "observed_glyph_key": {
+            "C001": "g",
+            "C002": "z",
+            "C003": "j",
+            "C004": "u",
+            "C005": "i",
+            "C006": "d",
+            "C007": "o",
+            "C008": "a",
+            "C009": "l",
+            "C010": "t",
+            "C011": "v",
+            "C012": "y",
+            "C013": "c",
+            "C014": "h",
+            "C015": "s",
+            "C016": "e",
+            "C017": "r",
+            "C018": "n",
+            "C019": "m",
+            "C020": "k",
+            "C021": "b",
+            "C022": "p"
+          },
+          "solver_unused_completion": [
+            23,
+            5,
+            16,
+            22
+          ],
+          "solver_unused_completion_is_source_key": false,
+          "all251_solver_positions_forward_inverse_match": true
+        },
+        {
+          "restart": 6,
+          "score": -2300.7876777648926,
+          "plain_sha256": "ca3aaf3647fdd2f447ff234bae6819efeb318efdcfba672aa00aee7ba573102c",
+          "observed_glyph_key": {
+            "C001": "g",
+            "C002": "z",
+            "C003": "j",
+            "C004": "u",
+            "C005": "i",
+            "C006": "d",
+            "C007": "o",
+            "C008": "a",
+            "C009": "l",
+            "C010": "t",
+            "C011": "v",
+            "C012": "y",
+            "C013": "c",
+            "C014": "h",
+            "C015": "s",
+            "C016": "e",
+            "C017": "r",
+            "C018": "n",
+            "C019": "m",
+            "C020": "k",
+            "C021": "b",
+            "C022": "p"
+          },
+          "solver_unused_completion": [
+            23,
+            16,
+            22,
+            5
+          ],
+          "solver_unused_completion_is_source_key": false,
+          "all251_solver_positions_forward_inverse_match": true
+        },
+        {
+          "restart": 7,
+          "score": -2300.7876777648926,
+          "plain_sha256": "ca3aaf3647fdd2f447ff234bae6819efeb318efdcfba672aa00aee7ba573102c",
+          "observed_glyph_key": {
+            "C001": "g",
+            "C002": "z",
+            "C003": "j",
+            "C004": "u",
+            "C005": "i",
+            "C006": "d",
+            "C007": "o",
+            "C008": "a",
+            "C009": "l",
+            "C010": "t",
+            "C011": "v",
+            "C012": "y",
+            "C013": "c",
+            "C014": "h",
+            "C015": "s",
+            "C016": "e",
+            "C017": "r",
+            "C018": "n",
+            "C019": "m",
+            "C020": "k",
+            "C021": "b",
+            "C022": "p"
+          },
+          "solver_unused_completion": [
+            22,
+            23,
+            16,
+            5
+          ],
+          "solver_unused_completion_is_source_key": false,
+          "all251_solver_positions_forward_inverse_match": true
+        },
+        {
+          "restart": 8,
+          "score": -2300.7876777648926,
+          "plain_sha256": "ca3aaf3647fdd2f447ff234bae6819efeb318efdcfba672aa00aee7ba573102c",
+          "observed_glyph_key": {
+            "C001": "g",
+            "C002": "z",
+            "C003": "j",
+            "C004": "u",
+            "C005": "i",
+            "C006": "d",
+            "C007": "o",
+            "C008": "a",
+            "C009": "l",
+            "C010": "t",
+            "C011": "v",
+            "C012": "y",
+            "C013": "c",
+            "C014": "h",
+            "C015": "s",
+            "C016": "e",
+            "C017": "r",
+            "C018": "n",
+            "C019": "m",
+            "C020": "k",
+            "C021": "b",
+            "C022": "p"
+          },
+          "solver_unused_completion": [
+            5,
+            16,
+            23,
+            22
+          ],
+          "solver_unused_completion_is_source_key": false,
+          "all251_solver_positions_forward_inverse_match": true
+        },
+        {
+          "restart": 9,
+          "score": -2300.7876777648926,
+          "plain_sha256": "ca3aaf3647fdd2f447ff234bae6819efeb318efdcfba672aa00aee7ba573102c",
+          "observed_glyph_key": {
+            "C001": "g",
+            "C002": "z",
+            "C003": "j",
+            "C004": "u",
+            "C005": "i",
+            "C006": "d",
+            "C007": "o",
+            "C008": "a",
+            "C009": "l",
+            "C010": "t",
+            "C011": "v",
+            "C012": "y",
+            "C013": "c",
+            "C014": "h",
+            "C015": "s",
+            "C016": "e",
+            "C017": "r",
+            "C018": "n",
+            "C019": "m",
+            "C020": "k",
+            "C021": "b",
+            "C022": "p"
+          },
+          "solver_unused_completion": [
+            22,
+            5,
+            16,
+            23
+          ],
+          "solver_unused_completion_is_source_key": false,
+          "all251_solver_positions_forward_inverse_match": true
+        },
+        {
+          "restart": 10,
+          "score": -2300.7876777648926,
+          "plain_sha256": "ca3aaf3647fdd2f447ff234bae6819efeb318efdcfba672aa00aee7ba573102c",
+          "observed_glyph_key": {
+            "C001": "g",
+            "C002": "z",
+            "C003": "j",
+            "C004": "u",
+            "C005": "i",
+            "C006": "d",
+            "C007": "o",
+            "C008": "a",
+            "C009": "l",
+            "C010": "t",
+            "C011": "v",
+            "C012": "y",
+            "C013": "c",
+            "C014": "h",
+            "C015": "s",
+            "C016": "e",
+            "C017": "r",
+            "C018": "n",
+            "C019": "m",
+            "C020": "k",
+            "C021": "b",
+            "C022": "p"
+          },
+          "solver_unused_completion": [
+            5,
+            16,
+            22,
+            23
+          ],
+          "solver_unused_completion_is_source_key": false,
+          "all251_solver_positions_forward_inverse_match": true
+        },
+        {
+          "restart": 11,
+          "score": -2300.7876777648926,
+          "plain_sha256": "ca3aaf3647fdd2f447ff234bae6819efeb318efdcfba672aa00aee7ba573102c",
+          "observed_glyph_key": {
+            "C001": "g",
+            "C002": "z",
+            "C003": "j",
+            "C004": "u",
+            "C005": "i",
+            "C006": "d",
+            "C007": "o",
+            "C008": "a",
+            "C009": "l",
+            "C010": "t",
+            "C011": "v",
+            "C012": "y",
+            "C013": "c",
+            "C014": "h",
+            "C015": "s",
+            "C016": "e",
+            "C017": "r",
+            "C018": "n",
+            "C019": "m",
+            "C020": "k",
+            "C021": "b",
+            "C022": "p"
+          },
+          "solver_unused_completion": [
+            22,
+            23,
+            5,
+            16
+          ],
+          "solver_unused_completion_is_source_key": false,
+          "all251_solver_positions_forward_inverse_match": true
+        },
+        {
+          "restart": 12,
+          "score": -2300.7876777648926,
+          "plain_sha256": "ca3aaf3647fdd2f447ff234bae6819efeb318efdcfba672aa00aee7ba573102c",
+          "observed_glyph_key": {
+            "C001": "g",
+            "C002": "z",
+            "C003": "j",
+            "C004": "u",
+            "C005": "i",
+            "C006": "d",
+            "C007": "o",
+            "C008": "a",
+            "C009": "l",
+            "C010": "t",
+            "C011": "v",
+            "C012": "y",
+            "C013": "c",
+            "C014": "h",
+            "C015": "s",
+            "C016": "e",
+            "C017": "r",
+            "C018": "n",
+            "C019": "m",
+            "C020": "k",
+            "C021": "b",
+            "C022": "p"
+          },
+          "solver_unused_completion": [
+            23,
+            16,
+            22,
+            5
+          ],
+          "solver_unused_completion_is_source_key": false,
+          "all251_solver_positions_forward_inverse_match": true
+        },
+        {
+          "restart": 13,
+          "score": -2300.7876777648926,
+          "plain_sha256": "ca3aaf3647fdd2f447ff234bae6819efeb318efdcfba672aa00aee7ba573102c",
+          "observed_glyph_key": {
+            "C001": "g",
+            "C002": "z",
+            "C003": "j",
+            "C004": "u",
+            "C005": "i",
+            "C006": "d",
+            "C007": "o",
+            "C008": "a",
+            "C009": "l",
+            "C010": "t",
+            "C011": "v",
+            "C012": "y",
+            "C013": "c",
+            "C014": "h",
+            "C015": "s",
+            "C016": "e",
+            "C017": "r",
+            "C018": "n",
+            "C019": "m",
+            "C020": "k",
+            "C021": "b",
+            "C022": "p"
+          },
+          "solver_unused_completion": [
+            23,
+            5,
+            16,
+            22
+          ],
+          "solver_unused_completion_is_source_key": false,
+          "all251_solver_positions_forward_inverse_match": true
+        },
+        {
+          "restart": 14,
+          "score": -2300.7876777648926,
+          "plain_sha256": "ca3aaf3647fdd2f447ff234bae6819efeb318efdcfba672aa00aee7ba573102c",
+          "observed_glyph_key": {
+            "C001": "g",
+            "C002": "z",
+            "C003": "j",
+            "C004": "u",
+            "C005": "i",
+            "C006": "d",
+            "C007": "o",
+            "C008": "a",
+            "C009": "l",
+            "C010": "t",
+            "C011": "v",
+            "C012": "y",
+            "C013": "c",
+            "C014": "h",
+            "C015": "s",
+            "C016": "e",
+            "C017": "r",
+            "C018": "n",
+            "C019": "m",
+            "C020": "k",
+            "C021": "b",
+            "C022": "p"
+          },
+          "solver_unused_completion": [
+            16,
+            5,
+            23,
+            22
+          ],
+          "solver_unused_completion_is_source_key": false,
+          "all251_solver_positions_forward_inverse_match": true
+        },
+        {
+          "restart": 15,
+          "score": -2300.7876777648926,
+          "plain_sha256": "ca3aaf3647fdd2f447ff234bae6819efeb318efdcfba672aa00aee7ba573102c",
+          "observed_glyph_key": {
+            "C001": "g",
+            "C002": "z",
+            "C003": "j",
+            "C004": "u",
+            "C005": "i",
+            "C006": "d",
+            "C007": "o",
+            "C008": "a",
+            "C009": "l",
+            "C010": "t",
+            "C011": "v",
+            "C012": "y",
+            "C013": "c",
+            "C014": "h",
+            "C015": "s",
+            "C016": "e",
+            "C017": "r",
+            "C018": "n",
+            "C019": "m",
+            "C020": "k",
+            "C021": "b",
+            "C022": "p"
+          },
+          "solver_unused_completion": [
+            16,
+            23,
+            22,
+            5
+          ],
+          "solver_unused_completion_is_source_key": false,
+          "all251_solver_positions_forward_inverse_match": true
+        }
+      ]
+    },
+    "falsification_checks": [
+      {
+        "case": "one_plain_letter_wrong",
+        "rejected": true,
+        "reason": "Forward encryption differs at L01W01"
+      },
+      {
+        "case": "one_plain_letter_deleted",
+        "rejected": true,
+        "reason": "Forward encryption differs at L01W01"
+      },
+      {
+        "case": "unknown_unobserved_f",
+        "rejected": true,
+        "reason": "Plaintext contains a letter with UNKNOWN, unobserved source glyph"
+      },
+      {
+        "case": "two_observed_key_entries_swapped",
+        "rejected": true,
+        "reason": "Forward encryption differs at L04W01"
+      },
+      {
+        "case": "invented_source_glyph_C023",
+        "rejected": true,
+        "reason": "Key must contain exactly the22 actually observed source glyph IDs"
+      }
+    ],
+    "training_full_candidate_exact_matches": 0,
+    "remaining_gaps": [
+      "A separate independent Czech language/semantic/historical review must accept wholetextcoherence and period/context plausibility before the root declares jointS4.",
+      "Original author key/answer sheet is unavailable; globalcryptographic uniqueness/prior historical priority is not proved by symbolic roundtrip or16convergent restartbests.",
+      "Formalunused4solverlabels cannot create historicglyph identities. Their actualencodings remain UNKNOWN; this does not prevent fullobservedciphertext reconstruction.",
+      "Published fontmnemonics and possible accents/punctuation are source/editorial alternatives, not recovered extra ciphertext symbols. No source branch was chosen for fluency."
+    ],
+    "certificate": "data/derived/independent_solution_audit_v1/EXACT_FORWARD_CERTIFICATE.json",
+    "public_forward_script": "scripts/reencrypt_hc615_solution_v1.py",
+    "reproduction_command": "python3 scripts/reencrypt_hc615_solution_v1.py --plaintext data/derived/independent_solution_audit_v1/PLAINTEXT_ASCII.txt --key data/derived/independent_solution_audit_v1/OBSERVED_GLYPH_KEY.json --output /tmp/hc615_forward_check.json"
+  }
+}

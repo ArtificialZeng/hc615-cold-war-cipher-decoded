@@ -1,0 +1,18 @@
+{
+  "url": "https://api.hcportal.eu/media/1762/14161684790141.jpg",
+  "status": 200,
+  "headers": {
+    "Server": "openresty",
+    "Date": "Mon, 05 Oct 2026 00:49:32 GMT",
+    "Content-Type": "image/jpeg",
+    "Content-Length": "161668",
+    "Connection": "close",
+    "Last-Modified": "Thu, 20 Nov 2025 09:39:31 GMT",
+    "ETag": "\"27784-644037955820e\"",
+    "Accept-Ranges": "bytes",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "bytes": 161668,
+  "sha256": "712891e2f5019509798a750d4a92318910333b623ee583ae39ea5d86a7b1d4e6",
+  "access_utc": "2026-10-05T00:49:33.309869+00:00"
+}

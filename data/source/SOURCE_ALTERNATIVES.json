@@ -1,0 +1,64 @@
+{
+  "DEFAULT": {
+    "glyph_identity_merges": [],
+    "glyph_identity_splits": [],
+    "tokenization": "220 printed slots / 22 classes / red32 segments"
+  },
+  "font_name_alternatives": {
+    "0": [
+      "0",
+      "O"
+    ],
+    "X": [
+      "X",
+      "x"
+    ],
+    "POUND": [
+      "£",
+      "ornate-f-like sign"
+    ],
+    "ORNATE": [
+      "&",
+      "ornate-double-loop sign"
+    ],
+    "SECTION": [
+      "§",
+      "section-like sign"
+    ],
+    "LOWDOT": [
+      ".",
+      "low-dot cipher sign"
+    ],
+    "UPPER": [
+      "raised-dot sign",
+      "apostrophe-like sign"
+    ],
+    "VSTEM": [
+      "!",
+      "I",
+      "l",
+      "alternate1-font sign"
+    ]
+  },
+  "font_name_alternatives_change_opaque_ids": false,
+  "red_boundary_models": [
+    {
+      "name": "RED_DIVISIONS_WORDS",
+      "segments": 32,
+      "status": "DEFAULT inference hypothesis, not demonstrated historical plaintext spaces"
+    },
+    {
+      "name": "RED_DIVISIONS_ANNOTATIONS_ONLY",
+      "token_sequence_unchanged": true,
+      "status": "source-compatible formatting alternative; solver model must be separately registered"
+    }
+  ],
+  "unapproved_merges": [
+    "VSTEM with1",
+    "H1 withH2",
+    "UPPER withLOWDOT",
+    "POUND withORNATE orSECTION"
+  ],
+  "lacuna_vs_qmark": "No lacuna observed. Repeated printed QMARK is a token, never missing-data placeholder.",
+  "no_fluency_based_choices": true
+}

@@ -1,0 +1,54 @@
+{
+  "public_projection_notice": "Chronological internal AI-agent/code audit, not outside peer review. Private paths redacted; original artifact hash retained in ORIGINAL_EVIDENCE_INDEX.json. Historic paths refer to private research archive, not necessarily public-repository files.",
+  "original_relative_path": "reports/STRICT_INPUT_VALIDATION_v1p1.json",
+  "original_sha256": "e8425d8fee8fc39af3381e5d63e3a392833c58b95f4362dab9912c853e70292d",
+  "original_payload_sanitized": {
+    "version": "STRICT_INPUT_VALIDATION_v1p1",
+    "utc": "2026-10-05T01:10:01.183341+00:00",
+    "prior_source_sha256": "b3289edca0249edd4adea9fcf3c90c531e6cbbe32a5ff5f267f59aab370d4fbe",
+    "new_source_sha256": "651b888047c939dd0ce6e0d84805b8a4beba45eb6b0d8ebfe3ab43eb60681276",
+    "new_binary_sha256": "bdce50f8dccc649f4f3e348aff5202e75ef7608e4bcb2dc2c6e361d8047be790",
+    "prior_frequency_order_not_separately_config_hashed": true,
+    "frequency_order_sha256_now_frozen": "156c666c1f2c72247c67b6607a05a08b5c63e56908b4ba724e3183c3844122be",
+    "regression_cases": [
+      {
+        "case": "valid",
+        "exit_code": 0,
+        "expected_accept": true,
+        "output_exists": true,
+        "stderr": "done seed=615555 score=-38.3661\n"
+      },
+      {
+        "case": "bad_middle",
+        "exit_code": -6,
+        "expected_accept": false,
+        "output_exists": false,
+        "stderr": "libc++abi: terminating due to uncaught exception of type std::runtime_error: noninteger input token\n"
+      },
+      {
+        "case": "bad_trailing",
+        "exit_code": -6,
+        "expected_accept": false,
+        "output_exists": false,
+        "stderr": "libc++abi: terminating due to uncaught exception of type std::runtime_error: noninteger input token\n"
+      },
+      {
+        "case": "bad_suffix",
+        "exit_code": -6,
+        "expected_accept": false,
+        "output_exists": false,
+        "stderr": "libc++abi: terminating due to uncaught exception of type std::runtime_error: noninteger input token suffix\n"
+      },
+      {
+        "case": "bad_range",
+        "exit_code": -6,
+        "expected_accept": false,
+        "output_exists": false,
+        "stderr": "libc++abi: terminating due to uncaught exception of type std::runtime_error: bad symbol\n"
+      }
+    ],
+    "same_valid_C00_seed_full_result_byte_identical": true,
+    "new_search_strategy_or_parameters": false,
+    "target_inference_performed": false
+  }
+}

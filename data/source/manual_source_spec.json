@@ -1,0 +1,892 @@
+{
+  "schema": "HC615_source_only_manual_spec_v1",
+  "target": "HC615",
+  "source_image": "data/raw/615_image_1385.jpg",
+  "source_sha256": "712891e2f5019509798a750d4a92318910333b623ee583ae39ea5d86a7b1d4e6",
+  "source_pixels": [
+    960,
+    601
+  ],
+  "observation_date": "2026-10-05",
+  "model_default": "distinct visual classes; red vertical annotations as hypothetical word boundaries; no glyph merges",
+  "bbox_note": "Manual pixel cells contain the source glyph. They are not exact ink-mask contours. Crop and boundary coordinates use original960x601 raster.",
+  "glyph_classes": {
+    "0": {
+      "shape": "closed oval with visible central white area",
+      "font_candidates": [
+        "0",
+        "O"
+      ]
+    },
+    "1": {
+      "shape": "serifed numeral-one-like shape, visibly unlike narrow vertical-stem class",
+      "font_candidates": [
+        "1"
+      ]
+    },
+    "2": {
+      "shape": "numeral-two-like shape",
+      "font_candidates": [
+        "2"
+      ]
+    },
+    "3": {
+      "shape": "numeral-three-like shape",
+      "font_candidates": [
+        "3"
+      ]
+    },
+    "4": {
+      "shape": "numeral-four-like shape",
+      "font_candidates": [
+        "4"
+      ]
+    },
+    "5": {
+      "shape": "numeral-five-like shape",
+      "font_candidates": [
+        "5"
+      ]
+    },
+    "6": {
+      "shape": "numeral-six-like shape",
+      "font_candidates": [
+        "6"
+      ]
+    },
+    "7": {
+      "shape": "numeral-seven-like shape",
+      "font_candidates": [
+        "7"
+      ]
+    },
+    "8": {
+      "shape": "numeral-eight-like double loop",
+      "font_candidates": [
+        "8"
+      ]
+    },
+    "X": {
+      "shape": "crossing diagonals with serif-like ends",
+      "font_candidates": [
+        "X",
+        "x"
+      ]
+    },
+    "QMARK": {
+      "shape": "printed hook and lower dot, repeated question-mark-like cipher sign",
+      "font_candidates": [
+        "?"
+      ],
+      "lacuna": false
+    },
+    "POUND": {
+      "shape": "ornate f/pound-like vertical stem, top loop/cap and horizontal strokes",
+      "font_candidates": [
+        "£",
+        "ornate-f-like sign"
+      ]
+    },
+    "ORNATE": {
+      "shape": "dense complex double-loop/ampersand-like sign",
+      "font_candidates": [
+        "&",
+        "ornate-double-loop sign"
+      ]
+    },
+    "SECTION": {
+      "shape": "narrow vertically stacked curving section-like sign",
+      "font_candidates": [
+        "§",
+        "section-like sign"
+      ]
+    },
+    "H1": {
+      "shape": "one thick horizontal black stroke",
+      "font_candidates": [
+        "-"
+      ]
+    },
+    "H2": {
+      "shape": "two close horizontal black strokes",
+      "font_candidates": [
+        "="
+      ]
+    },
+    "SLASH": {
+      "shape": "rising slash from lower left to upper right",
+      "font_candidates": [
+        "/"
+      ]
+    },
+    "PERCENT": {
+      "shape": "two small round marks around an oblique slash",
+      "font_candidates": [
+        "%"
+      ]
+    },
+    "PLUS": {
+      "shape": "crossed short horizontal and vertical strokes",
+      "font_candidates": [
+        "+"
+      ]
+    },
+    "LOWDOT": {
+      "shape": "black round mark at low/baseline height",
+      "font_candidates": [
+        ".",
+        "low-dot cipher sign"
+      ]
+    },
+    "UPPER": {
+      "shape": "small raised black teardrop/wedge mark well above baseline",
+      "font_candidates": [
+        "raised-dot sign",
+        "apostrophe-like sign"
+      ]
+    },
+    "VSTEM": {
+      "shape": "narrow vertical black stroke with heavy lower point/foot, distinct from serifed1",
+      "font_candidates": [
+        "!",
+        "I",
+        "l",
+        "alternate1-font sign"
+      ]
+    }
+  },
+  "lines": [
+    {
+      "line": 1,
+      "bbox": [
+        0,
+        96,
+        940,
+        148
+      ],
+      "words": [
+        [
+          "QMARK",
+          "POUND",
+          "H1",
+          "4",
+          "8",
+          "7",
+          "2",
+          "4"
+        ],
+        [
+          "PERCENT",
+          "7"
+        ],
+        [
+          "6",
+          "H1",
+          "X",
+          "SLASH",
+          "7",
+          "QMARK",
+          "H1",
+          "LOWDOT",
+          "6"
+        ],
+        [
+          "PERCENT",
+          "H2",
+          "2",
+          "8",
+          "H2",
+          "VSTEM",
+          "H1",
+          "4"
+        ]
+      ],
+      "glyph_centres_x": [
+        29.5,
+        53.5,
+        78,
+        105.5,
+        130,
+        154,
+        180.5,
+        207,
+        246,
+        269,
+        319,
+        344.5,
+        367.5,
+        392,
+        416.5,
+        444.5,
+        467.5,
+        492,
+        516,
+        566,
+        588.5,
+        613,
+        638.5,
+        662.5,
+        689,
+        711.5,
+        737
+      ],
+      "red_boundary_centres_x_approx": [
+        10,
+        230,
+        296,
+        540,
+        757
+      ],
+      "red_boundaries_approx_error_px": 5
+    },
+    {
+      "line": 2,
+      "bbox": [
+        0,
+        152,
+        940,
+        203
+      ],
+      "words": [
+        [
+          "VSTEM",
+          "SLASH",
+          "7",
+          "ORNATE",
+          "6",
+          "QMARK",
+          "PERCENT",
+          "4",
+          "LOWDOT",
+          "POUND"
+        ],
+        [
+          "ORNATE",
+          "SECTION",
+          "SLASH",
+          "3",
+          "5",
+          "4",
+          "PLUS",
+          "H1",
+          "LOWDOT",
+          "7"
+        ],
+        [
+          "X",
+          "SLASH",
+          "7",
+          "PERCENT",
+          "H1",
+          "VSTEM",
+          "6",
+          "SLASH",
+          "X",
+          "7"
+        ]
+      ],
+      "glyph_centres_x": [
+        32,
+        55.5,
+        80.5,
+        109.5,
+        133,
+        160,
+        185,
+        210.5,
+        234.5,
+        260,
+        310.5,
+        333.5,
+        357.5,
+        382,
+        406.5,
+        432.5,
+        456,
+        480,
+        505.5,
+        528.5,
+        577,
+        602,
+        626,
+        653,
+        676.5,
+        702,
+        724.5,
+        749,
+        773.5,
+        797.5
+      ],
+      "red_boundary_centres_x_approx": [
+        16,
+        281,
+        551,
+        820
+      ],
+      "red_boundaries_approx_error_px": 5
+    },
+    {
+      "line": 3,
+      "bbox": [
+        0,
+        207,
+        940,
+        259
+      ],
+      "words": [
+        [
+          "QMARK",
+          "POUND",
+          "H1",
+          "8",
+          "7",
+          "8",
+          "7"
+        ],
+        [
+          "5",
+          "H2",
+          "QMARK",
+          "H2",
+          "X"
+        ],
+        [
+          "H1",
+          "6",
+          "3",
+          "5",
+          "SLASH",
+          "3",
+          "SECTION",
+          "3"
+        ],
+        [
+          "PERCENT",
+          "7"
+        ],
+        [
+          "2",
+          "H2",
+          "5",
+          "PERCENT",
+          "6",
+          "SLASH",
+          "6",
+          "ORNATE",
+          "PERCENT",
+          "4"
+        ]
+      ],
+      "glyph_centres_x": [
+        35.5,
+        60.5,
+        85.5,
+        112,
+        135.5,
+        162,
+        186,
+        235.5,
+        261,
+        287.5,
+        309.5,
+        334,
+        383.5,
+        408,
+        432,
+        456.5,
+        481,
+        506,
+        532.5,
+        554.5,
+        604.5,
+        627.5,
+        678,
+        700.5,
+        726,
+        752,
+        774.5,
+        798,
+        824.5,
+        851,
+        875,
+        900.5
+      ],
+      "red_boundary_centres_x_approx": [
+        20,
+        207,
+        361,
+        582,
+        651,
+        918
+      ],
+      "red_boundaries_approx_error_px": 5
+    },
+    {
+      "line": 4,
+      "bbox": [
+        0,
+        260,
+        940,
+        310
+      ],
+      "words": [
+        [
+          "UPPER",
+          "SLASH",
+          "4",
+          "0",
+          "7",
+          "5",
+          "3"
+        ],
+        [
+          "2",
+          "H1",
+          "6",
+          "3"
+        ],
+        [
+          "PLUS",
+          "H2",
+          "1",
+          "4"
+        ],
+        [
+          "PERCENT",
+          "4",
+          "PLUS",
+          "4"
+        ],
+        [
+          "ORNATE",
+          "8",
+          "H2",
+          "PERCENT",
+          "6",
+          "QMARK",
+          "H2"
+        ]
+      ],
+      "glyph_centres_x": [
+        38,
+        64,
+        90.5,
+        115,
+        138,
+        163.5,
+        189,
+        239,
+        262.5,
+        287,
+        312,
+        361.1,
+        385.5,
+        410,
+        434.5,
+        483,
+        509.2,
+        532.7,
+        557.5,
+        606.5,
+        629.5,
+        653.1,
+        679,
+        702.5,
+        729,
+        752.5
+      ],
+      "red_boundary_centres_x_approx": [
+        22,
+        210,
+        334,
+        461,
+        579,
+        774
+      ],
+      "red_boundaries_approx_error_px": 5
+    },
+    {
+      "line": 5,
+      "bbox": [
+        0,
+        312,
+        940,
+        365
+      ],
+      "words": [
+        [
+          "ORNATE",
+          "H2",
+          "8",
+          "6",
+          "1",
+          "7",
+          "QMARK",
+          "6",
+          "5",
+          "PERCENT",
+          "4",
+          "SECTION",
+          "6"
+        ],
+        [
+          "QMARK",
+          "POUND",
+          "UPPER",
+          "6",
+          "SLASH",
+          "3"
+        ],
+        [
+          "6",
+          "SLASH",
+          "0",
+          "7",
+          "PERCENT",
+          "4",
+          "H1",
+          "7",
+          "ORNATE",
+          "H2"
+        ]
+      ],
+      "glyph_centres_x": [
+        30,
+        54,
+        79.5,
+        103,
+        128,
+        152,
+        179.5,
+        202.5,
+        227.5,
+        253.5,
+        278,
+        302,
+        325.5,
+        376,
+        399.5,
+        423,
+        447.5,
+        472,
+        495.5,
+        544.5,
+        568,
+        594.5,
+        617,
+        643,
+        667.5,
+        690.5,
+        714.5,
+        742,
+        765.5
+      ],
+      "red_boundary_centres_x_approx": [
+        9,
+        346,
+        517,
+        790
+      ],
+      "red_boundaries_approx_error_px": 5
+    },
+    {
+      "line": 6,
+      "bbox": [
+        0,
+        366,
+        940,
+        417
+      ],
+      "words": [
+        [
+          "H1",
+          "7",
+          "PLUS",
+          "4"
+        ],
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "VSTEM",
+          "SLASH",
+          "4",
+          "SECTION",
+          "8",
+          "7",
+          "H1",
+          "4",
+          "8",
+          "4"
+        ],
+        [
+          "6",
+          "H1",
+          "X",
+          "SLASH",
+          "7",
+          "QMARK",
+          "7"
+        ],
+        [
+          "VSTEM",
+          "6",
+          "X",
+          "SLASH",
+          "H2",
+          "UPPER",
+          "3",
+          "2",
+          "H2"
+        ]
+      ],
+      "glyph_centres_x": [
+        29.5,
+        53,
+        78,
+        106,
+        154,
+        178.5,
+        231,
+        254.5,
+        279.5,
+        304,
+        327.5,
+        351,
+        375.5,
+        402.2,
+        425,
+        449.5,
+        497,
+        521.5,
+        544.5,
+        569,
+        593,
+        620.5,
+        642,
+        694,
+        716.5,
+        740.5,
+        764,
+        790.5,
+        815,
+        841,
+        864,
+        889
+      ],
+      "red_boundary_centres_x_approx": [
+        16,
+        130,
+        196,
+        472,
+        673,
+        906
+      ],
+      "red_boundaries_approx_error_px": 5
+    },
+    {
+      "line": 7,
+      "bbox": [
+        0,
+        418,
+        940,
+        470
+      ],
+      "words": [
+        [
+          "UPPER",
+          "SLASH",
+          "4",
+          "0",
+          "7",
+          "5",
+          "PERCENT",
+          "4",
+          "LOWDOT",
+          "POUND"
+        ],
+        [
+          "LOWDOT",
+          "X",
+          "H2",
+          "SLASH",
+          "4"
+        ],
+        [
+          "PLUS",
+          "7",
+          "2",
+          "4"
+        ],
+        [
+          "1",
+          "LOWDOT",
+          "3",
+          "H1",
+          "H2",
+          "PERCENT",
+          "6",
+          "H1",
+          "X",
+          "4"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "glyph_centres_x": [
+        43,
+        67.5,
+        93.5,
+        118.5,
+        142,
+        167.5,
+        194,
+        219.5,
+        243,
+        268.1,
+        317.5,
+        340,
+        364.5,
+        390,
+        415.5,
+        460.5,
+        485,
+        509.5,
+        535.5,
+        583,
+        608.5,
+        631,
+        656,
+        681,
+        707.5,
+        730,
+        754.5,
+        779,
+        805.5,
+        867
+      ],
+      "red_boundary_centres_x_approx": [
+        27,
+        294,
+        437,
+        562,
+        843,
+        899
+      ],
+      "red_boundaries_approx_error_px": 5
+    },
+    {
+      "line": 8,
+      "bbox": [
+        0,
+        471,
+        940,
+        522
+      ],
+      "words": [
+        [
+          "VSTEM",
+          "6",
+          "8",
+          "4",
+          "X",
+          "4",
+          "ORNATE",
+          "LOWDOT",
+          "H2"
+        ],
+        [
+          "VSTEM",
+          "SLASH",
+          "7",
+          "ORNATE",
+          "H2"
+        ]
+      ],
+      "glyph_centres_x": [
+        44.5,
+        68.5,
+        93.5,
+        119.5,
+        143,
+        169.5,
+        195.5,
+        219.5,
+        244,
+        295,
+        318,
+        342,
+        368,
+        391.6
+      ],
+      "red_boundary_centres_x_approx": [
+        34,
+        272,
+        417
+      ],
+      "red_boundaries_approx_error_px": 5
+    }
+  ],
+  "annotation_exclusions": [
+    {
+      "bbox": [
+        778,
+        50,
+        897,
+        140
+      ],
+      "kind": "large handwritten red75 plus crossing black mark",
+      "counted_as_cipher": false
+    },
+    {
+      "bbox": [
+        468,
+        477,
+        507,
+        517
+      ],
+      "kind": "handwritten220 beside diagonal separator",
+      "counted_as_cipher": false
+    },
+    {
+      "bbox": [
+        0,
+        480,
+        22,
+        522
+      ],
+      "kind": "left margin handwritten shape",
+      "counted_as_cipher": false
+    }
+  ],
+  "observed_red_underlines": [
+    {
+      "line": 2,
+      "x": 109.5,
+      "glyph": "ORNATE"
+    },
+    {
+      "line": 2,
+      "x": 310.5,
+      "glyph": "ORNATE"
+    },
+    {
+      "line": 3,
+      "x": 851,
+      "glyph": "ORNATE"
+    },
+    {
+      "line": 4,
+      "x": 606.5,
+      "glyph": "ORNATE"
+    },
+    {
+      "line": 5,
+      "x": 30,
+      "glyph": "ORNATE"
+    }
+  ],
+  "red_enclosures_and_pencil_strokes": "Outer curved annotations around lower lines are not target tokens; no asserted complete annotation transcription."
+}

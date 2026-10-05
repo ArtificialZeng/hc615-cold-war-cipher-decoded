@@ -1,0 +1,56 @@
+{
+  "scope": "Actual saved control predictions; truth compared after inference",
+  "controls_with_errors": [
+    {
+      "control": "C00",
+      "letter_mismatches": [
+        {
+          "character_index_zero_based_including_spaces": 211,
+          "truth": "g",
+          "prediction": "w"
+        },
+        {
+          "character_index_zero_based_including_spaces": 217,
+          "truth": "w",
+          "prediction": "g"
+        },
+        {
+          "character_index_zero_based_including_spaces": 232,
+          "truth": "g",
+          "prediction": "w"
+        }
+      ],
+      "word_failure_cases": [
+        {
+          "word_index_zero_based": 28,
+          "truth": "gebarowsky",
+          "prediction": "webarogsky"
+        },
+        {
+          "word_index_zero_based": 31,
+          "truth": "g",
+          "prediction": "w"
+        }
+      ],
+      "repaired_for_publication": false
+    },
+    {
+      "control": "C04",
+      "letter_mismatches": [
+        {
+          "character_index_zero_based_including_spaces": 9,
+          "truth": "g",
+          "prediction": "f"
+        }
+      ],
+      "word_failure_cases": [
+        {
+          "word_index_zero_based": 2,
+          "truth": "gj",
+          "prediction": "fj"
+        }
+      ],
+      "repaired_for_publication": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "version": "HC615_PUBLIC_PINNED_SOURCES_v1",
+  "corpus_repository": "https://github.com/UniversalDependencies/UD_Czech-PDTC",
+  "corpus_commit": "6d206ec7d337a7f76f34ddfc82893389cabbd76d",
+  "language_license": "CC BY-NC-SA 4.0",
+  "archive_image_reuse_license": "NOT ESTABLISHED; source pixels excluded from release",
+  "resources": {
+    "archive_image": {
+      "url": "https://api.hcportal.eu/media/1762/14161684790141.jpg",
+      "path": "data/upstream_cache/archive/615_image_1385.jpg",
+      "bytes": 161668,
+      "sha256": "712891e2f5019509798a750d4a92318910333b623ee583ae39ea5d86a7b1d4e6",
+      "acquired_utc": "2026-10-05T00:49:33.309869+00:00"
+    },
+    "train": {
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Czech-PDTC/6d206ec7d337a7f76f34ddfc82893389cabbd76d/cs_pdtc-ud-train-la.conllu",
+      "path": "data/upstream_cache/language/cs_pdtc-ud-train-la.conllu",
+      "bytes": 24175776,
+      "sha256": "b2683cba24c059d30505dc5678d20581ff0bf1d4b73508b1b33e163c6812a2f7",
+      "acquired_utc": "2026-10-05T00:59:40.293251+00:00"
+    },
+    "dev": {
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Czech-PDTC/6d206ec7d337a7f76f34ddfc82893389cabbd76d/cs_pdtc-ud-dev.conllu",
+      "path": "data/upstream_cache/language/cs_pdtc-ud-dev.conllu",
+      "bytes": 50117913,
+      "sha256": "73a19117ff39411b1134840c3a0383a37f5dd89a2e07b3f8c0a8821d8d37d4bc",
+      "acquired_utc": "2026-10-05T00:59:49.717420+00:00"
+    },
+    "language_readme": {
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Czech-PDTC/6d206ec7d337a7f76f34ddfc82893389cabbd76d/README.md",
+      "path": "data/upstream_cache/language/README.md",
+      "bytes": 16309,
+      "sha256": "a028b84ef29bb06e67faa6406603bf59595c50305a1cde08b8e37b7e108fdeb5",
+      "acquired_utc": "2026-10-05T00:59:32.991910+00:00"
+    },
+    "language_license": {
+      "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Czech-PDTC/6d206ec7d337a7f76f34ddfc82893389cabbd76d/LICENSE.txt",
+      "path": "data/upstream_cache/language/LICENSE.txt",
+      "bytes": 311,
+      "sha256": "58000085e737c098085f7b4bc0db9b5ae280c84dc09d88f065ac960c7527d5e2",
+      "acquired_utc": "2026-10-05T00:59:32.942503+00:00"
+    }
+  }
+}

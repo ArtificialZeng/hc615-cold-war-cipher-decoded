@@ -1,0 +1,224 @@
+{
+  "version": "HC615_PUBLIC_EVIDENCE_PROJECTIONS_v1",
+  "original_checkpoint": "cp-050",
+  "original_checkpoint_commit": "8554c2cdb7b370c046009b8e2d8bff9fe05ec9f7",
+  "scope": "Projection hashes do not replace original hashes. All core engineering inputs retained byte-identically are separately listed in config/engineering_inputs_manifest.json. Image pixels and private outreach are excluded. All projected reviews are internal AI/code reviews.",
+  "files": [
+    {
+      "original_relative_path": "reports/INDEPENDENT_SOURCE_AUDIT_v1.json",
+      "original_sha256": "77c070aa01a01e5cd9c5e2dff8f73b26b9d0fd364a2fe70b8f8b063dc070cdea",
+      "original_bytes": 3251,
+      "public_projection_path": "evidence/INDEPENDENT_SOURCE_AUDIT_v1.json",
+      "public_projection_sha256": "3134406461c94f442cad8fd6afd1a5d812c60c88a0381b7c0edaf6966fe15201",
+      "public_bytes": 3938,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "reports/INDEPENDENT_SOURCE_AUDIT_v1.md",
+      "original_sha256": "74318ccbee16a42c4bf5d892baf07c2795238ba4cce4054ff97ae71dbc93b176",
+      "original_bytes": 1259,
+      "public_projection_path": "evidence/INDEPENDENT_SOURCE_AUDIT_v1.md",
+      "public_projection_sha256": "bbd4693c989741f47fa1ecd0970e06b8f736f089d30e26f2a0f2bc5c969b39ce",
+      "public_bytes": 1603,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "reports/INDEPENDENT_SOLVER_AUDIT_v1.json",
+      "original_sha256": "ffbf3afb8c254acfc906adc2ffde8029c7c22c2e1abbee1fc783527b9bc4749f",
+      "original_bytes": 5381,
+      "public_projection_path": "evidence/INDEPENDENT_SOLVER_AUDIT_v1.json",
+      "public_projection_sha256": "a45ae0e55d0f7279064975470a9dad323887c29268693d685a862f78069c5c05",
+      "public_bytes": 6116,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "reports/INDEPENDENT_CZECH_CONTROL_AUDIT_v1.json",
+      "original_sha256": "39f1c8f2d263e3b4c1fe5cd50baea1a1f5cda816e69b3110e26f0b15ef2c95f4",
+      "original_bytes": 18781,
+      "public_projection_path": "evidence/INDEPENDENT_CZECH_CONTROL_AUDIT_v1.json",
+      "public_projection_sha256": "0a2c4f857bdfadb9549316ca32daf48207652ac592edc0aec7433926f16e5b9f",
+      "public_bytes": 20223,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "reports/INDEPENDENT_CZECH_CONTROL_AUDIT_v1.md",
+      "original_sha256": "8d8ac1f85ad633db17bea56797efcb407822abf1491df3c368821ee02649508a",
+      "original_bytes": 3016,
+      "public_projection_path": "evidence/INDEPENDENT_CZECH_CONTROL_AUDIT_v1.md",
+      "public_projection_sha256": "ff3ea8b0b0d258a345bb63a553096593bd263d83eaed2398004e58d517fbecbb",
+      "public_bytes": 3367,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "reports/INDEPENDENT_CZECH_STRICT_INPUT_OVERLAY_v1p1.json",
+      "original_sha256": "fa0bdd5ef3d48d779b4edbb4a9422d25cb106fd3afcdf8c37693b172f3048953",
+      "original_bytes": 7723,
+      "public_projection_path": "evidence/INDEPENDENT_CZECH_STRICT_INPUT_OVERLAY_v1p1.json",
+      "public_projection_sha256": "dcc8ed894933b75e5c462f1d8151ed3f2539ed36ed1f643c30108580f5a9c8e2",
+      "public_bytes": 8606,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "reports/STRICT_INPUT_VALIDATION_v1p1.json",
+      "original_sha256": "e8425d8fee8fc39af3381e5d63e3a392833c58b95f4362dab9912c853e70292d",
+      "original_bytes": 1858,
+      "public_projection_path": "evidence/STRICT_INPUT_VALIDATION_v1p1.json",
+      "public_projection_sha256": "bfff4f9e5e7ae4064f69120398d2497e1750fa8a9b76829f90bea037d5a7d214",
+      "public_bytes": 2434,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "reports/INDEPENDENT_HC615_SOLUTION_AUDIT_v1.json",
+      "original_sha256": "4ce686339a4178724d8b3e4215606aba4ba0c20de59638024b5627d15c5015a1",
+      "original_bytes": 27049,
+      "public_projection_path": "evidence/INDEPENDENT_HC615_SOLUTION_AUDIT_v1.json",
+      "public_projection_sha256": "c1b9e855e452457e3793400d5ce7af781767aed24059954a8408dddf8f5aaa7c",
+      "public_bytes": 29420,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "reports/INDEPENDENT_CANDIDATE_SOURCE_LANGUAGE_REVIEW_v1.json",
+      "original_sha256": "5267fe2ceace0f6b53bdbb113b78fbc90806cea74aadc3d88f782894c9125f87",
+      "original_bytes": 11096,
+      "public_projection_path": "evidence/INDEPENDENT_CANDIDATE_SOURCE_LANGUAGE_REVIEW_v1.json",
+      "public_projection_sha256": "f1faadc8d23cdb4b2ef749ae5e6a9f789e3d561abc08637b67c651a405288dfb",
+      "public_bytes": 12153,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "reports/INDEPENDENT_CANDIDATE_SOURCE_LANGUAGE_REVIEW_v1.md",
+      "original_sha256": "9a1ff83c891782e281d224f530bdcfd2e38ccee108fa41c230aaf4af80cb11d2",
+      "original_bytes": 4867,
+      "public_projection_path": "evidence/INDEPENDENT_CANDIDATE_SOURCE_LANGUAGE_REVIEW_v1.md",
+      "public_projection_sha256": "128150b454077cf6b5858fad356720d9c7b8679d0596447c33efca2bfd7bf754",
+      "public_bytes": 5231,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "reports/NOVELTY_AND_LEAKAGE_AUDIT_v1.md",
+      "original_sha256": "d67ed5ea317d249f467184cde7b0b6dccc8456f56d0ad53c30650e51477c2853",
+      "original_bytes": 6690,
+      "public_projection_path": "evidence/NOVELTY_AND_LEAKAGE_AUDIT_v1.md",
+      "public_projection_sha256": "a0b801e464e74ca26911512d160c6bfdeee9a816820502f7bb0c5504229573a9",
+      "public_bytes": 7035,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "reports/FINAL_SOLUTION_CLAIM_AUDIT_v1.json",
+      "original_sha256": "3ac33b772875f0ddd44c5c78b98bd71feec69feeb73a818a2aa119b3356fe18a",
+      "original_bytes": 10091,
+      "public_projection_path": "evidence/FINAL_SOLUTION_CLAIM_AUDIT_v1.json",
+      "public_projection_sha256": "7f467fe3f2c4821c974e607128a98153fe52dbd2705a24036762a008d147e5d5",
+      "public_bytes": 10722,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "reports/FINAL_SOLUTION_CLAIM_AUDIT_v1.md",
+      "original_sha256": "1dca0dab98cb397fb9510bf5163c0f2a8706ee711c76a1a8e9b4e20bc4db55aa",
+      "original_bytes": 4128,
+      "public_projection_path": "evidence/FINAL_SOLUTION_CLAIM_AUDIT_v1.md",
+      "public_projection_sha256": "3dc1ef84589218aa5e4de9cf9d15e9ceb2705182a328801751e1e9846e243164",
+      "public_bytes": 4474,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "reports/ROOT_COMPLETE_SOLUTION_REPLAY_v1.json",
+      "original_sha256": "20a0f5e5f10fd855c505320ff9cda75e79f7d5d06671af40fe5adc5cd63c0c86",
+      "original_bytes": 2255,
+      "public_projection_path": "evidence/ROOT_COMPLETE_SOLUTION_REPLAY_v1.json",
+      "public_projection_sha256": "161f0bd929e29834a2d8596dd2b718ae678c7abfdef1853e2c8606641b664cb4",
+      "public_bytes": 2897,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "reports/FINAL_FROZEN_EVIDENCE_INTEGRITY_v1.json",
+      "original_sha256": "8e2755c3a70f03ae6902e3d34b0d6a375a30e2f61e5a6e7b3f47d3373c6fd65c",
+      "original_bytes": 3205,
+      "public_projection_path": "evidence/FINAL_FROZEN_EVIDENCE_INTEGRITY_v1.json",
+      "public_projection_sha256": "98bde8211682baafe87b64151e519b36a4e85bfc539382e4d8afa60166de31ef",
+      "public_bytes": 3845,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "data/derived/novelty_audit_v1/AUDIT.json",
+      "original_sha256": "fa5a1bbed715dff3c0cdf75c903a80098511326d970941e6a8d48ad66508a730",
+      "original_bytes": 8790,
+      "public_projection_path": "evidence/NOVELTY_AUDIT_DETAILS.json",
+      "public_projection_sha256": "c4764646f86db259c872b27344d4be191a1a86a578a6bc51f451fcb16c171f5e",
+      "public_bytes": 9685,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "RESEARCH_PROTOCOL_v1.md",
+      "original_sha256": "d19dbb9e9b7a96883f1a73ea5ab846b06c049ac022702db8acdab5cd5f3f4047",
+      "original_bytes": 1801,
+      "public_projection_path": "evidence/RESEARCH_PROTOCOL_v1.md",
+      "public_projection_sha256": "7c860d269775cfce1662043fafdbdb0ba50302f0e2ab55d18026d2f6628cefa7",
+      "public_bytes": 2138,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "PROJECT_STATE.json",
+      "original_sha256": "ace4fcb8246846cb291a7687be44fe1d0fa74d291b485d3120e0693980fcc070",
+      "original_bytes": 3438,
+      "public_projection_path": "evidence/PROJECT_STATE.json",
+      "public_projection_sha256": "f0f3e673df50d68eb08a3bedc4b5dfa49e7bb5f71054c7e1b08057b564bbb2da",
+      "public_bytes": 4063,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "checkpoints/CP000_Initialization_2026-10-05.md",
+      "original_sha256": "8ff879033851f104ee643a9adb941d9adf459edd89065833188fc73dd34e1f19",
+      "original_bytes": 300,
+      "public_projection_path": "evidence/CP000_Initialization_2026-10-05.md",
+      "public_projection_sha256": "b1594fb99fd124d4bf852f8c6695f1c0dc2fc9a1204f5cddeff5c546a4410cee",
+      "public_bytes": 648,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "checkpoints/CP010_Original_Source_And_Structure_PASS_2026-10-05.md",
+      "original_sha256": "6cea6580c9c39e739b7ac00e9e7c071d934724fa518b2897751ad1313f459a68",
+      "original_bytes": 529,
+      "public_projection_path": "evidence/CP010_Original_Source_And_Structure_PASS_2026-10-05.md",
+      "public_projection_sha256": "9acdecb4af87bc1a4d3677a9aa8f813e6c45b50ec6da1a0aac3db285a2719016",
+      "public_bytes": 897,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "checkpoints/CP020_Structural_Audit_PASS_2026-10-05.md",
+      "original_sha256": "f56ea63a9fd1ce881c9d78c6f3b2de02d45ce09bb7571a2cb8403c250961c286",
+      "original_bytes": 1352,
+      "public_projection_path": "evidence/CP020_Structural_Audit_PASS_2026-10-05.md",
+      "public_projection_sha256": "890849cd4c5a0fde7be84309a384d31110028f0bbbb8aa1ef0fef9d6da74408d",
+      "public_bytes": 1707,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "checkpoints/CP030_Czech_Matched_Controls_PASS_2026-10-05.md",
+      "original_sha256": "83682f415c53809895acc9e644043794c336ea04a5d3139040e80da31ba35682",
+      "original_bytes": 2322,
+      "public_projection_path": "evidence/CP030_Czech_Matched_Controls_PASS_2026-10-05.md",
+      "public_projection_sha256": "3f967430abc0d965e9d7bef5051c0f24fa26d024a4fb3ee2810d6003cbb4e560",
+      "public_bytes": 2683,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "checkpoints/CP040_Complete_Czech_Candidate_PASS_2026-10-05.md",
+      "original_sha256": "cfbfdd83b58875749a3d38e072f860cc98b8cd9b75dbc1b2b21a92f2a16b83c4",
+      "original_bytes": 1688,
+      "public_projection_path": "evidence/CP040_Complete_Czech_Candidate_PASS_2026-10-05.md",
+      "public_projection_sha256": "c13610c2a685ee0fca6c5cc1c520691f454d868763e246332df701215acc8023",
+      "public_bytes": 2051,
+      "byte_identical_original": false
+    },
+    {
+      "original_relative_path": "checkpoints/CP050_Complete_Observed_Message_SOLVED_PASS_2026-10-05.md",
+      "original_sha256": "ab2b3209f79a0ab3eec2bf63fb9ae93cc6c43ab2e0502e45db6a3952c415c532",
+      "original_bytes": 3442,
+      "public_projection_path": "evidence/CP050_Complete_Observed_Message_SOLVED_PASS_2026-10-05.md",
+      "public_projection_sha256": "0b863243192fbd6fd43ba02392feb3feed4e7d428b6137b4952be8e9cfddd5df",
+      "public_bytes": 3813,
+      "byte_identical_original": false
+    }
+  ]
+}

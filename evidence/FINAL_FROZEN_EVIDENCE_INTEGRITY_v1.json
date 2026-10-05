@@ -1,0 +1,83 @@
+{
+  "public_projection_notice": "Chronological internal AI-agent/code audit, not outside peer review. Private paths redacted; original artifact hash retained in ORIGINAL_EVIDENCE_INDEX.json. Historic paths refer to private research archive, not necessarily public-repository files.",
+  "original_relative_path": "reports/FINAL_FROZEN_EVIDENCE_INTEGRITY_v1.json",
+  "original_sha256": "8e2755c3a70f03ae6902e3d34b0d6a375a30e2f61e5a6e7b3f47d3373c6fd65c",
+  "original_payload_sanitized": {
+    "status": "PASS_ALL_FROZEN_COMPONENT_MANIFESTS_AND_FINAL_AUDITED_REPORT",
+    "manifests": [
+      {
+        "manifest": "reports/CP010_SHA256.json",
+        "entries_verified": 26,
+        "sha256": "97567c04c8a62eca427b99a9e31ad791bf768a7004abcb40dc0f9a3afc324b42"
+      },
+      {
+        "manifest": "reports/CP020_SHA256.json",
+        "entries_verified": 30,
+        "sha256": "9c0ac3c18d6e26ea3e7099bb1e587bbb1ec1098b0558bc51e95e19df1ef6351d"
+      },
+      {
+        "manifest": "reports/CP030_SHA256.json",
+        "entries_verified": 88,
+        "sha256": "bacfbe4451c436e1a27b8364e02b5e2aff08bc30888e47244d3eb68f8aa4689d"
+      },
+      {
+        "manifest": "reports/CP040_SHA256.json",
+        "entries_verified": 9,
+        "sha256": "f585ee149e49e42c9ac62fb5b0a612d2fcd180de6df69f13769bdbb7eb82781e"
+      },
+      {
+        "manifest": "data/derived/source_transcription_v1/MANIFEST.json",
+        "entries_verified": 19,
+        "sha256": "fc32a982eb7de8f2836ec4c768adaeb237dd2a07d75e9dcf8d0c6f480560d488"
+      },
+      {
+        "manifest": "sources/INDEPENDENT_HC615_SOLUTION_AUDIT_v1_MANIFEST.json",
+        "entries_verified": 15,
+        "sha256": "3ccbac1b7f02ee3c2ed34cc8d86eae81e139d9b9d652ff254dfb847f84bb9212"
+      },
+      {
+        "manifest": "sources/INDEPENDENT_CANDIDATE_SOURCE_LANGUAGE_REVIEW_v1_receipt.json",
+        "entries_verified": 13,
+        "sha256": "205f130d9068e99697196cdb7d3701cbcb9c2210d19615b058885bbd6b7dbcc5"
+      },
+      {
+        "manifest": "sources/FORWARD_BUNDLE_v1_BUILD_MANIFEST.json",
+        "entries_verified": 53,
+        "sha256": "8d05290570348bc8252194e99b199df26ead887b3ea2e7890f113c51230cde75"
+      },
+      {
+        "manifest": "data/derived/solution_display_v1/MANIFEST.json",
+        "entries_verified": 26,
+        "sha256": "d920c10946568768ea3e25dc6b8bfd7c915cd3b940e70bbc4c749877f91be3c2"
+      },
+      {
+        "manifest": "sources/NOVELTY_AND_LEAKAGE_AUDIT_v1_MANIFEST.json",
+        "entries_verified": 20,
+        "sha256": "d35ad1929a234ca8b73b3849c57e7fffcf2f52319d27abaed7d12946caef4a3c"
+      }
+    ],
+    "historical_mutable_metadata_snapshots": [
+      {
+        "path": "PROJECT_STATE.json",
+        "checkpoint": "cp-010",
+        "checkpoint_sha256": "92401e2ad14b5ab115fd90b476c1fdc5c7eadfe82a2d6dcfdfabf519be7085de",
+        "current_sha256": "87f626ad1e839b9d177e18e489c9231451473588ee70dc3c2195c08a5b2dc661",
+        "original_git_snapshot_matches": true,
+        "reason": "State evolves and log appends at later checkpoints; these are checkpoint snapshots, not immutable datasets."
+      },
+      {
+        "path": "RESEARCH_LOG.md",
+        "checkpoint": "cp-010",
+        "checkpoint_sha256": "06fc9f3f32707159f954b65c0c12811a0457cc9f156a0fda982b89ab33ae5c40",
+        "current_sha256": "cefc14d79adcb973cd6a35bbf39104b63b500b4ff3e571d7861f7ef26e5227c8",
+        "original_git_snapshot_matches": true,
+        "reason": "State evolves and log appends at later checkpoints; these are checkpoint snapshots, not immutable datasets."
+      }
+    ],
+    "all_immutable_dataset_and_config_hashes_unchanged": true,
+    "zip_crc_pass": true,
+    "zip_sha256": "f319e28004f19ae59f55d0ddfb72b9edb1fcee3d9e8a10e5a2a6653883487b14",
+    "final_report_sha256": "8d59b52f803315796e0572606bc784e460eb367be3bb6f08e6ea3c76360e692f",
+    "no_new_inference": true
+  }
+}

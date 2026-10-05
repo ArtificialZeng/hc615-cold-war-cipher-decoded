@@ -1,0 +1,27 @@
+{
+  "version": "HC615_PUBLIC_RELEASE_QA_v1",
+  "status": "PASS_PREPARED_LOCAL_RELEASE",
+  "date": "2026-10-05",
+  "complete_ascii_blocks_checked": 7,
+  "relative_markdown_links_checked": 154,
+  "broken_relative_links": [],
+  "private_paths_in_public_files": 0,
+  "archive_image_pixels_in_public_package": false,
+  "corpus_raw_text_in_public_package": false,
+  "word_pages_rendered_and_visually_inspected": 6,
+  "word_embedded_original_figures": 5,
+  "word_final_render_directory": "private QA directory, not shipped",
+  "external_messages_sent": false,
+  "github_remote_published": false,
+  "external_expert_review": "PENDING",
+  "remote_ci": "CONFIGURED_NOT_RUN",
+  "source_acquisition_and_rebuild": "Official scan actually downloaded, hash matched; source-only reconstruction byte-identical",
+  "language_cache_and_controls_rebuild": "Pinned owned local train/dev inputs; both rebuilds byte-identical to original research",
+  "optimizer_rerun_for_publicity": false,
+  "limitations": [
+    "No global priority or cryptographic uniqueness theorem",
+    "No original answer-sheet confirmation",
+    "AI-agent/code reviews are internal",
+    "Four unobserved historic glyphs remain unknown"
+  ]
+}

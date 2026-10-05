@@ -1,0 +1,49 @@
+{
+  "version": "HC615_PORTABLE_REPLAY_v1",
+  "score": "Natural-log joint quadgram heuristic; not a posterior",
+  "alphabet": "abcdefghijklmnopqrstuvwxyz ",
+  "model": "data/model/quadgram27.bin",
+  "model_sha256": "8aa157cf337f4a12eb5216999105ae8e7eaec20f2a655314f2ae0e6efadfa8fd",
+  "frequency_order": "data/model/frequency_order.txt",
+  "frequency_order_sha256": "156c666c1f2c72247c67b6607a05a08b5c63e56908b4ba724e3183c3844122be",
+  "restarts": 16,
+  "steps_per_restart": 32768,
+  "temperature_start": 6.0,
+  "temperature_end_floor": 0.05,
+  "controls": {
+    "source": "src/mono_substitution_sa_v1.cpp",
+    "source_sha256": "b3289edca0249edd4adea9fcf3c90c531e6cbbe32a5ff5f267f59aab370d4fbe",
+    "seeds": [
+      615410,
+      615411,
+      615412,
+      615413,
+      615414,
+      615415
+    ],
+    "inputs": [
+      "data/controls/C00_input.txt",
+      "data/controls/C01_input.txt",
+      "data/controls/C02_input.txt",
+      "data/controls/C03_input.txt",
+      "data/controls/C04_input.txt",
+      "data/controls/C05_input.txt"
+    ],
+    "saved_results": [
+      "data/results/controls/C00_result.json",
+      "data/results/controls/C01_result.json",
+      "data/results/controls/C02_result.json",
+      "data/results/controls/C03_result.json",
+      "data/results/controls/C04_result.json",
+      "data/results/controls/C05_result.json"
+    ]
+  },
+  "target": {
+    "source": "src/mono_substitution_sa_v1p1.cpp",
+    "source_sha256": "651b888047c939dd0ce6e0d84805b8a4beba45eb6b0d8ebfe3ab43eb60681276",
+    "seed": 615499,
+    "input": "data/solution/INPUT.txt",
+    "saved_result": "data/results/target/target_result.json"
+  },
+  "compiler_note": "C++17 little-endian IEEE754 float32 required. std::shuffle/uniform_real_distribution and compiler/library can change stochastic trajectories; archived outputs are the original evidence."
+}

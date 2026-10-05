@@ -1,0 +1,22 @@
+HC615 mixed-licence research release — v1.0.0
+
+Project-authored code in scripts/, src/, tests/ and .github/ is licensed under
+the MIT License (LICENSES/MIT.txt).
+
+Project-authored explanatory prose, original SVG artwork and original research
+annotations are licensed under Creative Commons Attribution 4.0 International:
+https://creativecommons.org/licenses/by/4.0/
+This grant excludes underlying historical text/images and third-party sources.
+
+data/model/ and corpus-derived controls/predictions retain Creative Commons
+Attribution–NonCommercial–ShareAlike 4.0 International conditions from
+UD_Czech-PDTC / Prague Dependency Treebank – Consolidated 2.0 (Charles University).
+See LICENSES/UD_CZECH_PDTC_README.md, data/model/UPSTREAM_LICENSE.txt,
+LICENSES/CC-BY-NC-SA-4.0.txt and docs/PROVENANCE.md for attribution.
+
+The archival source scan and crop pixels are not included. Links, hashes and an
+opt-in acquisition script do not grant redistribution rights for archive material.
+No blanket claim is made over recovered historical text or other linked sources.
+
+Do not interpret the MIT code licence as permission for commercial use of the
+included upstream-derived linguistic data. No licensor endorses this project.

@@ -1,0 +1,1331 @@
+{
+  "glyph_occurrences": 220,
+  "distinct_visual_classes": 22,
+  "lines": [
+    {
+      "line": 1,
+      "source_bbox": [
+        0,
+        96,
+        940,
+        148
+      ],
+      "glyph_count": 27,
+      "red_segment_count": 4,
+      "occurrence_ids": [
+        "O0001",
+        "O0002",
+        "O0003",
+        "O0004",
+        "O0005",
+        "O0006",
+        "O0007",
+        "O0008",
+        "O0009",
+        "O0010",
+        "O0011",
+        "O0012",
+        "O0013",
+        "O0014",
+        "O0015",
+        "O0016",
+        "O0017",
+        "O0018",
+        "O0019",
+        "O0020",
+        "O0021",
+        "O0022",
+        "O0023",
+        "O0024",
+        "O0025",
+        "O0026",
+        "O0027"
+      ]
+    },
+    {
+      "line": 2,
+      "source_bbox": [
+        0,
+        152,
+        940,
+        203
+      ],
+      "glyph_count": 30,
+      "red_segment_count": 3,
+      "occurrence_ids": [
+        "O0028",
+        "O0029",
+        "O0030",
+        "O0031",
+        "O0032",
+        "O0033",
+        "O0034",
+        "O0035",
+        "O0036",
+        "O0037",
+        "O0038",
+        "O0039",
+        "O0040",
+        "O0041",
+        "O0042",
+        "O0043",
+        "O0044",
+        "O0045",
+        "O0046",
+        "O0047",
+        "O0048",
+        "O0049",
+        "O0050",
+        "O0051",
+        "O0052",
+        "O0053",
+        "O0054",
+        "O0055",
+        "O0056",
+        "O0057"
+      ]
+    },
+    {
+      "line": 3,
+      "source_bbox": [
+        0,
+        207,
+        940,
+        259
+      ],
+      "glyph_count": 32,
+      "red_segment_count": 5,
+      "occurrence_ids": [
+        "O0058",
+        "O0059",
+        "O0060",
+        "O0061",
+        "O0062",
+        "O0063",
+        "O0064",
+        "O0065",
+        "O0066",
+        "O0067",
+        "O0068",
+        "O0069",
+        "O0070",
+        "O0071",
+        "O0072",
+        "O0073",
+        "O0074",
+        "O0075",
+        "O0076",
+        "O0077",
+        "O0078",
+        "O0079",
+        "O0080",
+        "O0081",
+        "O0082",
+        "O0083",
+        "O0084",
+        "O0085",
+        "O0086",
+        "O0087",
+        "O0088",
+        "O0089"
+      ]
+    },
+    {
+      "line": 4,
+      "source_bbox": [
+        0,
+        260,
+        940,
+        310
+      ],
+      "glyph_count": 26,
+      "red_segment_count": 5,
+      "occurrence_ids": [
+        "O0090",
+        "O0091",
+        "O0092",
+        "O0093",
+        "O0094",
+        "O0095",
+        "O0096",
+        "O0097",
+        "O0098",
+        "O0099",
+        "O0100",
+        "O0101",
+        "O0102",
+        "O0103",
+        "O0104",
+        "O0105",
+        "O0106",
+        "O0107",
+        "O0108",
+        "O0109",
+        "O0110",
+        "O0111",
+        "O0112",
+        "O0113",
+        "O0114",
+        "O0115"
+      ]
+    },
+    {
+      "line": 5,
+      "source_bbox": [
+        0,
+        312,
+        940,
+        365
+      ],
+      "glyph_count": 29,
+      "red_segment_count": 3,
+      "occurrence_ids": [
+        "O0116",
+        "O0117",
+        "O0118",
+        "O0119",
+        "O0120",
+        "O0121",
+        "O0122",
+        "O0123",
+        "O0124",
+        "O0125",
+        "O0126",
+        "O0127",
+        "O0128",
+        "O0129",
+        "O0130",
+        "O0131",
+        "O0132",
+        "O0133",
+        "O0134",
+        "O0135",
+        "O0136",
+        "O0137",
+        "O0138",
+        "O0139",
+        "O0140",
+        "O0141",
+        "O0142",
+        "O0143",
+        "O0144"
+      ]
+    },
+    {
+      "line": 6,
+      "source_bbox": [
+        0,
+        366,
+        940,
+        417
+      ],
+      "glyph_count": 32,
+      "red_segment_count": 5,
+      "occurrence_ids": [
+        "O0145",
+        "O0146",
+        "O0147",
+        "O0148",
+        "O0149",
+        "O0150",
+        "O0151",
+        "O0152",
+        "O0153",
+        "O0154",
+        "O0155",
+        "O0156",
+        "O0157",
+        "O0158",
+        "O0159",
+        "O0160",
+        "O0161",
+        "O0162",
+        "O0163",
+        "O0164",
+        "O0165",
+        "O0166",
+        "O0167",
+        "O0168",
+        "O0169",
+        "O0170",
+        "O0171",
+        "O0172",
+        "O0173",
+        "O0174",
+        "O0175",
+        "O0176"
+      ]
+    },
+    {
+      "line": 7,
+      "source_bbox": [
+        0,
+        418,
+        940,
+        470
+      ],
+      "glyph_count": 30,
+      "red_segment_count": 5,
+      "occurrence_ids": [
+        "O0177",
+        "O0178",
+        "O0179",
+        "O0180",
+        "O0181",
+        "O0182",
+        "O0183",
+        "O0184",
+        "O0185",
+        "O0186",
+        "O0187",
+        "O0188",
+        "O0189",
+        "O0190",
+        "O0191",
+        "O0192",
+        "O0193",
+        "O0194",
+        "O0195",
+        "O0196",
+        "O0197",
+        "O0198",
+        "O0199",
+        "O0200",
+        "O0201",
+        "O0202",
+        "O0203",
+        "O0204",
+        "O0205",
+        "O0206"
+      ]
+    },
+    {
+      "line": 8,
+      "source_bbox": [
+        0,
+        471,
+        940,
+        522
+      ],
+      "glyph_count": 14,
+      "red_segment_count": 2,
+      "occurrence_ids": [
+        "O0207",
+        "O0208",
+        "O0209",
+        "O0210",
+        "O0211",
+        "O0212",
+        "O0213",
+        "O0214",
+        "O0215",
+        "O0216",
+        "O0217",
+        "O0218",
+        "O0219",
+        "O0220"
+      ]
+    }
+  ],
+  "red_segments": 32,
+  "red_vertical_boundaries_count": 40,
+  "frequency": {
+    "C001": 3,
+    "C002": 4,
+    "C003": 6,
+    "C004": 9,
+    "C005": 23,
+    "C006": 7,
+    "C007": 18,
+    "C008": 21,
+    "C009": 9,
+    "C010": 9,
+    "C011": 9,
+    "C012": 5,
+    "C013": 8,
+    "C014": 4,
+    "C015": 16,
+    "C016": 17,
+    "C017": 16,
+    "C018": 13,
+    "C019": 5,
+    "C020": 7,
+    "C021": 4,
+    "C022": 7
+  },
+  "segment_length_histogram": {
+    "1": 1,
+    "2": 3,
+    "4": 5,
+    "5": 3,
+    "6": 1,
+    "7": 4,
+    "8": 3,
+    "9": 3,
+    "10": 8,
+    "13": 1
+  },
+  "index_of_coincidence": 0.05649647156496471,
+  "repeated_complete_red_segments": [
+    {
+      "glyph_ids": [
+        "C018",
+        "C008"
+      ],
+      "segments": [
+        "L01W02",
+        "L03W04"
+      ]
+    }
+  ],
+  "ngram_repeats_2_to_8": {
+    "2": [
+      {
+        "glyph_ids": [
+          "C018",
+          "C005"
+        ],
+        "start_occurrences": [
+          "O0034",
+          "O0088",
+          "O0105",
+          "O0125",
+          "O0139",
+          "O0183"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C017",
+          "C008"
+        ],
+        "start_occurrences": [
+          "O0014",
+          "O0029",
+          "O0049",
+          "O0164",
+          "O0217"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C007",
+          "C017"
+        ],
+        "start_occurrences": [
+          "O0054",
+          "O0084",
+          "O0132",
+          "O0135"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C008",
+          "C011"
+        ],
+        "start_occurrences": [
+          "O0015",
+          "O0057",
+          "O0121",
+          "O0165"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C009",
+          "C008"
+        ],
+        "start_occurrences": [
+          "O0005",
+          "O0061",
+          "O0063",
+          "O0155"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C010",
+          "C017"
+        ],
+        "start_occurrences": [
+          "O0013",
+          "O0048",
+          "O0163",
+          "O0170"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C017",
+          "C005"
+        ],
+        "start_occurrences": [
+          "O0091",
+          "O0152",
+          "O0178",
+          "O0190"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C001",
+          "C008"
+        ],
+        "start_occurrences": [
+          "O0093",
+          "O0137",
+          "O0180"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C005",
+          "C019"
+        ],
+        "start_occurrences": [
+          "O0043",
+          "O0106",
+          "O0191"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C006",
+          "C018"
+        ],
+        "start_occurrences": [
+          "O0082",
+          "O0124",
+          "O0182"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C007",
+          "C011"
+        ],
+        "start_occurrences": [
+          "O0032",
+          "O0113",
+          "O0128"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C007",
+          "C015"
+        ],
+        "start_occurrences": [
+          "O0011",
+          "O0161",
+          "O0202"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C008",
+          "C003"
+        ],
+        "start_occurrences": [
+          "O0006",
+          "O0079",
+          "O0193"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C008",
+          "C006"
+        ],
+        "start_occurrences": [
+          "O0064",
+          "O0094",
+          "O0181"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C008",
+          "C013"
+        ],
+        "start_occurrences": [
+          "O0030",
+          "O0142",
+          "O0218"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C011",
+          "C012"
+        ],
+        "start_occurrences": [
+          "O0001",
+          "O0058",
+          "O0129"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C013",
+          "C016"
+        ],
+        "start_occurrences": [
+          "O0116",
+          "O0143",
+          "O0219"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C015",
+          "C005"
+        ],
+        "start_occurrences": [
+          "O0003",
+          "O0026",
+          "O0157"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C015",
+          "C010"
+        ],
+        "start_occurrences": [
+          "O0012",
+          "O0162",
+          "O0203"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C016",
+          "C022"
+        ],
+        "start_occurrences": [
+          "O0024",
+          "O0150",
+          "O0215"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C017",
+          "C004"
+        ],
+        "start_occurrences": [
+          "O0040",
+          "O0074",
+          "O0133"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C018",
+          "C007"
+        ],
+        "start_occurrences": [
+          "O0083",
+          "O0112",
+          "O0201"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C022",
+          "C007"
+        ],
+        "start_occurrences": [
+          "O0053",
+          "O0168",
+          "O0207"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C022",
+          "C017"
+        ],
+        "start_occurrences": [
+          "O0028",
+          "O0151",
+          "O0216"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C003",
+          "C005"
+        ],
+        "start_occurrences": [
+          "O0007",
+          "O0194"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C003",
+          "C016"
+        ],
+        "start_occurrences": [
+          "O0080",
+          "O0175"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C004",
+          "C003"
+        ],
+        "start_occurrences": [
+          "O0096",
+          "O0174"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C004",
+          "C006"
+        ],
+        "start_occurrences": [
+          "O0041",
+          "O0072"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C005",
+          "C001"
+        ],
+        "start_occurrences": [
+          "O0092",
+          "O0179"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C005",
+          "C002"
+        ],
+        "start_occurrences": [
+          "O0195",
+          "O0205"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C005",
+          "C009"
+        ],
+        "start_occurrences": [
+          "O0004",
+          "O0158"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C005",
+          "C013"
+        ],
+        "start_occurrences": [
+          "O0108",
+          "O0212"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C005",
+          "C014"
+        ],
+        "start_occurrences": [
+          "O0126",
+          "O0153"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C005",
+          "C015"
+        ],
+        "start_occurrences": [
+          "O0140",
+          "O0148"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C005",
+          "C018"
+        ],
+        "start_occurrences": [
+          "O0008",
+          "O0104"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C005",
+          "C020"
+        ],
+        "start_occurrences": [
+          "O0035",
+          "O0184"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C007",
+          "C004"
+        ],
+        "start_occurrences": [
+          "O0071",
+          "O0099"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C008",
+          "C018"
+        ],
+        "start_occurrences": [
+          "O0050",
+          "O0138"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C009",
+          "C005"
+        ],
+        "start_occurrences": [
+          "O0159",
+          "O0209"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C009",
+          "C016"
+        ],
+        "start_occurrences": [
+          "O0023",
+          "O0110"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C010",
+          "C005"
+        ],
+        "start_occurrences": [
+          "O0204",
+          "O0211"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C011",
+          "C016"
+        ],
+        "start_occurrences": [
+          "O0067",
+          "O0114"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C012",
+          "C015"
+        ],
+        "start_occurrences": [
+          "O0002",
+          "O0059"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C015",
+          "C007"
+        ],
+        "start_occurrences": [
+          "O0070",
+          "O0098"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C015",
+          "C008"
+        ],
+        "start_occurrences": [
+          "O0141",
+          "O0145"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C015",
+          "C016"
+        ],
+        "start_occurrences": [
+          "O0149",
+          "O0199"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C015",
+          "C020"
+        ],
+        "start_occurrences": [
+          "O0017",
+          "O0045"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C016",
+          "C018"
+        ],
+        "start_occurrences": [
+          "O0111",
+          "O0200"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C016",
+          "C021"
+        ],
+        "start_occurrences": [
+          "O0172",
+          "O0176"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C018",
+          "C008"
+        ],
+        "start_occurrences": [
+          "O0009",
+          "O0078"
+        ]
+      }
+    ],
+    "3": [
+      {
+        "glyph_ids": [
+          "C007",
+          "C015",
+          "C010"
+        ],
+        "start_occurrences": [
+          "O0011",
+          "O0161",
+          "O0202"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C010",
+          "C017",
+          "C008"
+        ],
+        "start_occurrences": [
+          "O0013",
+          "O0048",
+          "O0163"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C001",
+          "C008",
+          "C006"
+        ],
+        "start_occurrences": [
+          "O0093",
+          "O0180"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C005",
+          "C001",
+          "C008"
+        ],
+        "start_occurrences": [
+          "O0092",
+          "O0179"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C005",
+          "C020",
+          "C012"
+        ],
+        "start_occurrences": [
+          "O0035",
+          "O0184"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C006",
+          "C018",
+          "C005"
+        ],
+        "start_occurrences": [
+          "O0124",
+          "O0182"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C008",
+          "C003",
+          "C005"
+        ],
+        "start_occurrences": [
+          "O0006",
+          "O0193"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C008",
+          "C013",
+          "C016"
+        ],
+        "start_occurrences": [
+          "O0142",
+          "O0218"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C011",
+          "C012",
+          "C015"
+        ],
+        "start_occurrences": [
+          "O0001",
+          "O0058"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C015",
+          "C005",
+          "C009"
+        ],
+        "start_occurrences": [
+          "O0003",
+          "O0157"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C015",
+          "C007",
+          "C004"
+        ],
+        "start_occurrences": [
+          "O0070",
+          "O0098"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C015",
+          "C010",
+          "C017"
+        ],
+        "start_occurrences": [
+          "O0012",
+          "O0162"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C016",
+          "C018",
+          "C007"
+        ],
+        "start_occurrences": [
+          "O0111",
+          "O0200"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C016",
+          "C022",
+          "C017"
+        ],
+        "start_occurrences": [
+          "O0150",
+          "O0215"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C017",
+          "C005",
+          "C001"
+        ],
+        "start_occurrences": [
+          "O0091",
+          "O0178"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C017",
+          "C008",
+          "C011"
+        ],
+        "start_occurrences": [
+          "O0014",
+          "O0164"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C017",
+          "C008",
+          "C013"
+        ],
+        "start_occurrences": [
+          "O0029",
+          "O0217"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C018",
+          "C005",
+          "C020"
+        ],
+        "start_occurrences": [
+          "O0034",
+          "O0183"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C021",
+          "C017",
+          "C005"
+        ],
+        "start_occurrences": [
+          "O0090",
+          "O0177"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C022",
+          "C017",
+          "C008"
+        ],
+        "start_occurrences": [
+          "O0028",
+          "O0216"
+        ]
+      }
+    ],
+    "4": [
+      {
+        "glyph_ids": [
+          "C005",
+          "C001",
+          "C008",
+          "C006"
+        ],
+        "start_occurrences": [
+          "O0092",
+          "O0179"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C007",
+          "C015",
+          "C010",
+          "C017"
+        ],
+        "start_occurrences": [
+          "O0011",
+          "O0161"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C010",
+          "C017",
+          "C008",
+          "C011"
+        ],
+        "start_occurrences": [
+          "O0013",
+          "O0163"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C015",
+          "C010",
+          "C017",
+          "C008"
+        ],
+        "start_occurrences": [
+          "O0012",
+          "O0162"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C017",
+          "C005",
+          "C001",
+          "C008"
+        ],
+        "start_occurrences": [
+          "O0091",
+          "O0178"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C018",
+          "C005",
+          "C020",
+          "C012"
+        ],
+        "start_occurrences": [
+          "O0034",
+          "O0183"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C021",
+          "C017",
+          "C005",
+          "C001"
+        ],
+        "start_occurrences": [
+          "O0090",
+          "O0177"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C022",
+          "C017",
+          "C008",
+          "C013"
+        ],
+        "start_occurrences": [
+          "O0028",
+          "O0216"
+        ]
+      }
+    ],
+    "5": [
+      {
+        "glyph_ids": [
+          "C007",
+          "C015",
+          "C010",
+          "C017",
+          "C008"
+        ],
+        "start_occurrences": [
+          "O0011",
+          "O0161"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C015",
+          "C010",
+          "C017",
+          "C008",
+          "C011"
+        ],
+        "start_occurrences": [
+          "O0012",
+          "O0162"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C017",
+          "C005",
+          "C001",
+          "C008",
+          "C006"
+        ],
+        "start_occurrences": [
+          "O0091",
+          "O0178"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C021",
+          "C017",
+          "C005",
+          "C001",
+          "C008"
+        ],
+        "start_occurrences": [
+          "O0090",
+          "O0177"
+        ]
+      }
+    ],
+    "6": [
+      {
+        "glyph_ids": [
+          "C007",
+          "C015",
+          "C010",
+          "C017",
+          "C008",
+          "C011"
+        ],
+        "start_occurrences": [
+          "O0011",
+          "O0161"
+        ]
+      },
+      {
+        "glyph_ids": [
+          "C021",
+          "C017",
+          "C005",
+          "C001",
+          "C008",
+          "C006"
+        ],
+        "start_occurrences": [
+          "O0090",
+          "O0177"
+        ]
+      }
+    ],
+    "7": [],
+    "8": []
+  },
+  "repeat_scope": "continuous printed glyph sequence across red divisions/line breaks; source coordinates retained",
+  "missing_glyph_or_lacuna_events": 0,
+  "qmark_occurrences_are_printed_cipher_signs": 9,
+  "handwritten220_used_as_count_input": false
+}

@@ -1,0 +1,233 @@
+[
+  {
+    "shape": "closed oval with visible central white area",
+    "font_candidates": [
+      "0",
+      "O"
+    ],
+    "raw_visual_label": "0",
+    "glyph_id": "C001",
+    "occurrence_count": 3,
+    "first_occurrence": "O0093"
+  },
+  {
+    "shape": "serifed numeral-one-like shape, visibly unlike narrow vertical-stem class",
+    "font_candidates": [
+      "1"
+    ],
+    "raw_visual_label": "1",
+    "glyph_id": "C002",
+    "occurrence_count": 4,
+    "first_occurrence": "O0103"
+  },
+  {
+    "shape": "numeral-two-like shape",
+    "font_candidates": [
+      "2"
+    ],
+    "raw_visual_label": "2",
+    "glyph_id": "C003",
+    "occurrence_count": 6,
+    "first_occurrence": "O0007"
+  },
+  {
+    "shape": "numeral-three-like shape",
+    "font_candidates": [
+      "3"
+    ],
+    "raw_visual_label": "3",
+    "glyph_id": "C004",
+    "occurrence_count": 9,
+    "first_occurrence": "O0041"
+  },
+  {
+    "shape": "numeral-four-like shape",
+    "font_candidates": [
+      "4"
+    ],
+    "raw_visual_label": "4",
+    "glyph_id": "C005",
+    "occurrence_count": 23,
+    "first_occurrence": "O0004"
+  },
+  {
+    "shape": "numeral-five-like shape",
+    "font_candidates": [
+      "5"
+    ],
+    "raw_visual_label": "5",
+    "glyph_id": "C006",
+    "occurrence_count": 7,
+    "first_occurrence": "O0042"
+  },
+  {
+    "shape": "numeral-six-like shape",
+    "font_candidates": [
+      "6"
+    ],
+    "raw_visual_label": "6",
+    "glyph_id": "C007",
+    "occurrence_count": 18,
+    "first_occurrence": "O0011"
+  },
+  {
+    "shape": "numeral-seven-like shape",
+    "font_candidates": [
+      "7"
+    ],
+    "raw_visual_label": "7",
+    "glyph_id": "C008",
+    "occurrence_count": 21,
+    "first_occurrence": "O0006"
+  },
+  {
+    "shape": "numeral-eight-like double loop",
+    "font_candidates": [
+      "8"
+    ],
+    "raw_visual_label": "8",
+    "glyph_id": "C009",
+    "occurrence_count": 9,
+    "first_occurrence": "O0005"
+  },
+  {
+    "shape": "crossing diagonals with serif-like ends",
+    "font_candidates": [
+      "X",
+      "x"
+    ],
+    "raw_visual_label": "X",
+    "glyph_id": "C010",
+    "occurrence_count": 9,
+    "first_occurrence": "O0013"
+  },
+  {
+    "shape": "printed hook and lower dot, repeated question-mark-like cipher sign",
+    "font_candidates": [
+      "?"
+    ],
+    "lacuna": false,
+    "raw_visual_label": "QMARK",
+    "glyph_id": "C011",
+    "occurrence_count": 9,
+    "first_occurrence": "O0001"
+  },
+  {
+    "shape": "ornate f/pound-like vertical stem, top loop/cap and horizontal strokes",
+    "font_candidates": [
+      "£",
+      "ornate-f-like sign"
+    ],
+    "raw_visual_label": "POUND",
+    "glyph_id": "C012",
+    "occurrence_count": 5,
+    "first_occurrence": "O0002"
+  },
+  {
+    "shape": "dense complex double-loop/ampersand-like sign",
+    "font_candidates": [
+      "&",
+      "ornate-double-loop sign"
+    ],
+    "raw_visual_label": "ORNATE",
+    "glyph_id": "C013",
+    "occurrence_count": 8,
+    "first_occurrence": "O0031"
+  },
+  {
+    "shape": "narrow vertically stacked curving section-like sign",
+    "font_candidates": [
+      "§",
+      "section-like sign"
+    ],
+    "raw_visual_label": "SECTION",
+    "glyph_id": "C014",
+    "occurrence_count": 4,
+    "first_occurrence": "O0039"
+  },
+  {
+    "shape": "one thick horizontal black stroke",
+    "font_candidates": [
+      "-"
+    ],
+    "raw_visual_label": "H1",
+    "glyph_id": "C015",
+    "occurrence_count": 16,
+    "first_occurrence": "O0003"
+  },
+  {
+    "shape": "two close horizontal black strokes",
+    "font_candidates": [
+      "="
+    ],
+    "raw_visual_label": "H2",
+    "glyph_id": "C016",
+    "occurrence_count": 17,
+    "first_occurrence": "O0021"
+  },
+  {
+    "shape": "rising slash from lower left to upper right",
+    "font_candidates": [
+      "/"
+    ],
+    "raw_visual_label": "SLASH",
+    "glyph_id": "C017",
+    "occurrence_count": 16,
+    "first_occurrence": "O0014"
+  },
+  {
+    "shape": "two small round marks around an oblique slash",
+    "font_candidates": [
+      "%"
+    ],
+    "raw_visual_label": "PERCENT",
+    "glyph_id": "C018",
+    "occurrence_count": 13,
+    "first_occurrence": "O0009"
+  },
+  {
+    "shape": "crossed short horizontal and vertical strokes",
+    "font_candidates": [
+      "+"
+    ],
+    "raw_visual_label": "PLUS",
+    "glyph_id": "C019",
+    "occurrence_count": 5,
+    "first_occurrence": "O0044"
+  },
+  {
+    "shape": "black round mark at low/baseline height",
+    "font_candidates": [
+      ".",
+      "low-dot cipher sign"
+    ],
+    "raw_visual_label": "LOWDOT",
+    "glyph_id": "C020",
+    "occurrence_count": 7,
+    "first_occurrence": "O0018"
+  },
+  {
+    "shape": "small raised black teardrop/wedge mark well above baseline",
+    "font_candidates": [
+      "raised-dot sign",
+      "apostrophe-like sign"
+    ],
+    "raw_visual_label": "UPPER",
+    "glyph_id": "C021",
+    "occurrence_count": 4,
+    "first_occurrence": "O0090"
+  },
+  {
+    "shape": "narrow vertical black stroke with heavy lower point/foot, distinct from serifed1",
+    "font_candidates": [
+      "!",
+      "I",
+      "l",
+      "alternate1-font sign"
+    ],
+    "raw_visual_label": "VSTEM",
+    "glyph_id": "C022",
+    "occurrence_count": 7,
+    "first_occurrence": "O0025"
+  }
+]

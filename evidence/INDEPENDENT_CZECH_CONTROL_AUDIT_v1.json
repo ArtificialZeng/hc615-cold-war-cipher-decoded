@@ -1,0 +1,484 @@
+{
+  "public_projection_notice": "Chronological internal AI-agent/code audit, not outside peer review. Private paths redacted; original artifact hash retained in ORIGINAL_EVIDENCE_INDEX.json. Historic paths refer to private research archive, not necessarily public-repository files.",
+  "original_relative_path": "reports/INDEPENDENT_CZECH_CONTROL_AUDIT_v1.json",
+  "original_sha256": "39f1c8f2d263e3b4c1fe5cd50baea1a1f5cda816e69b3110e26f0b15ef2c95f4",
+  "original_payload_sanitized": {
+    "version": "INDEPENDENT_CZECH_CONTROL_AUDIT_v1",
+    "utc": "2026-10-05T01:13:20.454848+00:00",
+    "status": "PASS_MATCHED_MODEL_CALIBRATION_AND_SOFTWARE_AUDIT",
+    "target_read": false,
+    "solver_rerun": false,
+    "cipher_solved": false,
+    "matched_model_gate_passed": true,
+    "mean_letter_accuracy": 0.9967077590111953,
+    "cases_at_least_0_90": 6,
+    "micro_letter_accuracy": 0.9967186218211649,
+    "exact_word_accuracy": 0.984375,
+    "controls": [
+      {
+        "control_id": "C00",
+        "source_document": "cmpr9410-009",
+        "word_offset": 96,
+        "letters": 202,
+        "classes": 23,
+        "words": 32,
+        "generation_seed": 615310,
+        "inference_seed": 615410,
+        "all16_trial_scores_and_keys_passed": true,
+        "observed_cipher_labels": 23,
+        "unused_key_symbols": 3,
+        "true_word_accuracy": 0.9375,
+        "correct_words": 30,
+        "letter_accuracy": 0.9851485148514851,
+        "correct_letters": 199,
+        "score": -2137.760790348053,
+        "true_plain_score": -2140.9640974998474,
+        "truth_and_predicted_keys_roundtrip": true,
+        "source_window_exact_match": true,
+        "training_whole_window_duplicates": [],
+        "exact_letter_failures": [
+          {
+            "character_offset0": 211,
+            "cipher_label": 3,
+            "true_letter": "g",
+            "predicted_letter": "w"
+          },
+          {
+            "character_offset0": 217,
+            "cipher_label": 0,
+            "true_letter": "w",
+            "predicted_letter": "g"
+          },
+          {
+            "character_offset0": 232,
+            "cipher_label": 3,
+            "true_letter": "g",
+            "predicted_letter": "w"
+          }
+        ],
+        "exact_word_failures": [
+          {
+            "word_offset0": 28,
+            "true_word": "gebarowsky",
+            "predicted_word": "webarogsky"
+          },
+          {
+            "word_offset0": 31,
+            "true_word": "g",
+            "predicted_word": "w"
+          }
+        ],
+        "result_sha256": "1c997ce107fc987846061f2546bcd1d22945c4233a644128cd4ef770156cff95"
+      },
+      {
+        "control_id": "C01",
+        "source_document": "cmpr9410-019",
+        "word_offset": 0,
+        "letters": 212,
+        "classes": 22,
+        "words": 32,
+        "generation_seed": 615311,
+        "inference_seed": 615411,
+        "all16_trial_scores_and_keys_passed": true,
+        "observed_cipher_labels": 22,
+        "unused_key_symbols": 4,
+        "true_word_accuracy": 1.0,
+        "correct_words": 32,
+        "letter_accuracy": 1.0,
+        "correct_letters": 212,
+        "score": -2123.424087047577,
+        "true_plain_score": -2123.424087047577,
+        "truth_and_predicted_keys_roundtrip": true,
+        "source_window_exact_match": true,
+        "training_whole_window_duplicates": [],
+        "exact_letter_failures": [],
+        "exact_word_failures": [],
+        "result_sha256": "72534b8b05aad068525321a495a7d2515bf921c72f0e0d57e66fdb2a9d12c506"
+      },
+      {
+        "control_id": "C02",
+        "source_document": "cmpr9410-029",
+        "word_offset": 128,
+        "letters": 197,
+        "classes": 22,
+        "words": 32,
+        "generation_seed": 615312,
+        "inference_seed": 615412,
+        "all16_trial_scores_and_keys_passed": true,
+        "observed_cipher_labels": 22,
+        "unused_key_symbols": 4,
+        "true_word_accuracy": 1.0,
+        "correct_words": 32,
+        "letter_accuracy": 1.0,
+        "correct_letters": 197,
+        "score": -2208.86785364151,
+        "true_plain_score": -2208.86785364151,
+        "truth_and_predicted_keys_roundtrip": true,
+        "source_window_exact_match": true,
+        "training_whole_window_duplicates": [],
+        "exact_letter_failures": [],
+        "exact_word_failures": [],
+        "result_sha256": "b16d0efa80b2421adfd481fd66b6d5ae9fa5698b2438c44c0bc5998f80567253"
+      },
+      {
+        "control_id": "C03",
+        "source_document": "cmpr9410-039",
+        "word_offset": 0,
+        "letters": 209,
+        "classes": 22,
+        "words": 32,
+        "generation_seed": 615313,
+        "inference_seed": 615413,
+        "all16_trial_scores_and_keys_passed": true,
+        "observed_cipher_labels": 22,
+        "unused_key_symbols": 4,
+        "true_word_accuracy": 1.0,
+        "correct_words": 32,
+        "letter_accuracy": 1.0,
+        "correct_letters": 209,
+        "score": -2293.1178731918335,
+        "true_plain_score": -2293.1178731918335,
+        "truth_and_predicted_keys_roundtrip": true,
+        "source_window_exact_match": true,
+        "training_whole_window_duplicates": [],
+        "exact_letter_failures": [],
+        "exact_word_failures": [],
+        "result_sha256": "66770727760614c5c2b3772148d207f7d74d4389565ee2138c4cdb58414b797b"
+      },
+      {
+        "control_id": "C04",
+        "source_document": "cmpr9410-049",
+        "word_offset": 736,
+        "letters": 204,
+        "classes": 22,
+        "words": 32,
+        "generation_seed": 615314,
+        "inference_seed": 615414,
+        "all16_trial_scores_and_keys_passed": true,
+        "observed_cipher_labels": 22,
+        "unused_key_symbols": 4,
+        "true_word_accuracy": 0.96875,
+        "correct_words": 31,
+        "letter_accuracy": 0.9950980392156863,
+        "correct_letters": 203,
+        "score": -2135.8058042526245,
+        "true_plain_score": -2143.2447757720947,
+        "truth_and_predicted_keys_roundtrip": true,
+        "source_window_exact_match": true,
+        "training_whole_window_duplicates": [],
+        "exact_letter_failures": [
+          {
+            "character_offset0": 9,
+            "cipher_label": 5,
+            "true_letter": "g",
+            "predicted_letter": "f"
+          }
+        ],
+        "exact_word_failures": [
+          {
+            "word_offset0": 2,
+            "true_word": "gj",
+            "predicted_word": "fj"
+          }
+        ],
+        "result_sha256": "8833c259d1ba2571ccf34102658d75e199935a25657e37dd7fd3caf0d8064452"
+      },
+      {
+        "control_id": "C05",
+        "source_document": "cmpr9413-007",
+        "word_offset": 32,
+        "letters": 195,
+        "classes": 21,
+        "words": 32,
+        "generation_seed": 615315,
+        "inference_seed": 615415,
+        "all16_trial_scores_and_keys_passed": true,
+        "observed_cipher_labels": 21,
+        "unused_key_symbols": 5,
+        "true_word_accuracy": 1.0,
+        "correct_words": 32,
+        "letter_accuracy": 1.0,
+        "correct_letters": 195,
+        "score": -1985.0501012802124,
+        "true_plain_score": -1985.0501012802124,
+        "truth_and_predicted_keys_roundtrip": true,
+        "source_window_exact_match": true,
+        "training_whole_window_duplicates": [],
+        "exact_letter_failures": [],
+        "exact_word_failures": [],
+        "result_sha256": "d84a86fb81102548d11c7eb80ab98f2fa450da3b306f91dd60a11113ea763ee3"
+      }
+    ],
+    "score_audit": {
+      "alphabet_size": 27,
+      "boundary_code": 26,
+      "model_float32_entries": 531441,
+      "entire_model_rebuilt_byte_exact": true,
+      "all_trial_scores_recomputed": 96,
+      "top_scores_recomputed": 6,
+      "window_count": "input length minus3, overlapping quads including fixedspaces; no start/end pads added in inference",
+      "maximum_array_index": 531440,
+      "finite_float_values": true,
+      "score_interpretation": "Sum of fixed, smoothed joint4gram logweights. Overlapping-window product is a heuristic, not a normalized whole-text likelihood or historicalkey posterior.",
+      "controls_where_predicted_score_exceeds_truth": [
+        "C00",
+        "C04"
+      ]
+    },
+    "key_and_roundtrip": {
+      "key_orientation": "Synthetic forward_key maps plaintextletter→cipherlabel. Solver key maps cipherlabel→plaintextletter. Distinct cipherlabels remain injective;space26fixed.",
+      "every96restart_and6winningkey_is_bijection": true,
+      "every96restart_and6winner_has_exact_forward_inverse_roundtrip": true,
+      "moves": "Random pair swaps, frequency initialization, bounded restart shuffles; every move preserves permutation. Temperature6→floor.05, fixed16×32768 nominal move attempts per case. Selfswaps consume an attempt without score evaluation.",
+      "attempt_cap_per_case": 524288,
+      "attempt_cap_six_controls": 3145728,
+      "seeds_fixed": true,
+      "unused_symbols": "Each control leaves3–5 letters unused; full26key recovery is unidentifiable there. Reported accuracy measures observed plaintext positions, not all26key entries."
+    },
+    "dataflow": {
+      "cpp_input_arguments": [
+        "model.bin",
+        "opaque_integer_cipher_input",
+        "corpus_frequency_order",
+        "seed",
+        "restarts",
+        "steps",
+        "output"
+      ],
+      "truth_access": "Generator writes synthetic inputs/truth before inference. C++ receives only numericinput/scorer/preregisteredparams. Wrapper loads truth only after child process completes; this auditor reads truth for postinfer verification.",
+      "document_metadata": "Wrapper reads manifest with document IDs/paths/hashes, but document ID/plaintext/source file is not passed to C++.",
+      "target_source_variants": "No target arrays or targetplaintext inspected, selected or manufactured by this audit."
+    },
+    "corpus_audit": {
+      "pinned_commit": "6d206ec7d337a7f76f34ddfc82893389cabbd76d",
+      "license": "CC BY-NC-SA4.0 source retained for noncommercial research",
+      "git_blob_hashes_verified": [
+        {
+          "path": "data/raw/language_czech_ud_v1/LICENSE.txt",
+          "git_blob_sha1": "f5b70a34811509fa77edb9579019ddb3dc8ec39f",
+          "sha256": "58000085e737c098085f7b4bc0db9b5ae280c84dc09d88f065ac960c7527d5e2"
+        },
+        {
+          "path": "data/raw/language_czech_ud_v1/README.md",
+          "git_blob_sha1": "f795d3ebfe0410f8b1e7a4242aa41260274c6fad",
+          "sha256": "a028b84ef29bb06e67faa6406603bf59595c50305a1cde08b8e37b7e108fdeb5"
+        },
+        {
+          "path": "data/raw/language_czech_ud_v1/cs_pdtc-ud-train-la.conllu",
+          "git_blob_sha1": "e146aadc45d9950ca02c3bae2c9c0c3ef7264c63",
+          "sha256": "b2683cba24c059d30505dc5678d20581ff0bf1d4b73508b1b33e163c6812a2f7"
+        },
+        {
+          "path": "data/raw/language_czech_ud_v1/cs_pdtc-ud-dev.conllu",
+          "git_blob_sha1": "b002f638a99abe11fc12fd023bdcf848e26e1e03",
+          "sha256": "73a19117ff39411b1134840c3a0383a37f5dd89a2e07b3f8c0a8821d8d37d4bc"
+        }
+      ],
+      "train_doc_count": 950,
+      "dev_doc_count": 1006,
+      "train_grams_rebuilt": 1174081,
+      "train_words_rebuilt": 182808,
+      "all6devdocuments_absent_from_train_doc_ids": true,
+      "all6control_windows_exact_rebuilt": true,
+      "all6generation_keys_seed_rebuilt": true,
+      "all6whole_windows_absent_from_training_including_sentence_spans": true,
+      "prepared_v1_overlap_limit": "v2 uses some of the same document IDs and possibly overlapping windows as prepared45word v1 controls; available v1 preparation was not inferred. This is not six wholly new corpus documents relative to every prepared artifact; no prior-inference selection observed."
+    },
+    "registration": {
+      "config_equals_frozen_bytes": true,
+      "control_manifest_equals_frozen_bytes": true,
+      "timestamp_order": "Config declared01:05:37UTC, final control report01:06:42UTC; immutable bytes agree. Files alone do not prove an external trusted timestamp or absence of any unrecorded run.",
+      "frequency_hash_gap": "Originalconfig/runner omit explicit frequency_order SHA verification. Current frequencyorder is byte-content consistent with independently reconstructed traincounts. No evidence of mutation found; this audit seals its current SHA without changing original configuration."
+    },
+    "domain_limits": [
+      "Six heldout modern Czech passages32words/195–212letters/21–23classes test only a fixed26letter bijection with correct spaces and ASCII accentfolding.",
+      "Corpus/domain/language, whether red marks are wordboundaries, unknown glyph treatment and actualhistoricalcipher mechanism remain target hypotheses. Positivecontrols do not confirm any of them.",
+      "A fixedbijection always permits reencoding its own candidate; exactcandidate roundtrip is necessary software accounting but not evidence the candidate is true.",
+      "Rawquadgram scores are not calibrated confidence, posterior probabilities, significance tests or reliable crosslength comparisons.",
+      "Four controlletter errors remain; a false spelling can outrank truth. Wholetextcoherence/sourceinspection/independentfalsification remains necessary before calling any target solved.",
+      "No new params, targetinference, randomnullsearch or solving rerun was conducted here. Root controls subsequent frozen-source decisions."
+    ],
+    "artifacts": [
+      {
+        "path": "config/czech_bijective_v1.json",
+        "bytes": 1842,
+        "sha256": "6bb5dfe50520434096e4a39b6caa01ba82cf1d67b595234b2c5db88fe4000711"
+      },
+      {
+        "path": "data/derived/mono_controls_v2/MANIFEST.json",
+        "bytes": 3441,
+        "sha256": "53321ad84893367c9e6aa7eaad959205dcc797248bbdefb2740d8876a64396c4"
+      },
+      {
+        "path": "reports/CZECH_BIJECTIVE_CONTROLS_v1.json",
+        "bytes": 4175,
+        "sha256": "ba3befe2335479dd2dd76d9251a68ef9ec7b6ba6e97f9cc70945c294b316795c"
+      },
+      {
+        "path": "scripts/mono_substitution_sa_v1.cpp",
+        "bytes": 3348,
+        "sha256": "b3289edca0249edd4adea9fcf3c90c531e6cbbe32a5ff5f267f59aab370d4fbe"
+      },
+      {
+        "path": "scripts/run_czech_controls_v1.py",
+        "bytes": 4117,
+        "sha256": "853242eac8488cdca948284b2dde8889b98bcf27fb3372f4499cd76d29e2bbcd"
+      },
+      {
+        "path": "scripts/build_czech_language_v1.py",
+        "bytes": 4680,
+        "sha256": "a6dda36fb1c5e19a1031c70ca6dbea2d44c02a9605590b35f2b93889962d0519"
+      },
+      {
+        "path": "scripts/build_matched_mono_controls_v2.py",
+        "bytes": 2432,
+        "sha256": "ed9ab887848ceb26273c71bf00ee513d809b4539ad953b00a15ed0ebaf7f2d8d"
+      },
+      {
+        "path": "scripts/independent_czech_control_audit_v1.py",
+        "bytes": 18893,
+        "sha256": "57c537a4546cdfcde78987bcfe91b5d42be537734527aa82d544bd4aa8af25c0"
+      },
+      {
+        "path": "data/derived/language_czech_v1/quadgram27.bin",
+        "bytes": 2125764,
+        "sha256": "8aa157cf337f4a12eb5216999105ae8e7eaec20f2a655314f2ae0e6efadfa8fd"
+      },
+      {
+        "path": "scripts/mono_substitution_sa_v1",
+        "bytes": 40392,
+        "sha256": "9b6b0ab6b936a03d3aa219639df61aa9111bd69bb63f1ff98c28deacf28b7cc8"
+      },
+      {
+        "path": "data/derived/language_czech_v1/frequency_order.txt",
+        "bytes": 68,
+        "sha256": "156c666c1f2c72247c67b6607a05a08b5c63e56908b4ba724e3183c3844122be"
+      },
+      {
+        "path": "data/derived/language_czech_v1/MANIFEST.json",
+        "bytes": 3485,
+        "sha256": "e572c9f0192da068a4c7bf8d71acba915d6c0baede496ef2ad6803f7e734624e"
+      },
+      {
+        "path": "data/raw/language_czech_ud_v1/COMMIT.json",
+        "bytes": 4701,
+        "sha256": "4221bcf0e0e5d4671feea64bffd969c62a05c01bd3e775070e01eaf4f9317ab1"
+      },
+      {
+        "path": "data/raw/language_czech_ud_v1/TREE.json",
+        "bytes": 5439,
+        "sha256": "473cb8a756ee16c7c327e338bc6268fb6259f3ea08a4c7c5026e27956915800c"
+      },
+      {
+        "path": "data/raw/language_czech_ud_v1/LICENSE.txt",
+        "bytes": 311,
+        "sha256": "58000085e737c098085f7b4bc0db9b5ae280c84dc09d88f065ac960c7527d5e2"
+      },
+      {
+        "path": "data/derived/mono_controls_v2/C00_input.txt",
+        "bytes": 628,
+        "sha256": "c536e82bbb348c8389a1529504cd6d263b63f36fdadae62d94c13b2e80dd4489"
+      },
+      {
+        "path": "data/derived/mono_controls_v2/C00_truth.json",
+        "bytes": 590,
+        "sha256": "bcebe421ac307c40d06481f82444217ce6dd3abdca0c4222f7191b103ed19583"
+      },
+      {
+        "path": "experiments/czech_bijective_v1_controls/C00_result.json",
+        "bytes": 6210,
+        "sha256": "1c997ce107fc987846061f2546bcd1d22945c4233a644128cd4ef770156cff95"
+      },
+      {
+        "path": "data/derived/mono_controls_v2/C01_input.txt",
+        "bytes": 680,
+        "sha256": "bf1c2e11cd235cc1b3ed1d31c104351c3f9bae446a6921cd082a1a684a1a346d"
+      },
+      {
+        "path": "data/derived/mono_controls_v2/C01_truth.json",
+        "bytes": 599,
+        "sha256": "8e52ab800f02c323491e9687126e0ed7892bd5ad2d527d97bd9064d9695a7b93"
+      },
+      {
+        "path": "experiments/czech_bijective_v1_controls/C01_result.json",
+        "bytes": 6393,
+        "sha256": "72534b8b05aad068525321a495a7d2515bf921c72f0e0d57e66fdb2a9d12c506"
+      },
+      {
+        "path": "data/derived/mono_controls_v2/C02_input.txt",
+        "bytes": 620,
+        "sha256": "77a6d6810b917bfe95d8fd9931429b13b757cf1d04888871e4ebe6cbe9a88965"
+      },
+      {
+        "path": "data/derived/mono_controls_v2/C02_truth.json",
+        "bytes": 586,
+        "sha256": "41e629c962aa918a0d60c0c779bfbfefd409d6095f028a555f93964b6a4ff612"
+      },
+      {
+        "path": "experiments/czech_bijective_v1_controls/C02_result.json",
+        "bytes": 6104,
+        "sha256": "b16d0efa80b2421adfd481fd66b6d5ae9fa5698b2438c44c0bc5998f80567253"
+      },
+      {
+        "path": "data/derived/mono_controls_v2/C03_input.txt",
+        "bytes": 676,
+        "sha256": "d2e6adf0af09f339438e137780c05c18d4040eb6a61de011b619aec60f1f3c71"
+      },
+      {
+        "path": "data/derived/mono_controls_v2/C03_truth.json",
+        "bytes": 596,
+        "sha256": "88f071e05ce5f5005c942f23ea230104f8359a95d123b244c863c96f1d8a019c"
+      },
+      {
+        "path": "experiments/czech_bijective_v1_controls/C03_result.json",
+        "bytes": 6342,
+        "sha256": "66770727760614c5c2b3772148d207f7d74d4389565ee2138c4cdb58414b797b"
+      },
+      {
+        "path": "data/derived/mono_controls_v2/C04_input.txt",
+        "bytes": 624,
+        "sha256": "d876234d31a3e1e95ab2ab9c761575f53027c3dc81fa90e18a95d435d0e4a5f1"
+      },
+      {
+        "path": "data/derived/mono_controls_v2/C04_truth.json",
+        "bytes": 593,
+        "sha256": "f7e2ee17406c94f45eb3ccff7c8f0ffc8c46ee17e85e626b35894c4daeca80fa"
+      },
+      {
+        "path": "experiments/czech_bijective_v1_controls/C04_result.json",
+        "bytes": 6257,
+        "sha256": "8833c259d1ba2571ccf34102658d75e199935a25657e37dd7fd3caf0d8064452"
+      },
+      {
+        "path": "data/derived/mono_controls_v2/C05_input.txt",
+        "bytes": 601,
+        "sha256": "e870b8c1f871efa2ea8e6d145e9f3b4c5ee76dbe79025eb1ee92989cf095a177"
+      },
+      {
+        "path": "data/derived/mono_controls_v2/C05_truth.json",
+        "bytes": 583,
+        "sha256": "f335d9937b61923bbacbd7d901e6bee33778c683693b2d29481387161ada8fdf"
+      },
+      {
+        "path": "experiments/czech_bijective_v1_controls/C05_result.json",
+        "bytes": 6104,
+        "sha256": "d84a86fb81102548d11c7eb80ab98f2fa450da3b306f91dd60a11113ea763ee3"
+      },
+      {
+        "path": "experiments/czech_bijective_v1_controls/CONFIG_FROZEN.json",
+        "bytes": 1842,
+        "sha256": "6bb5dfe50520434096e4a39b6caa01ba82cf1d67b595234b2c5db88fe4000711"
+      },
+      {
+        "path": "experiments/czech_bijective_v1_controls/CONTROLS_MANIFEST_FROZEN.json",
+        "bytes": 3441,
+        "sha256": "53321ad84893367c9e6aa7eaad959205dcc797248bbdefb2740d8876a64396c4"
+      },
+      {
+        "path": "experiments/czech_bijective_v1_controls/COMPILER_VERSION.txt",
+        "bytes": 158,
+        "sha256": "cedf71e9743c96153e5a4779a04debc13c41130853d44acdbfe273d0e8824d41"
+      }
+    ]
+  }
+}

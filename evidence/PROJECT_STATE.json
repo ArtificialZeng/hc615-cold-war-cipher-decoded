@@ -1,0 +1,90 @@
+{
+  "public_projection_notice": "Chronological internal AI-agent/code audit, not outside peer review. Private paths redacted; original artifact hash retained in ORIGINAL_EVIDENCE_INDEX.json. Historic paths refer to private research archive, not necessarily public-repository files.",
+  "original_relative_path": "PROJECT_STATE.json",
+  "original_sha256": "ace4fcb8246846cb291a7687be44fe1d0fa74d291b485d3120e0693980fcc070",
+  "original_payload_sanitized": {
+    "project": "hcportal615_1952_decipherment",
+    "target": "HC615",
+    "status": "SOLVED_COMPLETE_OBSERVED_MESSAGE",
+    "cipher_solved": true,
+    "overall_goal_complete": true,
+    "latest_checkpoint": "CP050_Complete_Observed_Message_SOLVED_PASS_2026-10-05",
+    "language": "CZECH_ASCII_FULL_MESSAGE",
+    "target_count": 220,
+    "known_plaintext_supplied": false,
+    "source_url": "https://api.hcportal.eu/api/cryptograms/615",
+    "target_glyph_classes": 22,
+    "red_segment_count": 32,
+    "calibration_mean_letter_accuracy": 0.9967077590111953,
+    "calibration_gate": "PASS",
+    "target_attack_completed": true,
+    "calibration_micro_correct_letters": 1215,
+    "calibration_total_letters": 1219,
+    "calibration_exact_words": 189,
+    "calibration_total_words": 192,
+    "control_strategy": "fixed bijective substitution, six separate dev documents, truth masked during inference",
+    "target_search_seed": 615499,
+    "target_search_restarts": 16,
+    "target_steps_per_restart": 32768,
+    "distinct_observed_candidate_keys": 1,
+    "distinct_observed_candidate_plaintexts": 1,
+    "source_edits": 0,
+    "candidate_nulls": 0,
+    "final_git_tag": "cp-050",
+    "completed_utc": "2026-10-05T01:50:46.234270+00:00",
+    "achievement": "S4_COMPLETE_OBSERVED_HC615_MESSAGE",
+    "success_scope": "All220 observed cipherglyphs fully reconstructed by one compact22glyph substitution; not a global priority or full historical alphabet claim",
+    "official_catalogue_language": "Unknown",
+    "official_catalogue_solution_at_last_access": "Not solved",
+    "official_catalogue_not_modified": true,
+    "target_sender": "Unknown",
+    "target_recipient": "Unknown",
+    "original_accents_punctuation_recovered": false,
+    "original_typography_recovered": false,
+    "historical_full_alphabet_recovered": false,
+    "observed_key_entries": 22,
+    "unobserved_plaintext_letters": [
+      {
+        "letter": "f",
+        "historical_source_glyph": "UNKNOWN"
+      },
+      {
+        "letter": "q",
+        "historical_source_glyph": "UNKNOWN"
+      },
+      {
+        "letter": "w",
+        "historical_source_glyph": "UNKNOWN"
+      },
+      {
+        "letter": "x",
+        "historical_source_glyph": "UNKNOWN"
+      }
+    ],
+    "nulls": 0,
+    "positional_exceptions": 0,
+    "full_forward_matching_glyphs": 220,
+    "full_forward_matching_segments": 32,
+    "full_forward_matching_lines": 8,
+    "independent_math_forward_audit": "PASS",
+    "independent_source_and_whole_language_audit": "PASS",
+    "independent_final_claim_audit": "PASS",
+    "standalone_bundle_actual_execution": "PASS",
+    "solver_scores_are_posteriors": false,
+    "global_uniqueness_proven": false,
+    "global_first_decipherment_claimed": false,
+    "expert_endorsement_claimed": false,
+    "target_new_source_branches_or_extra_budget": false,
+    "final_report": "reports/HC615_SOLUTION_v1.md",
+    "final_report_sha256": "8d59b52f803315796e0572606bc784e460eb367be3bb6f08e6ea3c76360e692f",
+    "standalone_forward_bundle": "release/hc615_forward_bundle_v1.zip",
+    "standalone_forward_bundle_sha256": "f319e28004f19ae59f55d0ddfb72b9edb1fcee3d9e8a10e5a2a6653883487b14",
+    "editorial_ambiguities": [
+      "chrudimska: Chrudimská before Transporta or Chrudimska after pracovníky, both same ASCII letters",
+      "historical accents, capitals and punctuation not independently recoverable"
+    ],
+    "external_messages_or_publication_performed": false,
+    "remaining_required_work": [],
+    "resume_gate": "A materially new user objective/source; preserve this solved message and sealed evidence."
+  }
+}

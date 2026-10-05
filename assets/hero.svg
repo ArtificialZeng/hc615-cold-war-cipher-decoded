@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+<title id="title">HC615 — A Cold War-era cipher. 220 symbols. One reproducible reading.</title>
+<desc id="desc">Original graphic. One fixed substitution accounts for 220 observed symbols, 32 source segments and eight lines. External historical review pending.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#091522"/><stop offset="1" stop-color="#142f3c"/></linearGradient></defs>
+<rect width="1280" height="640" rx="24" fill="url(#bg)"/>
+<g fill="none" stroke="#24414e" stroke-width="1"><path d="M0 500H1280 M0 560H1280 M930 0V640 M1050 0V640 M1170 0V640"/></g>
+<rect x="62" y="49" width="171" height="38" rx="19" fill="#244b4a"/>
+<text x="147" y="75" text-anchor="middle" fill="#b8eed3" font-family="Arial,sans-serif" font-size="17" font-weight="700">HC PORTAL 615</text>
+<text x="62" y="156" fill="#f3f3ec" font-family="Arial,sans-serif" font-size="50" font-weight="700">A Cold War-era cipher.</text>
+<text x="62" y="226" fill="#f3f3ec" font-family="Arial,sans-serif" font-size="50" font-weight="700">220 symbols.</text>
+<text x="62" y="296" fill="#7fddbe" font-family="Arial,sans-serif" font-size="50" font-weight="700">One reproducible reading.</text>
+<text x="66" y="371" fill="#9ab5c5" font-family="monospace" font-size="21">C011 C012 C015 C005 C009 C008 C003 C005</text>
+<path d="M65 393H705" stroke="#d9b67e" stroke-width="2"/>
+<text x="67" y="432" fill="#f5d89c" font-family="monospace" font-size="30" letter-spacing="12">v y s i l a j i</text>
+<text x="64" y="517" fill="#f3f3ec" font-family="Arial,sans-serif" font-size="26" font-weight="700">220 / 220 symbols   ·   0 edits   ·   fixed key</text>
+<text x="64" y="566" fill="#b1c4cc" font-family="Arial,sans-serif" font-size="20">Read it. Re-encode it. Check every symbol.</text>
+<text x="64" y="605" fill="#93acb8" font-family="Arial,sans-serif" font-size="16">Circa 1952 course exercise · Local verification passed · External historical review pending</text>
+<g font-family="Arial,sans-serif" text-anchor="middle"><text x="1080" y="235" fill="#7fddbe" font-size="94" font-weight="700">220</text><text x="1080" y="277" fill="#b1c4cc" font-size="22">OBSERVED SYMBOLS</text><text x="1080" y="371" fill="#f5d89c" font-size="76" font-weight="700">22</text><text x="1080" y="411" fill="#b1c4cc" font-size="22">GLYPH CLASSES</text></g>
+</svg>

@@ -1,0 +1,37 @@
+{
+  "version": "CZECH_BIJECTIVE_SUBSTITUTION_v1",
+  "registered_utc": "2026-10-05T01:05:37.898276+00:00",
+  "registered_before_controls_and_target_inference": true,
+  "model": "data/derived/language_czech_v1/quadgram27.bin",
+  "model_sha256": "8aa157cf337f4a12eb5216999105ae8e7eaec20f2a655314f2ae0e6efadfa8fd",
+  "solver": "scripts/mono_substitution_sa_v1",
+  "solver_sha256": "9b6b0ab6b936a03d3aa219639df61aa9111bd69bb63f1ff98c28deacf28b7cc8",
+  "solver_source_sha256": "b3289edca0249edd4adea9fcf3c90c531e6cbbe32a5ff5f267f59aab370d4fbe",
+  "controls_manifest": "data/derived/mono_controls_v2/MANIFEST.json",
+  "controls_manifest_sha256": "53321ad84893367c9e6aa7eaad959205dcc797248bbdefb2740d8876a64396c4",
+  "frequency_order": "data/derived/language_czech_v1/frequency_order.txt",
+  "inference_receives_truth": false,
+  "language_hypothesis": "Czech NFKD lowercase accents-folded ASCII26, motivated only by archive/coursearchivalcontext, encoded language unverified",
+  "model_family": "Fixed bijective substitution of26ASCIIletters; red divisions fixedspaces. NoNULL/positional exceptions/transposition. Unknowns preserved in separate source input; no output-selectedglyphalternatives.",
+  "restarts": 16,
+  "steps_per_restart": 32768,
+  "temperature_start": 6.0,
+  "temperature_end_floor": 0.05,
+  "control_solver_seeds": [
+    615410,
+    615411,
+    615412,
+    615413,
+    615414,
+    615415
+  ],
+  "target_solver_seed": 615499,
+  "qualification": {
+    "mean_letter_accuracy_minimum": 0.95,
+    "cases_at_least_0_90": 5,
+    "controls": 6
+  },
+  "metric_interpretation": "Software matched-model calibration only; scores not probabilities or evidence of historicalplaintext. Fullcipherroundtrip+coherence+source check necessary.",
+  "target_input": "PENDING_FROZEN_SOURCE_ONLY_AUDIT",
+  "target_run_only_if_control_gate_passes": true
+}

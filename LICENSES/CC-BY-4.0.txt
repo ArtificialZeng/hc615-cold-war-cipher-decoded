@@ -1,0 +1,10 @@
+Creative Commons Attribution 4.0 International
+
+Licence-link notice, not a substitute for the legal code.
+
+Authoritative licence: https://creativecommons.org/licenses/by/4.0/
+Authoritative legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The original linguistic-data publisher notice is preserved verbatim at
+data/model/UPSTREAM_LICENSE.txt and LICENSES/UD_CZECH_PDTC_README.md.
+Scope and attribution are in docs/PROVENANCE.md and the root LICENSE.

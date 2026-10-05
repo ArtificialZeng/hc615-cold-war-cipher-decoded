@@ -1,0 +1,48 @@
+{
+  "version": "HC615_OBSERVED_KEY_v1",
+  "source_default_words_sha256": "a722fbac91cf338dc016d597799fe1f6387b9e1dd4ae79e191acb74590b22b23",
+  "source_image_sha256": "712891e2f5019509798a750d4a92318910333b623ee583ae39ea5d86a7b1d4e6",
+  "glyph_to_plaintext_letter": {
+    "C001": "g",
+    "C002": "z",
+    "C003": "j",
+    "C004": "u",
+    "C005": "i",
+    "C006": "d",
+    "C007": "o",
+    "C008": "a",
+    "C009": "l",
+    "C010": "t",
+    "C011": "v",
+    "C012": "y",
+    "C013": "c",
+    "C014": "h",
+    "C015": "s",
+    "C016": "e",
+    "C017": "r",
+    "C018": "n",
+    "C019": "m",
+    "C020": "k",
+    "C021": "b",
+    "C022": "p"
+  },
+  "unobserved_plaintext_letters": [
+    {
+      "letter": "f",
+      "source_glyph": "UNKNOWN"
+    },
+    {
+      "letter": "q",
+      "source_glyph": "UNKNOWN"
+    },
+    {
+      "letter": "w",
+      "source_glyph": "UNKNOWN"
+    },
+    {
+      "letter": "x",
+      "source_glyph": "UNKNOWN"
+    }
+  ],
+  "scope": "Exactly22 observed sourceglyphs. Solver slots22–25 are artificial completion slots and are not published as historicglyphs."
+}

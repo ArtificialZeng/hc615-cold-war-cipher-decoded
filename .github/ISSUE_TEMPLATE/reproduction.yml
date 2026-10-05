@@ -1,0 +1,19 @@
+name: Reproduction problem
+description: Report an evidence-verification, source-hash or build problem
+body:
+  - type: input
+    id: environment
+    attributes:
+      label: OS, Python version and compiler/STL if applicable
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Exact command and error output (remove private paths or credentials)
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result and whether frozen files were modified

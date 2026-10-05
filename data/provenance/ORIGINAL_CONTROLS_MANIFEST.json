@@ -1,0 +1,86 @@
+{
+  "version": "MATCHED_MONO_CONTROLS_v2",
+  "target_summary_only": {
+    "initial_source_observer_count": 220,
+    "red_divided_segments": 32,
+    "conservative_classes": 22
+  },
+  "selection_rule": "First qualifying32-word window in each distinct devdocument;195–250letters20–24classes;no exact whole-text occurrence in training. Chosen before inference without reading target glyph arrays.",
+  "prepared45word_v1_controls_never_inferred": true,
+  "source_train_sha256": "b2683cba24c059d30505dc5678d20581ff0bf1d4b73508b1b33e163c6812a2f7",
+  "source_dev_sha256": "73a19117ff39411b1134840c3a0383a37f5dd89a2e07b3f8c0a8821d8d37d4bc",
+  "controls": [
+    {
+      "id": "C00",
+      "input": "data/derived/mono_controls_v2/C00_input.txt",
+      "input_sha256": "c536e82bbb348c8389a1529504cd6d263b63f36fdadae62d94c13b2e80dd4489",
+      "truth": "data/derived/mono_controls_v2/C00_truth.json",
+      "truth_sha256": "bcebe421ac307c40d06481f82444217ce6dd3abdca0c4222f7191b103ed19583",
+      "letters": 202,
+      "words": 32,
+      "classes": 23,
+      "source_document": "cmpr9410-009",
+      "word_offset": 96
+    },
+    {
+      "id": "C01",
+      "input": "data/derived/mono_controls_v2/C01_input.txt",
+      "input_sha256": "bf1c2e11cd235cc1b3ed1d31c104351c3f9bae446a6921cd082a1a684a1a346d",
+      "truth": "data/derived/mono_controls_v2/C01_truth.json",
+      "truth_sha256": "8e52ab800f02c323491e9687126e0ed7892bd5ad2d527d97bd9064d9695a7b93",
+      "letters": 212,
+      "words": 32,
+      "classes": 22,
+      "source_document": "cmpr9410-019",
+      "word_offset": 0
+    },
+    {
+      "id": "C02",
+      "input": "data/derived/mono_controls_v2/C02_input.txt",
+      "input_sha256": "77a6d6810b917bfe95d8fd9931429b13b757cf1d04888871e4ebe6cbe9a88965",
+      "truth": "data/derived/mono_controls_v2/C02_truth.json",
+      "truth_sha256": "41e629c962aa918a0d60c0c779bfbfefd409d6095f028a555f93964b6a4ff612",
+      "letters": 197,
+      "words": 32,
+      "classes": 22,
+      "source_document": "cmpr9410-029",
+      "word_offset": 128
+    },
+    {
+      "id": "C03",
+      "input": "data/derived/mono_controls_v2/C03_input.txt",
+      "input_sha256": "d2e6adf0af09f339438e137780c05c18d4040eb6a61de011b619aec60f1f3c71",
+      "truth": "data/derived/mono_controls_v2/C03_truth.json",
+      "truth_sha256": "88f071e05ce5f5005c942f23ea230104f8359a95d123b244c863c96f1d8a019c",
+      "letters": 209,
+      "words": 32,
+      "classes": 22,
+      "source_document": "cmpr9410-039",
+      "word_offset": 0
+    },
+    {
+      "id": "C04",
+      "input": "data/derived/mono_controls_v2/C04_input.txt",
+      "input_sha256": "d876234d31a3e1e95ab2ab9c761575f53027c3dc81fa90e18a95d435d0e4a5f1",
+      "truth": "data/derived/mono_controls_v2/C04_truth.json",
+      "truth_sha256": "f7e2ee17406c94f45eb3ccff7c8f0ffc8c46ee17e85e626b35894c4daeca80fa",
+      "letters": 204,
+      "words": 32,
+      "classes": 22,
+      "source_document": "cmpr9410-049",
+      "word_offset": 736
+    },
+    {
+      "id": "C05",
+      "input": "data/derived/mono_controls_v2/C05_input.txt",
+      "input_sha256": "e870b8c1f871efa2ea8e6d145e9f3b4c5ee76dbe79025eb1ee92989cf095a177",
+      "truth": "data/derived/mono_controls_v2/C05_truth.json",
+      "truth_sha256": "f335d9937b61923bbacbd7d901e6bee33778c683693b2d29481387161ada8fdf",
+      "letters": 195,
+      "words": 32,
+      "classes": 21,
+      "source_document": "cmpr9413-007",
+      "word_offset": 32
+    }
+  ]
+}

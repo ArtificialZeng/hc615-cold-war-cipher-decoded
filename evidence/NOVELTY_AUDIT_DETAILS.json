@@ -1,0 +1,240 @@
+{
+  "public_projection_notice": "Chronological internal AI-agent/code audit, not outside peer review. Private paths redacted; original artifact hash retained in ORIGINAL_EVIDENCE_INDEX.json. Historic paths refer to private research archive, not necessarily public-repository files.",
+  "original_relative_path": "data/derived/novelty_audit_v1/AUDIT.json",
+  "original_sha256": "fa5a1bbed715dff3c0cdf75c903a80098511326d970941e6a8d48ad66508a730",
+  "original_payload_sanitized": {
+    "schema_version": 1,
+    "candidate_path": "experiments/czech_bijective_target_v1p1/target_result.json",
+    "candidate_sha256": "21e6c4c920438c102e1f45bb029d945d312b97bdc73cd3a24cd5921e7f62266a",
+    "candidate_words": 32,
+    "candidate_letters": 220,
+    "official_input": {
+      "path": "data/raw/615_metadata.json",
+      "sha256": "f4373a538729747fe6593f47e5c6bf72911afec66d0c4d6ce90dddb2b1747f57",
+      "language": "Unknown",
+      "solution_label": "Not solved",
+      "cipher_key_id": null,
+      "description": "<p>Unsolved cryptogram.</p>",
+      "datagroups_media": [
+        {
+          "group": "Cryptogram",
+          "type": "image",
+          "title": "Cryptogram image",
+          "image_original": "https://api.hcportal.eu/media/1762/14161684790141.jpg"
+        }
+      ],
+      "key_or_plaintext_published_in_this_record": false,
+      "visual_image_assessment": "Actual original viewed during source audit; eight printed cipher lines and red/pencil annotations, no key table or plaintext."
+    },
+    "corpus_overlap": [
+      {
+        "path": "data/raw/language_czech_ud_v1/cs_pdtc-ud-train-la.conllu",
+        "sha256": "b2683cba24c059d30505dc5678d20581ff0bf1d4b73508b1b33e163c6812a2f7",
+        "documents": 950,
+        "sentences": 12519,
+        "normalized_words": 182808,
+        "raw_ascii_whole_candidate_string_present": false,
+        "normalized_whole_candidate_in_any_raw_line": [],
+        "normalized_whole_candidate_contiguous_word_matches": 0,
+        "longest_contiguous_candidate_span_words": 3,
+        "longest_span_occurrences_up_to50": [
+          {
+            "document_id": "ln95040-074",
+            "corpus_word_offset": 318,
+            "raw_source_line_start": 131950,
+            "raw_source_line_end": 131950,
+            "candidate_word_offset": 13,
+            "length_words": 3,
+            "normalized_phrase": "jsou mezi nimi"
+          }
+        ],
+        "candidate_single_word_counts": {
+          "vysilaji": 0,
+          "na": 3306,
+          "ostravsko": 2,
+          "nejlepsi": 38,
+          "pracovniky": 3,
+          "chrudimska": 0,
+          "transporta": 0,
+          "vyslala": 0,
+          "devet": 22,
+          "soudruhu": 0,
+          "jednorocni": 0,
+          "brigadu": 0,
+          "jsou": 437,
+          "mezi": 260,
+          "nimi": 25,
+          "clenove": 21,
+          "celozavodniho": 0,
+          "vyboru": 29,
+          "organisace": 0,
+          "sami": 22,
+          "se": 3440,
+          "prihlasili": 0,
+          "ostrava": 15,
+          "potrebuje": 13,
+          "brigadniky": 0,
+          "kteri": 178,
+          "maji": 132,
+          "zkusenosti": 27,
+          "z": 1453,
+          "politicke": 69,
+          "prace": 79
+        },
+        "single_word_occurrence_is_not_answer_leakage": true,
+        "normalization": "NFKD lowercase / remove combining marks / ASCII a-z words",
+        "scope": "all supplied #text sentences, across adjacent sentences within each doc; no inference or model refit"
+      },
+      {
+        "path": "data/raw/language_czech_ud_v1/cs_pdtc-ud-dev.conllu",
+        "sha256": "73a19117ff39411b1134840c3a0383a37f5dd89a2e07b3f8c0a8821d8d37d4bc",
+        "documents": 1006,
+        "sentences": 22666,
+        "normalized_words": 316222,
+        "raw_ascii_whole_candidate_string_present": false,
+        "normalized_whole_candidate_in_any_raw_line": [],
+        "normalized_whole_candidate_contiguous_word_matches": 0,
+        "longest_contiguous_candidate_span_words": 3,
+        "longest_span_occurrences_up_to50": [
+          {
+            "document_id": "wsj0082-001",
+            "corpus_word_offset": 489,
+            "raw_source_line_start": 260080,
+            "raw_source_line_end": 260080,
+            "candidate_word_offset": 13,
+            "length_words": 3,
+            "normalized_phrase": "jsou mezi nimi"
+          },
+          {
+            "document_id": "wsj2443-001",
+            "corpus_word_offset": 980,
+            "raw_source_line_start": 414387,
+            "raw_source_line_end": 414387,
+            "candidate_word_offset": 13,
+            "length_words": 3,
+            "normalized_phrase": "jsou mezi nimi"
+          },
+          {
+            "document_id": "lnd91301-075",
+            "corpus_word_offset": 540,
+            "raw_source_line_start": 440753,
+            "raw_source_line_end": 440753,
+            "candidate_word_offset": 13,
+            "length_words": 3,
+            "normalized_phrase": "jsou mezi nimi"
+          },
+          {
+            "document_id": "mf920901-022",
+            "corpus_word_offset": 70,
+            "raw_source_line_start": 475877,
+            "raw_source_line_end": 475877,
+            "candidate_word_offset": 13,
+            "length_words": 3,
+            "normalized_phrase": "jsou mezi nimi"
+          }
+        ],
+        "candidate_single_word_counts": {
+          "vysilaji": 2,
+          "na": 6294,
+          "ostravsko": 0,
+          "nejlepsi": 40,
+          "pracovniky": 25,
+          "chrudimska": 0,
+          "transporta": 0,
+          "vyslala": 3,
+          "devet": 40,
+          "soudruhu": 3,
+          "jednorocni": 1,
+          "brigadu": 2,
+          "jsou": 947,
+          "mezi": 380,
+          "nimi": 43,
+          "clenove": 26,
+          "celozavodniho": 0,
+          "vyboru": 37,
+          "organisace": 1,
+          "sami": 37,
+          "se": 5980,
+          "prihlasili": 0,
+          "ostrava": 36,
+          "potrebuje": 24,
+          "brigadniky": 0,
+          "kteri": 327,
+          "maji": 233,
+          "zkusenosti": 36,
+          "z": 2520,
+          "politicke": 54,
+          "prace": 161
+        },
+        "single_word_occurrence_is_not_answer_leakage": true,
+        "normalization": "NFKD lowercase / remove combining marks / ASCII a-z words",
+        "scope": "all supplied #text sentences, across adjacent sentences within each doc; no inference or model refit"
+      }
+    ],
+    "pinned_public_repo_path_audit": {
+      "public_origin_url": "https://api.github.com/repos/dbourdeau/cyphersolver/git/trees/a43993754e2edd5bdc159bb5859a3d3ff78b7d98?recursive=1",
+      "read_only_existing_public_snapshot": "[PRIVATE_ABSOLUTE_PATH_REDACTED]",
+      "tree_sha256": "a377263756c7ca4337817c8f23a6189b4baf74bc1feaefda9c19c27da24de4e1",
+      "commit": "a43993754e2edd5bdc159bb5859a3d3ff78b7d98",
+      "entries": 13486,
+      "truncated": false,
+      "path_query_pattern": "(615|11.?210|stb|course|1952|transport|chrud)",
+      "broad_path_hits": [
+        {
+          "path": "targets/bay1706/keys/DOC_R615_D2732_2732.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6fab6e668a520a94255eabbb049c3be44977e63c",
+          "size": 4561,
+          "url": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/6fab6e668a520a94255eabbb049c3be44977e63c"
+        },
+        {
+          "path": "targets/kauderbach1754/decode/DOC_R1044_D1952_1952.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "aac7c0a29989daac0bd9b5102de18af03af6ec71",
+          "size": 5761,
+          "url": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/aac7c0a29989daac0bd9b5102de18af03af6ec71"
+        },
+        {
+          "path": "targets/louis1615",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "2efdefc51fbe4487ecd24c7f89ae0a7c3b0fc225",
+          "url": "https://api.github.com/repos/dbourdeau/cyphersolver/git/trees/2efdefc51fbe4487ecd24c7f89ae0a7c3b0fc225"
+        },
+        {
+          "path": "targets/louis1615/NOTES.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "db5c1b4ece74b0c3ceb05bd04ba5dd7e77b2879a",
+          "size": 2717,
+          "url": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/db5c1b4ece74b0c3ceb05bd04ba5dd7e77b2879a"
+        },
+        {
+          "path": "targets/louis1615/profile.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ae56970af541f1a880f4ff3fa8c09c0724f4256d",
+          "size": 5457,
+          "url": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/ae56970af541f1a880f4ff3fa8c09c0724f4256d"
+        },
+        {
+          "path": "targets/nunzio1736/decode/keep/DOC_R181_D1615_1615.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "abf5385376953f5871e83fb3be25a02428c1069f",
+          "size": 2185,
+          "url": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/abf5385376953f5871e83fb3be25a02428c1069f"
+        }
+      ],
+      "source_specific_path_match_found": false,
+      "file_content_not_searched": true,
+      "limitation": "Path inventory only; no proof that generic source files or other repo commits contain no target or plaintext."
+    },
+    "novelty_supported": "Algorithmic reconstruction from public catalogue input labelled Not solved; no supplied answer or complete training/dev corpus plaintext detected.",
+    "novelty_not_supported": "Global first-ever/private-history claim; exhaustive public prior-art absence; original accents/date/source article identity.",
+    "llm_pretraining_contamination_not_audited": true,
+    "no_solver_or_fresh_fitting_run": true
+  }
+}

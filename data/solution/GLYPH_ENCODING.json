@@ -1,0 +1,40 @@
+{
+  "source": "data/derived/source_transcription_v1/DEFAULT_WORDS.json",
+  "source_sha256": "a722fbac91cf338dc016d597799fe1f6387b9e1dd4ae79e191acb74590b22b23",
+  "glyph_to_input_label": {
+    "C001": 0,
+    "C002": 1,
+    "C003": 2,
+    "C004": 3,
+    "C005": 4,
+    "C006": 5,
+    "C007": 6,
+    "C008": 7,
+    "C009": 8,
+    "C010": 9,
+    "C011": 10,
+    "C012": 11,
+    "C013": 12,
+    "C014": 13,
+    "C015": 14,
+    "C016": 15,
+    "C017": 16,
+    "C018": 17,
+    "C019": 18,
+    "C020": 19,
+    "C021": 20,
+    "C022": 21
+  },
+  "space": 26,
+  "unused_permutation_slots": [
+    22,
+    23,
+    24,
+    25
+  ],
+  "source_words": 32,
+  "source_glyph_slots": 220,
+  "solver_input_positions": 251,
+  "no_cipher_sign_deleted": true,
+  "shape_alternatives_not_inferred": true
+}

@@ -1,0 +1,78 @@
+{
+  "version": "CZECH_UD_LANGUAGE_v1",
+  "repository_commit": "6d206ec7d337a7f76f34ddfc82893389cabbd76d",
+  "license": "CC BY-NC-SA4.0; retained locally for noncommercial research",
+  "normalization": "NFKDlowercase with combining accents removed; ASCII a–z only, whitespace inserted between words. No j/i or v/u merges. Hypothesis, not original orthography.",
+  "train_file_sha256": "b2683cba24c059d30505dc5678d20581ff0bf1d4b73508b1b33e163c6812a2f7",
+  "dev_file_sha256": "73a19117ff39411b1134840c3a0383a37f5dd89a2e07b3f8c0a8821d8d37d4bc",
+  "train_words": 182808,
+  "train_distinct_words": 38148,
+  "train_ngrams": 1174081,
+  "quadgram_joint_smoothing": 0.05,
+  "alphabet": "abcdefghijklmnopqrstuvwxyz ",
+  "model_bytes_native_float32_little_endian": "8aa157cf337f4a12eb5216999105ae8e7eaec20f2a655314f2ae0e6efadfa8fd",
+  "model_size_floats": 531441,
+  "controls": [
+    {
+      "control_id": "C00",
+      "input": "data/derived/mono_controls_v1/C00_input.txt",
+      "input_sha256": "4c740177ec57bd48ec302130eab749432dd357d5d1e9a8965246aa19ba411f08",
+      "truth": "data/derived/mono_controls_v1/C00_truth.json",
+      "truth_sha256": "a95b5ab91230ebe903bf8ec1d57a838a162fdbb830c975bd6c9f8220ab6f6d52",
+      "letters": 253,
+      "word_count": 45,
+      "source_document": "cmpr9410-009"
+    },
+    {
+      "control_id": "C01",
+      "input": "data/derived/mono_controls_v1/C01_input.txt",
+      "input_sha256": "424464894635568df8ee56b5fc2fd0ba44e5d44e66680fa36f68086623c3a26e",
+      "truth": "data/derived/mono_controls_v1/C01_truth.json",
+      "truth_sha256": "b1641c30884283f791d3abaa2b4ca88ff10f0fcd5479bd140c775934d5d4c494",
+      "letters": 278,
+      "word_count": 45,
+      "source_document": "cmpr9410-019"
+    },
+    {
+      "control_id": "C02",
+      "input": "data/derived/mono_controls_v1/C02_input.txt",
+      "input_sha256": "4eac80fe95a690124a5a3b1c4cf5ba4acb3f4961c57f6f712ef7a55f56563e9f",
+      "truth": "data/derived/mono_controls_v1/C02_truth.json",
+      "truth_sha256": "a0e62b33d68b36be9592904c0da9f0ae98850c7edc70ecb5f6114bf6c078e97c",
+      "letters": 267,
+      "word_count": 45,
+      "source_document": "cmpr9410-029"
+    },
+    {
+      "control_id": "C03",
+      "input": "data/derived/mono_controls_v1/C03_input.txt",
+      "input_sha256": "bc718b636db3ad2b9f93b9141c4f10c653bc78cb16ce7b7fb651313161c44567",
+      "truth": "data/derived/mono_controls_v1/C03_truth.json",
+      "truth_sha256": "6ef6cfe1be0114f725c0fdfc131630566958485e8d983053e387880c0f094c80",
+      "letters": 279,
+      "word_count": 45,
+      "source_document": "cmpr9410-039"
+    },
+    {
+      "control_id": "C04",
+      "input": "data/derived/mono_controls_v1/C04_input.txt",
+      "input_sha256": "9bc6bf9131f0f63902748ecfa98a26ac55a41c9e66de99d8518d0eca457ff730",
+      "truth": "data/derived/mono_controls_v1/C04_truth.json",
+      "truth_sha256": "5c183b47e4f5be8a24836632d3007cc24278b06ba1706f4fd0273d77f31b8459",
+      "letters": 251,
+      "word_count": 45,
+      "source_document": "cmpr9410-049"
+    },
+    {
+      "control_id": "C05",
+      "input": "data/derived/mono_controls_v1/C05_input.txt",
+      "input_sha256": "43f042f7d0d9d13833627a603ea720fcd7a4893e3446ab3d62ff0645275e22d3",
+      "truth": "data/derived/mono_controls_v1/C05_truth.json",
+      "truth_sha256": "5f3feb28f69729e1f5d19d999b5d433ee7f2800d65c593d76d222ac8494db0dc",
+      "letters": 230,
+      "word_count": 45,
+      "source_document": "cmpr9413-007"
+    }
+  ],
+  "target_read": false
+}
