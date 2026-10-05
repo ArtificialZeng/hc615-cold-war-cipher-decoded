@@ -12,7 +12,7 @@ Repository address: [ArtificialZeng/hc615-cold-war-cipher-decoded](https://githu
 | Multilingual homepages | English, Simplified Chinese, Czech and Japanese included. |
 | Press releases and social copy | Drafted locally in four languages; not distributed to media by this project. |
 | Coordinator outreach | Coordinator inquiry acknowledged; assessment pending. No confirmation or endorsement has been recorded. |
-| Other expert outreach | No additional expert emails sent by this workflow at preparation of this document. |
+| Other expert outreach | Eight separate technical or archival review inquiries sent on 2026-10-05. Every saved sent-message body was checked against its draft and contains the full repository URL. Responses pending. |
 | External cryptologist/Czech academic review | Pending; coordinator acknowledgment is recorded, but no assessment confirming the decipherment or endorsement has been received. |
 | HC Portal catalogue | Recorded as “Not solved” at the 2026-10-05 access; not updated by this project. |
 | Original course answer sheet / prior decipherment | Not located; coordinator/archival inquiry needed. |

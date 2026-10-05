@@ -11,7 +11,7 @@
   "word_pages_rendered_and_visually_inspected": 6,
   "word_embedded_original_figures": 5,
   "word_final_render_directory": "private QA directory, not shipped",
-  "external_messages_sent": false,
+  "external_messages_sent": true,
   "github_remote_published": true,
   "external_expert_review": "PENDING",
   "remote_ci": "ALL_SIX_JOBS_SUCCESS",
@@ -27,8 +27,8 @@
   "github_repository_url": "https://github.com/ArtificialZeng/hc615-cold-war-cipher-decoded",
   "public_author": "Zijian Zeng",
   "author_reports_prior_coordinator_email": true,
-  "additional_expert_emails_sent_by_this_workflow": false,
-  "external_messages_sent_by_this_workflow": false,
+  "additional_expert_emails_sent_by_this_workflow": true,
+  "external_messages_sent_by_this_workflow": true,
   "carried_forward_scientific_qa": "Original v1.0.0 observations retained; no new attack, source interpretation or Word-layout change.",
   "coordinator_inquiry_status": "ACKNOWLEDGED_ASSESSMENT_PENDING",
   "v1_0_1_metadata_verification": {
@@ -54,5 +54,13 @@
     "source_segments": 32,
     "source_lines": 8,
     "meaningful_tests_passed": 13
+  },
+  "outreach_verified": {
+    "date": "2026-10-05",
+    "separate_inquiries": 8,
+    "all_sent_bodies_match_prepared_drafts": true,
+    "repository_url_in_every_sent_body": true,
+    "coordinator_duplicate_sent": false,
+    "delivery_or_expert_acceptance_claimed": false
   }
 }
